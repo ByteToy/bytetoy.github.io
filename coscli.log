@@ -1,0 +1,1253 @@
+[36mINFO[0m[2024-03-07 08:36:23] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/build.sh 
+[36mINFO[0m[2024-03-07 08:36:23] Upload /home/hotpod/web/bytetoy/_book/index.html => cos://bytetoy/index.html 
+[36mINFO[0m[2024-03-07 08:36:23] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/package-lock.json 
+[36mINFO[0m[2024-03-07 08:36:23] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/package.json 
+[36mINFO[0m[2024-03-07 08:36:23] Upload /home/hotpod/web/bytetoy/_book/search_index.json => cos://bytetoy/search_index.json 
+[36mINFO[0m[2024-03-07 08:36:30] Upload /home/hotpod/web/bytetoy/_book/search_plus_index.json => cos://bytetoy/search_plus_index.json 
+[36mINFO[0m[2024-03-07 08:36:30] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook.js 
+[36mINFO[0m[2024-03-07 08:36:31] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/style.css 
+[36mINFO[0m[2024-03-07 08:36:31] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/theme.js 
+[36mINFO[0m[2024-03-07 08:36:31] Upload /home/hotpod/web/bytetoy/_book/minecraft/Minecraft服务器Spigot安装和配置.html => cos://bytetoy/minecraft/Minecraft服务器Spigot安装和配置.html 
+[36mINFO[0m[2024-03-07 08:36:31] Upload /home/hotpod/web/bytetoy/_book/minecraft/minecraft.html => cos://bytetoy/minecraft/minecraft.html 
+[36mINFO[0m[2024-03-07 08:36:31] Upload /home/hotpod/web/bytetoy/_book/pico/Raspberry_Pico点亮LED灯.html => cos://bytetoy/pico/Raspberry_Pico点亮LED灯.html 
+[36mINFO[0m[2024-03-07 08:36:31] Upload /home/hotpod/web/bytetoy/_book/pico/Ubuntu下配置raspberry_pico开发环境.html => cos://bytetoy/pico/Ubuntu下配置raspberry_pico开发环境.html 
+[36mINFO[0m[2024-03-07 08:36:31] Upload /home/hotpod/web/bytetoy/_book/pico/VirtualBox虚拟机USB调试PICO串口.html => cos://bytetoy/pico/VirtualBox虚拟机USB调试PICO串口.html 
+[36mINFO[0m[2024-03-07 08:36:31] Upload /home/hotpod/web/bytetoy/_book/pico/pico.html => cos://bytetoy/pico/pico.html 
+[36mINFO[0m[2024-03-07 08:36:31] Upload /home/hotpod/web/bytetoy/_book/python/binary_tree_array.html => cos://bytetoy/python/binary_tree_array.html 
+[36mINFO[0m[2024-03-07 08:36:32] Upload /home/hotpod/web/bytetoy/_book/python/binary_tree_search.html => cos://bytetoy/python/binary_tree_search.html 
+[36mINFO[0m[2024-03-07 08:36:32] Upload /home/hotpod/web/bytetoy/_book/python/binary_tree_travel.html => cos://bytetoy/python/binary_tree_travel.html 
+[36mINFO[0m[2024-03-07 08:36:32] Upload /home/hotpod/web/bytetoy/_book/python/colab_setting.html => cos://bytetoy/python/colab_setting.html 
+[36mINFO[0m[2024-03-07 08:36:32] Upload /home/hotpod/web/bytetoy/_book/python/cyclelink.html => cos://bytetoy/python/cyclelink.html 
+[36mINFO[0m[2024-03-07 08:36:32] Upload /home/hotpod/web/bytetoy/_book/python/index.html => cos://bytetoy/python/index.html 
+[36mINFO[0m[2024-03-07 08:36:32] Upload /home/hotpod/web/bytetoy/_book/python/linklist.html => cos://bytetoy/python/linklist.html 
+[36mINFO[0m[2024-03-07 08:36:32] Upload /home/hotpod/web/bytetoy/_book/python/pycharm_github_token.html => cos://bytetoy/python/pycharm_github_token.html 
+[36mINFO[0m[2024-03-07 08:36:32] Upload /home/hotpod/web/bytetoy/_book/python/python_binary_search_close.html => cos://bytetoy/python/python_binary_search_close.html 
+[36mINFO[0m[2024-03-07 08:36:33] Upload /home/hotpod/web/bytetoy/_book/python/python_bubble_sort.html => cos://bytetoy/python/python_bubble_sort.html 
+[36mINFO[0m[2024-03-07 08:36:33] Upload /home/hotpod/web/bytetoy/_book/python/python_build_tree.html => cos://bytetoy/python/python_build_tree.html 
+[36mINFO[0m[2024-03-07 08:36:33] Upload /home/hotpod/web/bytetoy/_book/python/python_graph_list.html => cos://bytetoy/python/python_graph_list.html 
+[36mINFO[0m[2024-03-07 08:36:33] Upload /home/hotpod/web/bytetoy/_book/python/python_graph_matrix.html => cos://bytetoy/python/python_graph_matrix.html 
+[36mINFO[0m[2024-03-07 08:36:33] Upload /home/hotpod/web/bytetoy/_book/python/python_graph_travel.html => cos://bytetoy/python/python_graph_travel.html 
+[36mINFO[0m[2024-03-07 08:36:33] Upload /home/hotpod/web/bytetoy/_book/python/python_heap.html => cos://bytetoy/python/python_heap.html 
+[36mINFO[0m[2024-03-07 08:36:33] Upload /home/hotpod/web/bytetoy/_book/python/python_heap_sort.html => cos://bytetoy/python/python_heap_sort.html 
+[36mINFO[0m[2024-03-07 08:36:33] Upload /home/hotpod/web/bytetoy/_book/python/python_insertion_sort.html => cos://bytetoy/python/python_insertion_sort.html 
+[36mINFO[0m[2024-03-07 08:36:34] Upload /home/hotpod/web/bytetoy/_book/python/python_merge_sort.html => cos://bytetoy/python/python_merge_sort.html 
+[36mINFO[0m[2024-03-07 08:36:34] Upload /home/hotpod/web/bytetoy/_book/python/python_queue.html => cos://bytetoy/python/python_queue.html 
+[36mINFO[0m[2024-03-07 08:36:34] Upload /home/hotpod/web/bytetoy/_book/python/python_quick_sort.html => cos://bytetoy/python/python_quick_sort.html 
+[36mINFO[0m[2024-03-07 08:36:34] Upload /home/hotpod/web/bytetoy/_book/python/python_selection_sort.html => cos://bytetoy/python/python_selection_sort.html 
+[36mINFO[0m[2024-03-07 08:36:34] Upload /home/hotpod/web/bytetoy/_book/python/python_stack.html => cos://bytetoy/python/python_stack.html 
+[36mINFO[0m[2024-03-07 08:36:34] Upload /home/hotpod/web/bytetoy/_book/python/recursion.html => cos://bytetoy/python/recursion.html 
+[36mINFO[0m[2024-03-07 08:36:34] Upload /home/hotpod/web/bytetoy/_book/python/sudoku.html => cos://bytetoy/python/sudoku.html 
+[36mINFO[0m[2024-03-07 08:36:35] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/CH341SER.ZIP 
+[36mINFO[0m[2024-03-07 08:36:35] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/COMTransmit.ZIP 
+[36mINFO[0m[2024-03-07 08:36:35] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/FlyMcu.rar 
+[36mINFO[0m[2024-03-07 08:36:35] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/LCD.zip 
+[36mINFO[0m[2024-03-07 08:36:35] Upload /home/hotpod/web/bytetoy/_book/stm32/index.html => cos://bytetoy/stm32/index.html 
+[36mINFO[0m[2024-03-07 08:36:35] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_adc.html => cos://bytetoy/stm32/stm32f407_adc.html 
+[36mINFO[0m[2024-03-07 08:36:35] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_config.html => cos://bytetoy/stm32/stm32f407_config.html 
+[36mINFO[0m[2024-03-07 08:36:35] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_dma.html => cos://bytetoy/stm32/stm32f407_dma.html 
+[36mINFO[0m[2024-03-07 08:36:35] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_fsmc_sram.html => cos://bytetoy/stm32/stm32f407_fsmc_sram.html 
+[36mINFO[0m[2024-03-07 08:36:35] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_iwdg.html => cos://bytetoy/stm32/stm32f407_iwdg.html 
+[36mINFO[0m[2024-03-07 08:36:35] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_key.html => cos://bytetoy/stm32/stm32f407_key.html 
+[36mINFO[0m[2024-03-07 08:36:36] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_nvic.html => cos://bytetoy/stm32/stm32f407_nvic.html 
+[36mINFO[0m[2024-03-07 08:36:36] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_printf_to_usart.html => cos://bytetoy/stm32/stm32f407_printf_to_usart.html 
+[36mINFO[0m[2024-03-07 08:36:36] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_pwm.html => cos://bytetoy/stm32/stm32f407_pwm.html 
+[36mINFO[0m[2024-03-07 08:36:36] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_spi.html => cos://bytetoy/stm32/stm32f407_spi.html 
+[36mINFO[0m[2024-03-07 08:36:36] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_spi_lcd.html => cos://bytetoy/stm32/stm32f407_spi_lcd.html 
+[36mINFO[0m[2024-03-07 08:36:36] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_tim.html => cos://bytetoy/stm32/stm32f407_tim.html 
+[36mINFO[0m[2024-03-07 08:36:36] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_usart.html => cos://bytetoy/stm32/stm32f407_usart.html 
+[36mINFO[0m[2024-03-07 08:36:36] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/w25Qxx.zip 
+[36mINFO[0m[2024-03-07 08:36:36] Upload /home/hotpod/web/bytetoy/_book/tips/apt_fail.html => cos://bytetoy/tips/apt_fail.html 
+[36mINFO[0m[2024-03-07 08:36:37] Upload /home/hotpod/web/bytetoy/_book/tips/cos_static_config.html => cos://bytetoy/tips/cos_static_config.html 
+[36mINFO[0m[2024-03-07 08:36:37] Upload /home/hotpod/web/bytetoy/_book/tips/debian_install_docker.html => cos://bytetoy/tips/debian_install_docker.html 
+[36mINFO[0m[2024-03-07 08:36:37] Upload /home/hotpod/web/bytetoy/_book/tips/docker_cancel_sudo.html => cos://bytetoy/tips/docker_cancel_sudo.html 
+[36mINFO[0m[2024-03-07 08:36:37] Upload /home/hotpod/web/bytetoy/_book/tips/docker_cli.html => cos://bytetoy/tips/docker_cli.html 
+[36mINFO[0m[2024-03-07 08:36:37] Upload /home/hotpod/web/bytetoy/_book/tips/docker_install_jellyfin.html => cos://bytetoy/tips/docker_install_jellyfin.html 
+[36mINFO[0m[2024-03-07 08:36:37] Upload /home/hotpod/web/bytetoy/_book/tips/frp_config.html => cos://bytetoy/tips/frp_config.html 
+[36mINFO[0m[2024-03-07 08:36:37] Upload /home/hotpod/web/bytetoy/_book/tips/geminipro_chatbot.html => cos://bytetoy/tips/geminipro_chatbot.html 
+[36mINFO[0m[2024-03-07 08:36:38] Upload /home/hotpod/web/bytetoy/_book/tips/git_force_push.html => cos://bytetoy/tips/git_force_push.html 
+[36mINFO[0m[2024-03-07 08:36:38] Upload /home/hotpod/web/bytetoy/_book/tips/gitbook_install_error.html => cos://bytetoy/tips/gitbook_install_error.html 
+[36mINFO[0m[2024-03-07 08:36:38] Upload /home/hotpod/web/bytetoy/_book/tips/kms_act.html => cos://bytetoy/tips/kms_act.html 
+[36mINFO[0m[2024-03-07 08:36:38] Upload /home/hotpod/web/bytetoy/_book/tips/linux_server_safe_config.html => cos://bytetoy/tips/linux_server_safe_config.html 
+[36mINFO[0m[2024-03-07 08:36:38] Upload /home/hotpod/web/bytetoy/_book/tips/mariadb_conf.html => cos://bytetoy/tips/mariadb_conf.html 
+[36mINFO[0m[2024-03-07 08:36:38] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_add_0.html => cos://bytetoy/tips/mysql_add_0.html 
+[36mINFO[0m[2024-03-07 08:36:38] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_compara_score.html => cos://bytetoy/tips/mysql_compara_score.html 
+[36mINFO[0m[2024-03-07 08:36:38] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_import_datafile.html => cos://bytetoy/tips/mysql_import_datafile.html 
+[36mINFO[0m[2024-03-07 08:36:39] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_statis_score.html => cos://bytetoy/tips/mysql_statis_score.html 
+[36mINFO[0m[2024-03-07 08:36:39] Upload /home/hotpod/web/bytetoy/_book/tips/pip_error.html => cos://bytetoy/tips/pip_error.html 
+[36mINFO[0m[2024-03-07 08:36:39] Upload /home/hotpod/web/bytetoy/_book/tips/proxychains_install_config.html => cos://bytetoy/tips/proxychains_install_config.html 
+[36mINFO[0m[2024-03-07 08:36:39] Upload /home/hotpod/web/bytetoy/_book/tips/pycharm_http_proxy.html => cos://bytetoy/tips/pycharm_http_proxy.html 
+[36mINFO[0m[2024-03-07 08:36:39] Upload /home/hotpod/web/bytetoy/_book/tips/rclone_to_webdav.html => cos://bytetoy/tips/rclone_to_webdav.html 
+[36mINFO[0m[2024-03-07 08:36:39] Upload /home/hotpod/web/bytetoy/_book/tips/rime.html => cos://bytetoy/tips/rime.html 
+[36mINFO[0m[2024-03-07 08:36:39] Upload /home/hotpod/web/bytetoy/_book/tips/scp_file.html => cos://bytetoy/tips/scp_file.html 
+[36mINFO[0m[2024-03-07 08:36:39] Upload /home/hotpod/web/bytetoy/_book/tips/systemctl_config.html => cos://bytetoy/tips/systemctl_config.html 
+[36mINFO[0m[2024-03-07 08:36:40] Upload /home/hotpod/web/bytetoy/_book/tips/tips.html => cos://bytetoy/tips/tips.html 
+[36mINFO[0m[2024-03-07 08:36:40] Upload /home/hotpod/web/bytetoy/_book/tips/unzip_error.html => cos://bytetoy/tips/unzip_error.html 
+[36mINFO[0m[2024-03-07 08:36:40] Upload /home/hotpod/web/bytetoy/_book/tips/vim_modify_jar.html => cos://bytetoy/tips/vim_modify_jar.html 
+[36mINFO[0m[2024-03-07 08:36:40] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-back-to-top-button/plugin.css 
+[36mINFO[0m[2024-03-07 08:36:40] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-back-to-top-button/plugin.js 
+[36mINFO[0m[2024-03-07 08:36:40] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-code/plugin.css 
+[36mINFO[0m[2024-03-07 08:36:40] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-code/plugin.js 
+[36mINFO[0m[2024-03-07 08:36:40] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css 
+[36mINFO[0m[2024-03-07 08:36:40] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js 
+[36mINFO[0m[2024-03-07 08:36:40] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-fontsettings/fontsettings.js 
+[36mINFO[0m[2024-03-07 08:36:40] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-fontsettings/website.css 
+[36mINFO[0m[2024-03-07 08:36:40] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-highlight/ebook.css 
+[36mINFO[0m[2024-03-07 08:36:40] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-highlight/website.css 
+[36mINFO[0m[2024-03-07 08:36:40] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-lunr/lunr.min.js 
+[36mINFO[0m[2024-03-07 08:36:40] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-lunr/search-lunr.js 
+[36mINFO[0m[2024-03-07 08:36:40] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-search-pro/jquery.mark.min.js 
+[36mINFO[0m[2024-03-07 08:36:40] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-search-pro/search.css 
+[36mINFO[0m[2024-03-07 08:36:40] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-search-pro/search.js 
+[36mINFO[0m[2024-03-07 08:36:40] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-tbfed-pagefooter/footer.css 
+[36mINFO[0m[2024-03-07 08:36:40] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-theme-comscore/test.css 
+[36mINFO[0m[2024-03-07 08:36:40] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-theme-comscore/test.js 
+[36mINFO[0m[2024-03-07 08:36:40] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/images/apple-touch-icon-precomposed-152.png 
+[36mINFO[0m[2024-03-07 08:36:40] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/images/favicon.ico 
+[36mINFO[0m[2024-03-07 08:36:40] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_search_base.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_search_close.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_array.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_base.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_bfs.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_dfs.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_list.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_degree_0.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_degree_1.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_degree_2.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_dfs.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_insert.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/colab_drive.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/colab_font.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/colab_open.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_insert.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_insert_head.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_insert_tail.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_remove.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_travel.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/git_force_push.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_add_edge.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_add_vert.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_base.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_remove_vert.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_show.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_add_edge.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_add_vert.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_base.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_remove_vert.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_show.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_travel_base.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_travel_bfs.png 
+[36mINFO[0m[2024-03-07 08:36:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_travel_dfs.png 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/hanoi_bytetoy.png 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/linklist_insert.png 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/linklist_insert_head_tail.png 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/linklist_remove.png 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/linklist_travel.png 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/palindrome_bytetoy.png 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/permutation_bytetoy.png 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/pycharm_github_token_1.png 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/pycharm_github_token_2.png 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/pycharm_http_proxy.png 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python-logo.png 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_bubble_sort.png 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_build_tree_base.png 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_build_tree_step.png 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_heap.png 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_heap_pop.png 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_heap_push.png 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_insertion_sort.png 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_merge_sort.png 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_quick_sort.png 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_selection_sort.png 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_sort_base.png 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/queue_bytetoy.png 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/s2.csv 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/stack_bytetoy.png 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/sudoku.py 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/git_force_push.png 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/pycharm_http_proxy.png 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/vim_modify_jar_1.png 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/vim_modify_jar_2.png 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/vim_modify_jar_3.png 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/FontAwesome.otf 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.eot 
+[36mINFO[0m[2024-03-07 08:36:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.svg 
+[36mINFO[0m[2024-03-07 08:36:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.ttf 
+[36mINFO[0m[2024-03-07 08:36:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.woff 
+[36mINFO[0m[2024-03-07 08:36:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.woff2 
+[36mINFO[0m[2024-03-07 08:37:29] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/build.sh 
+[36mINFO[0m[2024-03-07 08:37:29] Upload /home/hotpod/web/bytetoy/_book/coscli.log => cos://bytetoy/coscli.log 
+[36mINFO[0m[2024-03-07 08:37:29] Upload /home/hotpod/web/bytetoy/_book/index.html => cos://bytetoy/index.html 
+[36mINFO[0m[2024-03-07 08:37:30] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/package-lock.json 
+[36mINFO[0m[2024-03-07 08:37:30] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/package.json 
+[36mINFO[0m[2024-03-07 08:37:30] Upload /home/hotpod/web/bytetoy/_book/search_index.json => cos://bytetoy/search_index.json 
+[36mINFO[0m[2024-03-07 08:37:36] Upload /home/hotpod/web/bytetoy/_book/search_plus_index.json => cos://bytetoy/search_plus_index.json 
+[36mINFO[0m[2024-03-07 08:37:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook.js 
+[36mINFO[0m[2024-03-07 08:37:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/style.css 
+[36mINFO[0m[2024-03-07 08:37:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/theme.js 
+[36mINFO[0m[2024-03-07 08:37:37] Upload /home/hotpod/web/bytetoy/_book/minecraft/Minecraft服务器Spigot安装和配置.html => cos://bytetoy/minecraft/Minecraft服务器Spigot安装和配置.html 
+[36mINFO[0m[2024-03-07 08:37:37] Upload /home/hotpod/web/bytetoy/_book/minecraft/minecraft.html => cos://bytetoy/minecraft/minecraft.html 
+[36mINFO[0m[2024-03-07 08:37:37] Upload /home/hotpod/web/bytetoy/_book/pico/Raspberry_Pico点亮LED灯.html => cos://bytetoy/pico/Raspberry_Pico点亮LED灯.html 
+[36mINFO[0m[2024-03-07 08:37:38] Upload /home/hotpod/web/bytetoy/_book/pico/Ubuntu下配置raspberry_pico开发环境.html => cos://bytetoy/pico/Ubuntu下配置raspberry_pico开发环境.html 
+[36mINFO[0m[2024-03-07 08:37:38] Upload /home/hotpod/web/bytetoy/_book/pico/VirtualBox虚拟机USB调试PICO串口.html => cos://bytetoy/pico/VirtualBox虚拟机USB调试PICO串口.html 
+[36mINFO[0m[2024-03-07 08:37:38] Upload /home/hotpod/web/bytetoy/_book/pico/pico.html => cos://bytetoy/pico/pico.html 
+[36mINFO[0m[2024-03-07 08:37:38] Upload /home/hotpod/web/bytetoy/_book/python/binary_tree_array.html => cos://bytetoy/python/binary_tree_array.html 
+[36mINFO[0m[2024-03-07 08:37:38] Upload /home/hotpod/web/bytetoy/_book/python/binary_tree_search.html => cos://bytetoy/python/binary_tree_search.html 
+[36mINFO[0m[2024-03-07 08:37:38] Upload /home/hotpod/web/bytetoy/_book/python/binary_tree_travel.html => cos://bytetoy/python/binary_tree_travel.html 
+[36mINFO[0m[2024-03-07 08:37:38] Upload /home/hotpod/web/bytetoy/_book/python/colab_setting.html => cos://bytetoy/python/colab_setting.html 
+[36mINFO[0m[2024-03-07 08:37:39] Upload /home/hotpod/web/bytetoy/_book/python/cyclelink.html => cos://bytetoy/python/cyclelink.html 
+[36mINFO[0m[2024-03-07 08:37:39] Upload /home/hotpod/web/bytetoy/_book/python/index.html => cos://bytetoy/python/index.html 
+[36mINFO[0m[2024-03-07 08:37:39] Upload /home/hotpod/web/bytetoy/_book/python/linklist.html => cos://bytetoy/python/linklist.html 
+[36mINFO[0m[2024-03-07 08:37:39] Upload /home/hotpod/web/bytetoy/_book/python/pycharm_github_token.html => cos://bytetoy/python/pycharm_github_token.html 
+[36mINFO[0m[2024-03-07 08:37:39] Upload /home/hotpod/web/bytetoy/_book/python/python_binary_search_close.html => cos://bytetoy/python/python_binary_search_close.html 
+[36mINFO[0m[2024-03-07 08:37:39] Upload /home/hotpod/web/bytetoy/_book/python/python_bubble_sort.html => cos://bytetoy/python/python_bubble_sort.html 
+[36mINFO[0m[2024-03-07 08:37:39] Upload /home/hotpod/web/bytetoy/_book/python/python_build_tree.html => cos://bytetoy/python/python_build_tree.html 
+[36mINFO[0m[2024-03-07 08:37:40] Upload /home/hotpod/web/bytetoy/_book/python/python_graph_list.html => cos://bytetoy/python/python_graph_list.html 
+[36mINFO[0m[2024-03-07 08:37:40] Upload /home/hotpod/web/bytetoy/_book/python/python_graph_matrix.html => cos://bytetoy/python/python_graph_matrix.html 
+[36mINFO[0m[2024-03-07 08:37:40] Upload /home/hotpod/web/bytetoy/_book/python/python_graph_travel.html => cos://bytetoy/python/python_graph_travel.html 
+[36mINFO[0m[2024-03-07 08:37:40] Upload /home/hotpod/web/bytetoy/_book/python/python_heap.html => cos://bytetoy/python/python_heap.html 
+[36mINFO[0m[2024-03-07 08:37:40] Upload /home/hotpod/web/bytetoy/_book/python/python_heap_sort.html => cos://bytetoy/python/python_heap_sort.html 
+[36mINFO[0m[2024-03-07 08:37:40] Upload /home/hotpod/web/bytetoy/_book/python/python_insertion_sort.html => cos://bytetoy/python/python_insertion_sort.html 
+[36mINFO[0m[2024-03-07 08:37:40] Upload /home/hotpod/web/bytetoy/_book/python/python_merge_sort.html => cos://bytetoy/python/python_merge_sort.html 
+[36mINFO[0m[2024-03-07 08:37:40] Upload /home/hotpod/web/bytetoy/_book/python/python_queue.html => cos://bytetoy/python/python_queue.html 
+[36mINFO[0m[2024-03-07 08:37:41] Upload /home/hotpod/web/bytetoy/_book/python/python_quick_sort.html => cos://bytetoy/python/python_quick_sort.html 
+[36mINFO[0m[2024-03-07 08:37:41] Upload /home/hotpod/web/bytetoy/_book/python/python_selection_sort.html => cos://bytetoy/python/python_selection_sort.html 
+[36mINFO[0m[2024-03-07 08:37:41] Upload /home/hotpod/web/bytetoy/_book/python/python_stack.html => cos://bytetoy/python/python_stack.html 
+[36mINFO[0m[2024-03-07 08:37:41] Upload /home/hotpod/web/bytetoy/_book/python/recursion.html => cos://bytetoy/python/recursion.html 
+[36mINFO[0m[2024-03-07 08:37:41] Upload /home/hotpod/web/bytetoy/_book/python/sudoku.html => cos://bytetoy/python/sudoku.html 
+[36mINFO[0m[2024-03-07 08:37:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/CH341SER.ZIP 
+[36mINFO[0m[2024-03-07 08:37:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/COMTransmit.ZIP 
+[36mINFO[0m[2024-03-07 08:37:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/FlyMcu.rar 
+[36mINFO[0m[2024-03-07 08:37:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/LCD.zip 
+[36mINFO[0m[2024-03-07 08:37:41] Upload /home/hotpod/web/bytetoy/_book/stm32/index.html => cos://bytetoy/stm32/index.html 
+[36mINFO[0m[2024-03-07 08:37:42] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_adc.html => cos://bytetoy/stm32/stm32f407_adc.html 
+[36mINFO[0m[2024-03-07 08:37:42] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_config.html => cos://bytetoy/stm32/stm32f407_config.html 
+[36mINFO[0m[2024-03-07 08:37:42] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_dma.html => cos://bytetoy/stm32/stm32f407_dma.html 
+[36mINFO[0m[2024-03-07 08:37:42] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_fsmc_sram.html => cos://bytetoy/stm32/stm32f407_fsmc_sram.html 
+[36mINFO[0m[2024-03-07 08:37:42] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_iwdg.html => cos://bytetoy/stm32/stm32f407_iwdg.html 
+[36mINFO[0m[2024-03-07 08:37:43] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_key.html => cos://bytetoy/stm32/stm32f407_key.html 
+[36mINFO[0m[2024-03-07 08:37:43] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_nvic.html => cos://bytetoy/stm32/stm32f407_nvic.html 
+[36mINFO[0m[2024-03-07 08:37:43] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_printf_to_usart.html => cos://bytetoy/stm32/stm32f407_printf_to_usart.html 
+[36mINFO[0m[2024-03-07 08:37:43] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_pwm.html => cos://bytetoy/stm32/stm32f407_pwm.html 
+[36mINFO[0m[2024-03-07 08:37:43] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_spi.html => cos://bytetoy/stm32/stm32f407_spi.html 
+[36mINFO[0m[2024-03-07 08:37:43] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_spi_lcd.html => cos://bytetoy/stm32/stm32f407_spi_lcd.html 
+[36mINFO[0m[2024-03-07 08:37:43] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_tim.html => cos://bytetoy/stm32/stm32f407_tim.html 
+[36mINFO[0m[2024-03-07 08:37:43] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_usart.html => cos://bytetoy/stm32/stm32f407_usart.html 
+[36mINFO[0m[2024-03-07 08:37:44] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/w25Qxx.zip 
+[36mINFO[0m[2024-03-07 08:37:44] Upload /home/hotpod/web/bytetoy/_book/tips/apt_fail.html => cos://bytetoy/tips/apt_fail.html 
+[36mINFO[0m[2024-03-07 08:37:44] Upload /home/hotpod/web/bytetoy/_book/tips/cos_static_config.html => cos://bytetoy/tips/cos_static_config.html 
+[36mINFO[0m[2024-03-07 08:37:44] Upload /home/hotpod/web/bytetoy/_book/tips/debian_install_docker.html => cos://bytetoy/tips/debian_install_docker.html 
+[36mINFO[0m[2024-03-07 08:37:44] Upload /home/hotpod/web/bytetoy/_book/tips/docker_cancel_sudo.html => cos://bytetoy/tips/docker_cancel_sudo.html 
+[36mINFO[0m[2024-03-07 08:37:44] Upload /home/hotpod/web/bytetoy/_book/tips/docker_cli.html => cos://bytetoy/tips/docker_cli.html 
+[36mINFO[0m[2024-03-07 08:37:44] Upload /home/hotpod/web/bytetoy/_book/tips/docker_install_jellyfin.html => cos://bytetoy/tips/docker_install_jellyfin.html 
+[36mINFO[0m[2024-03-07 08:37:44] Upload /home/hotpod/web/bytetoy/_book/tips/frp_config.html => cos://bytetoy/tips/frp_config.html 
+[36mINFO[0m[2024-03-07 08:37:45] Upload /home/hotpod/web/bytetoy/_book/tips/geminipro_chatbot.html => cos://bytetoy/tips/geminipro_chatbot.html 
+[36mINFO[0m[2024-03-07 08:37:45] Upload /home/hotpod/web/bytetoy/_book/tips/git_force_push.html => cos://bytetoy/tips/git_force_push.html 
+[36mINFO[0m[2024-03-07 08:37:45] Upload /home/hotpod/web/bytetoy/_book/tips/gitbook_install_error.html => cos://bytetoy/tips/gitbook_install_error.html 
+[36mINFO[0m[2024-03-07 08:37:45] Upload /home/hotpod/web/bytetoy/_book/tips/kms_act.html => cos://bytetoy/tips/kms_act.html 
+[36mINFO[0m[2024-03-07 08:37:45] Upload /home/hotpod/web/bytetoy/_book/tips/linux_server_safe_config.html => cos://bytetoy/tips/linux_server_safe_config.html 
+[36mINFO[0m[2024-03-07 08:37:45] Upload /home/hotpod/web/bytetoy/_book/tips/mariadb_conf.html => cos://bytetoy/tips/mariadb_conf.html 
+[36mINFO[0m[2024-03-07 08:37:45] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_add_0.html => cos://bytetoy/tips/mysql_add_0.html 
+[36mINFO[0m[2024-03-07 08:37:45] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_compara_score.html => cos://bytetoy/tips/mysql_compara_score.html 
+[36mINFO[0m[2024-03-07 08:37:46] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_import_datafile.html => cos://bytetoy/tips/mysql_import_datafile.html 
+[36mINFO[0m[2024-03-07 08:37:46] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_statis_score.html => cos://bytetoy/tips/mysql_statis_score.html 
+[36mINFO[0m[2024-03-07 08:37:46] Upload /home/hotpod/web/bytetoy/_book/tips/pip_error.html => cos://bytetoy/tips/pip_error.html 
+[36mINFO[0m[2024-03-07 08:37:46] Upload /home/hotpod/web/bytetoy/_book/tips/proxychains_install_config.html => cos://bytetoy/tips/proxychains_install_config.html 
+[36mINFO[0m[2024-03-07 08:37:46] Upload /home/hotpod/web/bytetoy/_book/tips/pycharm_http_proxy.html => cos://bytetoy/tips/pycharm_http_proxy.html 
+[36mINFO[0m[2024-03-07 08:37:46] Upload /home/hotpod/web/bytetoy/_book/tips/rclone_to_webdav.html => cos://bytetoy/tips/rclone_to_webdav.html 
+[36mINFO[0m[2024-03-07 08:37:46] Upload /home/hotpod/web/bytetoy/_book/tips/rime.html => cos://bytetoy/tips/rime.html 
+[36mINFO[0m[2024-03-07 08:37:46] Upload /home/hotpod/web/bytetoy/_book/tips/scp_file.html => cos://bytetoy/tips/scp_file.html 
+[36mINFO[0m[2024-03-07 08:37:47] Upload /home/hotpod/web/bytetoy/_book/tips/systemctl_config.html => cos://bytetoy/tips/systemctl_config.html 
+[36mINFO[0m[2024-03-07 08:37:47] Upload /home/hotpod/web/bytetoy/_book/tips/tips.html => cos://bytetoy/tips/tips.html 
+[36mINFO[0m[2024-03-07 08:37:47] Upload /home/hotpod/web/bytetoy/_book/tips/unzip_error.html => cos://bytetoy/tips/unzip_error.html 
+[36mINFO[0m[2024-03-07 08:37:47] Upload /home/hotpod/web/bytetoy/_book/tips/vim_modify_jar.html => cos://bytetoy/tips/vim_modify_jar.html 
+[36mINFO[0m[2024-03-07 08:37:47] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-back-to-top-button/plugin.css 
+[36mINFO[0m[2024-03-07 08:37:47] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-back-to-top-button/plugin.js 
+[36mINFO[0m[2024-03-07 08:37:47] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-code/plugin.css 
+[36mINFO[0m[2024-03-07 08:37:47] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-code/plugin.js 
+[36mINFO[0m[2024-03-07 08:37:47] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css 
+[36mINFO[0m[2024-03-07 08:37:47] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js 
+[36mINFO[0m[2024-03-07 08:37:47] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-fontsettings/fontsettings.js 
+[36mINFO[0m[2024-03-07 08:37:47] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-fontsettings/website.css 
+[36mINFO[0m[2024-03-07 08:37:47] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-highlight/ebook.css 
+[36mINFO[0m[2024-03-07 08:37:47] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-highlight/website.css 
+[36mINFO[0m[2024-03-07 08:37:47] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-lunr/lunr.min.js 
+[36mINFO[0m[2024-03-07 08:37:47] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-lunr/search-lunr.js 
+[36mINFO[0m[2024-03-07 08:37:47] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-search-pro/jquery.mark.min.js 
+[36mINFO[0m[2024-03-07 08:37:47] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-search-pro/search.css 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-search-pro/search.js 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-tbfed-pagefooter/footer.css 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-theme-comscore/test.css 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-theme-comscore/test.js 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/images/apple-touch-icon-precomposed-152.png 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/images/favicon.ico 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_search_base.png 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_search_close.png 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_array.png 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_base.png 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_bfs.png 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_dfs.png 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_list.png 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search.png 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_degree_0.png 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_degree_1.png 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_degree_2.png 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_dfs.png 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_insert.png 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/colab_drive.png 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/colab_font.png 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/colab_open.png 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_insert.png 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_insert_head.png 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_insert_tail.png 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_remove.png 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_travel.png 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/git_force_push.png 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_add_edge.png 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_add_vert.png 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_base.png 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_remove_vert.png 
+[36mINFO[0m[2024-03-07 08:37:48] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_show.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_add_edge.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_add_vert.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_base.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_remove_vert.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_show.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_travel_base.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_travel_bfs.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_travel_dfs.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/hanoi_bytetoy.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/linklist_insert.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/linklist_insert_head_tail.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/linklist_remove.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/linklist_travel.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/palindrome_bytetoy.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/permutation_bytetoy.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/pycharm_github_token_1.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/pycharm_github_token_2.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/pycharm_http_proxy.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python-logo.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_bubble_sort.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_build_tree_base.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_build_tree_step.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_heap.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_heap_pop.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_heap_push.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_insertion_sort.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_merge_sort.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_quick_sort.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_selection_sort.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_sort_base.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/queue_bytetoy.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/s2.csv 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/stack_bytetoy.png 
+[36mINFO[0m[2024-03-07 08:37:49] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/sudoku.py 
+[36mINFO[0m[2024-03-07 08:37:50] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/git_force_push.png 
+[36mINFO[0m[2024-03-07 08:37:50] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/pycharm_http_proxy.png 
+[36mINFO[0m[2024-03-07 08:37:50] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/vim_modify_jar_1.png 
+[36mINFO[0m[2024-03-07 08:37:50] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/vim_modify_jar_2.png 
+[36mINFO[0m[2024-03-07 08:37:50] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/vim_modify_jar_3.png 
+[36mINFO[0m[2024-03-07 08:37:50] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/FontAwesome.otf 
+[36mINFO[0m[2024-03-07 08:37:50] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.eot 
+[36mINFO[0m[2024-03-07 08:37:50] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.svg 
+[36mINFO[0m[2024-03-07 08:37:50] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.ttf 
+[36mINFO[0m[2024-03-07 08:37:50] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.woff 
+[36mINFO[0m[2024-03-07 08:37:50] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.woff2 
+[36mINFO[0m[2024-03-07 08:38:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/build.sh 
+[36mINFO[0m[2024-03-07 08:38:25] Upload /home/hotpod/web/bytetoy/_book/coscli.log => cos://bytetoy/coscli.log 
+[36mINFO[0m[2024-03-07 08:38:25] Upload /home/hotpod/web/bytetoy/_book/index.html => cos://bytetoy/index.html 
+[36mINFO[0m[2024-03-07 08:38:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/package-lock.json 
+[36mINFO[0m[2024-03-07 08:38:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/package.json 
+[36mINFO[0m[2024-03-07 08:38:25] Upload /home/hotpod/web/bytetoy/_book/search_index.json => cos://bytetoy/search_index.json 
+[36mINFO[0m[2024-03-07 08:38:31] Upload /home/hotpod/web/bytetoy/_book/search_plus_index.json => cos://bytetoy/search_plus_index.json 
+[36mINFO[0m[2024-03-07 08:38:32] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook.js 
+[36mINFO[0m[2024-03-07 08:38:32] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/style.css 
+[36mINFO[0m[2024-03-07 08:38:32] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/theme.js 
+[36mINFO[0m[2024-03-07 08:38:32] Upload /home/hotpod/web/bytetoy/_book/minecraft/Minecraft服务器Spigot安装和配置.html => cos://bytetoy/minecraft/Minecraft服务器Spigot安装和配置.html 
+[36mINFO[0m[2024-03-07 08:38:32] Upload /home/hotpod/web/bytetoy/_book/minecraft/minecraft.html => cos://bytetoy/minecraft/minecraft.html 
+[36mINFO[0m[2024-03-07 08:38:32] Upload /home/hotpod/web/bytetoy/_book/pico/Raspberry_Pico点亮LED灯.html => cos://bytetoy/pico/Raspberry_Pico点亮LED灯.html 
+[36mINFO[0m[2024-03-07 08:38:32] Upload /home/hotpod/web/bytetoy/_book/pico/Ubuntu下配置raspberry_pico开发环境.html => cos://bytetoy/pico/Ubuntu下配置raspberry_pico开发环境.html 
+[36mINFO[0m[2024-03-07 08:38:32] Upload /home/hotpod/web/bytetoy/_book/pico/VirtualBox虚拟机USB调试PICO串口.html => cos://bytetoy/pico/VirtualBox虚拟机USB调试PICO串口.html 
+[36mINFO[0m[2024-03-07 08:38:33] Upload /home/hotpod/web/bytetoy/_book/pico/pico.html => cos://bytetoy/pico/pico.html 
+[36mINFO[0m[2024-03-07 08:38:33] Upload /home/hotpod/web/bytetoy/_book/python/binary_tree_array.html => cos://bytetoy/python/binary_tree_array.html 
+[36mINFO[0m[2024-03-07 08:38:33] Upload /home/hotpod/web/bytetoy/_book/python/binary_tree_search.html => cos://bytetoy/python/binary_tree_search.html 
+[36mINFO[0m[2024-03-07 08:38:33] Upload /home/hotpod/web/bytetoy/_book/python/binary_tree_travel.html => cos://bytetoy/python/binary_tree_travel.html 
+[36mINFO[0m[2024-03-07 08:38:33] Upload /home/hotpod/web/bytetoy/_book/python/colab_setting.html => cos://bytetoy/python/colab_setting.html 
+[36mINFO[0m[2024-03-07 08:38:33] Upload /home/hotpod/web/bytetoy/_book/python/cyclelink.html => cos://bytetoy/python/cyclelink.html 
+[36mINFO[0m[2024-03-07 08:38:33] Upload /home/hotpod/web/bytetoy/_book/python/index.html => cos://bytetoy/python/index.html 
+[36mINFO[0m[2024-03-07 08:38:33] Upload /home/hotpod/web/bytetoy/_book/python/linklist.html => cos://bytetoy/python/linklist.html 
+[36mINFO[0m[2024-03-07 08:38:34] Upload /home/hotpod/web/bytetoy/_book/python/pycharm_github_token.html => cos://bytetoy/python/pycharm_github_token.html 
+[36mINFO[0m[2024-03-07 08:38:34] Upload /home/hotpod/web/bytetoy/_book/python/python_binary_search_close.html => cos://bytetoy/python/python_binary_search_close.html 
+[36mINFO[0m[2024-03-07 08:38:34] Upload /home/hotpod/web/bytetoy/_book/python/python_bubble_sort.html => cos://bytetoy/python/python_bubble_sort.html 
+[36mINFO[0m[2024-03-07 08:38:34] Upload /home/hotpod/web/bytetoy/_book/python/python_build_tree.html => cos://bytetoy/python/python_build_tree.html 
+[36mINFO[0m[2024-03-07 08:38:34] Upload /home/hotpod/web/bytetoy/_book/python/python_graph_list.html => cos://bytetoy/python/python_graph_list.html 
+[36mINFO[0m[2024-03-07 08:38:34] Upload /home/hotpod/web/bytetoy/_book/python/python_graph_matrix.html => cos://bytetoy/python/python_graph_matrix.html 
+[36mINFO[0m[2024-03-07 08:38:34] Upload /home/hotpod/web/bytetoy/_book/python/python_graph_travel.html => cos://bytetoy/python/python_graph_travel.html 
+[36mINFO[0m[2024-03-07 08:38:34] Upload /home/hotpod/web/bytetoy/_book/python/python_heap.html => cos://bytetoy/python/python_heap.html 
+[36mINFO[0m[2024-03-07 08:38:35] Upload /home/hotpod/web/bytetoy/_book/python/python_heap_sort.html => cos://bytetoy/python/python_heap_sort.html 
+[36mINFO[0m[2024-03-07 08:38:35] Upload /home/hotpod/web/bytetoy/_book/python/python_insertion_sort.html => cos://bytetoy/python/python_insertion_sort.html 
+[36mINFO[0m[2024-03-07 08:38:35] Upload /home/hotpod/web/bytetoy/_book/python/python_merge_sort.html => cos://bytetoy/python/python_merge_sort.html 
+[36mINFO[0m[2024-03-07 08:38:35] Upload /home/hotpod/web/bytetoy/_book/python/python_queue.html => cos://bytetoy/python/python_queue.html 
+[36mINFO[0m[2024-03-07 08:38:35] Upload /home/hotpod/web/bytetoy/_book/python/python_quick_sort.html => cos://bytetoy/python/python_quick_sort.html 
+[36mINFO[0m[2024-03-07 08:38:35] Upload /home/hotpod/web/bytetoy/_book/python/python_selection_sort.html => cos://bytetoy/python/python_selection_sort.html 
+[36mINFO[0m[2024-03-07 08:38:35] Upload /home/hotpod/web/bytetoy/_book/python/python_stack.html => cos://bytetoy/python/python_stack.html 
+[36mINFO[0m[2024-03-07 08:38:35] Upload /home/hotpod/web/bytetoy/_book/python/recursion.html => cos://bytetoy/python/recursion.html 
+[36mINFO[0m[2024-03-07 08:38:36] Upload /home/hotpod/web/bytetoy/_book/python/sudoku.html => cos://bytetoy/python/sudoku.html 
+[36mINFO[0m[2024-03-07 08:38:36] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/CH341SER.ZIP 
+[36mINFO[0m[2024-03-07 08:38:36] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/COMTransmit.ZIP 
+[36mINFO[0m[2024-03-07 08:38:36] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/FlyMcu.rar 
+[36mINFO[0m[2024-03-07 08:38:36] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/LCD.zip 
+[36mINFO[0m[2024-03-07 08:38:36] Upload /home/hotpod/web/bytetoy/_book/stm32/index.html => cos://bytetoy/stm32/index.html 
+[36mINFO[0m[2024-03-07 08:38:36] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_adc.html => cos://bytetoy/stm32/stm32f407_adc.html 
+[36mINFO[0m[2024-03-07 08:38:36] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_config.html => cos://bytetoy/stm32/stm32f407_config.html 
+[36mINFO[0m[2024-03-07 08:38:36] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_dma.html => cos://bytetoy/stm32/stm32f407_dma.html 
+[36mINFO[0m[2024-03-07 08:38:36] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_fsmc_sram.html => cos://bytetoy/stm32/stm32f407_fsmc_sram.html 
+[36mINFO[0m[2024-03-07 08:38:36] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_iwdg.html => cos://bytetoy/stm32/stm32f407_iwdg.html 
+[36mINFO[0m[2024-03-07 08:38:37] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_key.html => cos://bytetoy/stm32/stm32f407_key.html 
+[36mINFO[0m[2024-03-07 08:38:37] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_nvic.html => cos://bytetoy/stm32/stm32f407_nvic.html 
+[36mINFO[0m[2024-03-07 08:38:37] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_printf_to_usart.html => cos://bytetoy/stm32/stm32f407_printf_to_usart.html 
+[36mINFO[0m[2024-03-07 08:38:37] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_pwm.html => cos://bytetoy/stm32/stm32f407_pwm.html 
+[36mINFO[0m[2024-03-07 08:38:37] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_spi.html => cos://bytetoy/stm32/stm32f407_spi.html 
+[36mINFO[0m[2024-03-07 08:38:37] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_spi_lcd.html => cos://bytetoy/stm32/stm32f407_spi_lcd.html 
+[36mINFO[0m[2024-03-07 08:38:37] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_tim.html => cos://bytetoy/stm32/stm32f407_tim.html 
+[36mINFO[0m[2024-03-07 08:38:37] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_usart.html => cos://bytetoy/stm32/stm32f407_usart.html 
+[36mINFO[0m[2024-03-07 08:38:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/w25Qxx.zip 
+[36mINFO[0m[2024-03-07 08:38:38] Upload /home/hotpod/web/bytetoy/_book/tips/apt_fail.html => cos://bytetoy/tips/apt_fail.html 
+[36mINFO[0m[2024-03-07 08:38:38] Upload /home/hotpod/web/bytetoy/_book/tips/cos_static_config.html => cos://bytetoy/tips/cos_static_config.html 
+[36mINFO[0m[2024-03-07 08:38:38] Upload /home/hotpod/web/bytetoy/_book/tips/debian_install_docker.html => cos://bytetoy/tips/debian_install_docker.html 
+[36mINFO[0m[2024-03-07 08:38:38] Upload /home/hotpod/web/bytetoy/_book/tips/docker_cancel_sudo.html => cos://bytetoy/tips/docker_cancel_sudo.html 
+[36mINFO[0m[2024-03-07 08:38:38] Upload /home/hotpod/web/bytetoy/_book/tips/docker_cli.html => cos://bytetoy/tips/docker_cli.html 
+[36mINFO[0m[2024-03-07 08:38:38] Upload /home/hotpod/web/bytetoy/_book/tips/docker_install_jellyfin.html => cos://bytetoy/tips/docker_install_jellyfin.html 
+[36mINFO[0m[2024-03-07 08:38:38] Upload /home/hotpod/web/bytetoy/_book/tips/frp_config.html => cos://bytetoy/tips/frp_config.html 
+[36mINFO[0m[2024-03-07 08:38:39] Upload /home/hotpod/web/bytetoy/_book/tips/geminipro_chatbot.html => cos://bytetoy/tips/geminipro_chatbot.html 
+[36mINFO[0m[2024-03-07 08:38:39] Upload /home/hotpod/web/bytetoy/_book/tips/git_force_push.html => cos://bytetoy/tips/git_force_push.html 
+[36mINFO[0m[2024-03-07 08:38:39] Upload /home/hotpod/web/bytetoy/_book/tips/gitbook_install_error.html => cos://bytetoy/tips/gitbook_install_error.html 
+[36mINFO[0m[2024-03-07 08:38:39] Upload /home/hotpod/web/bytetoy/_book/tips/kms_act.html => cos://bytetoy/tips/kms_act.html 
+[36mINFO[0m[2024-03-07 08:38:39] Upload /home/hotpod/web/bytetoy/_book/tips/linux_server_safe_config.html => cos://bytetoy/tips/linux_server_safe_config.html 
+[36mINFO[0m[2024-03-07 08:38:39] Upload /home/hotpod/web/bytetoy/_book/tips/mariadb_conf.html => cos://bytetoy/tips/mariadb_conf.html 
+[36mINFO[0m[2024-03-07 08:38:39] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_add_0.html => cos://bytetoy/tips/mysql_add_0.html 
+[36mINFO[0m[2024-03-07 08:38:39] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_compara_score.html => cos://bytetoy/tips/mysql_compara_score.html 
+[36mINFO[0m[2024-03-07 08:38:40] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_import_datafile.html => cos://bytetoy/tips/mysql_import_datafile.html 
+[36mINFO[0m[2024-03-07 08:38:40] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_statis_score.html => cos://bytetoy/tips/mysql_statis_score.html 
+[36mINFO[0m[2024-03-07 08:38:40] Upload /home/hotpod/web/bytetoy/_book/tips/pip_error.html => cos://bytetoy/tips/pip_error.html 
+[36mINFO[0m[2024-03-07 08:38:40] Upload /home/hotpod/web/bytetoy/_book/tips/proxychains_install_config.html => cos://bytetoy/tips/proxychains_install_config.html 
+[36mINFO[0m[2024-03-07 08:38:40] Upload /home/hotpod/web/bytetoy/_book/tips/pycharm_http_proxy.html => cos://bytetoy/tips/pycharm_http_proxy.html 
+[36mINFO[0m[2024-03-07 08:38:40] Upload /home/hotpod/web/bytetoy/_book/tips/rclone_to_webdav.html => cos://bytetoy/tips/rclone_to_webdav.html 
+[36mINFO[0m[2024-03-07 08:38:40] Upload /home/hotpod/web/bytetoy/_book/tips/rime.html => cos://bytetoy/tips/rime.html 
+[36mINFO[0m[2024-03-07 08:38:40] Upload /home/hotpod/web/bytetoy/_book/tips/scp_file.html => cos://bytetoy/tips/scp_file.html 
+[36mINFO[0m[2024-03-07 08:38:41] Upload /home/hotpod/web/bytetoy/_book/tips/systemctl_config.html => cos://bytetoy/tips/systemctl_config.html 
+[36mINFO[0m[2024-03-07 08:38:41] Upload /home/hotpod/web/bytetoy/_book/tips/tips.html => cos://bytetoy/tips/tips.html 
+[36mINFO[0m[2024-03-07 08:38:41] Upload /home/hotpod/web/bytetoy/_book/tips/unzip_error.html => cos://bytetoy/tips/unzip_error.html 
+[36mINFO[0m[2024-03-07 08:38:41] Upload /home/hotpod/web/bytetoy/_book/tips/vim_modify_jar.html => cos://bytetoy/tips/vim_modify_jar.html 
+[36mINFO[0m[2024-03-07 08:38:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-back-to-top-button/plugin.css 
+[36mINFO[0m[2024-03-07 08:38:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-back-to-top-button/plugin.js 
+[36mINFO[0m[2024-03-07 08:38:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-code/plugin.css 
+[36mINFO[0m[2024-03-07 08:38:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-code/plugin.js 
+[36mINFO[0m[2024-03-07 08:38:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css 
+[36mINFO[0m[2024-03-07 08:38:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js 
+[36mINFO[0m[2024-03-07 08:38:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-fontsettings/fontsettings.js 
+[36mINFO[0m[2024-03-07 08:38:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-fontsettings/website.css 
+[36mINFO[0m[2024-03-07 08:38:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-highlight/ebook.css 
+[36mINFO[0m[2024-03-07 08:38:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-highlight/website.css 
+[36mINFO[0m[2024-03-07 08:38:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-lunr/lunr.min.js 
+[36mINFO[0m[2024-03-07 08:38:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-lunr/search-lunr.js 
+[36mINFO[0m[2024-03-07 08:38:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-search-pro/jquery.mark.min.js 
+[36mINFO[0m[2024-03-07 08:38:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-search-pro/search.css 
+[36mINFO[0m[2024-03-07 08:38:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-search-pro/search.js 
+[36mINFO[0m[2024-03-07 08:38:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-tbfed-pagefooter/footer.css 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-theme-comscore/test.css 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-theme-comscore/test.js 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/images/apple-touch-icon-precomposed-152.png 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/images/favicon.ico 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_search_base.png 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_search_close.png 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_array.png 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_base.png 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_bfs.png 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_dfs.png 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_list.png 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search.png 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_degree_0.png 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_degree_1.png 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_degree_2.png 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_dfs.png 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_insert.png 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/colab_drive.png 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/colab_font.png 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/colab_open.png 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_insert.png 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_insert_head.png 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_insert_tail.png 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_remove.png 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_travel.png 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/git_force_push.png 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_add_edge.png 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_add_vert.png 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_base.png 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_remove_vert.png 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_show.png 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_add_edge.png 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_add_vert.png 
+[36mINFO[0m[2024-03-07 08:38:42] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_base.png 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_remove_vert.png 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_show.png 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_travel_base.png 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_travel_bfs.png 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_travel_dfs.png 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/hanoi_bytetoy.png 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/linklist_insert.png 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/linklist_insert_head_tail.png 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/linklist_remove.png 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/linklist_travel.png 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/palindrome_bytetoy.png 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/permutation_bytetoy.png 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/pycharm_github_token_1.png 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/pycharm_github_token_2.png 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/pycharm_http_proxy.png 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python-logo.png 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_bubble_sort.png 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_build_tree_base.png 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_build_tree_step.png 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_heap.png 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_heap_pop.png 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_heap_push.png 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_insertion_sort.png 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_merge_sort.png 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_quick_sort.png 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_selection_sort.png 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_sort_base.png 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/queue_bytetoy.png 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/s2.csv 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/stack_bytetoy.png 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/sudoku.py 
+[36mINFO[0m[2024-03-07 08:38:43] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/git_force_push.png 
+[36mINFO[0m[2024-03-07 08:38:44] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/pycharm_http_proxy.png 
+[36mINFO[0m[2024-03-07 08:38:44] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/vim_modify_jar_1.png 
+[36mINFO[0m[2024-03-07 08:38:44] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/vim_modify_jar_2.png 
+[36mINFO[0m[2024-03-07 08:38:44] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/vim_modify_jar_3.png 
+[36mINFO[0m[2024-03-07 08:38:44] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/FontAwesome.otf 
+[36mINFO[0m[2024-03-07 08:38:44] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.eot 
+[36mINFO[0m[2024-03-07 08:38:44] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.svg 
+[36mINFO[0m[2024-03-07 08:38:44] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.ttf 
+[36mINFO[0m[2024-03-07 08:38:44] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.woff 
+[36mINFO[0m[2024-03-07 08:38:44] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.woff2 
+[36mINFO[0m[2024-03-10 14:57:27] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/build.sh 
+[36mINFO[0m[2024-03-10 14:57:27] Upload /home/hotpod/web/bytetoy/_book/coscli.log => cos://bytetoy/coscli.log 
+[36mINFO[0m[2024-03-10 14:57:27] Upload /home/hotpod/web/bytetoy/_book/index.html => cos://bytetoy/index.html 
+[36mINFO[0m[2024-03-10 14:57:27] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/package-lock.json 
+[36mINFO[0m[2024-03-10 14:57:27] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/package.json 
+[36mINFO[0m[2024-03-10 14:57:27] Upload /home/hotpod/web/bytetoy/_book/search_index.json => cos://bytetoy/search_index.json 
+[36mINFO[0m[2024-03-10 14:57:34] Upload /home/hotpod/web/bytetoy/_book/search_plus_index.json => cos://bytetoy/search_plus_index.json 
+[36mINFO[0m[2024-03-10 14:57:35] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook.js 
+[36mINFO[0m[2024-03-10 14:57:35] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/style.css 
+[36mINFO[0m[2024-03-10 14:57:35] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/theme.js 
+[36mINFO[0m[2024-03-10 14:57:35] Upload /home/hotpod/web/bytetoy/_book/minecraft/Minecraft服务器Spigot安装和配置.html => cos://bytetoy/minecraft/Minecraft服务器Spigot安装和配置.html 
+[36mINFO[0m[2024-03-10 14:57:35] Upload /home/hotpod/web/bytetoy/_book/minecraft/minecraft.html => cos://bytetoy/minecraft/minecraft.html 
+[36mINFO[0m[2024-03-10 14:57:35] Upload /home/hotpod/web/bytetoy/_book/pico/Raspberry_Pico点亮LED灯.html => cos://bytetoy/pico/Raspberry_Pico点亮LED灯.html 
+[36mINFO[0m[2024-03-10 14:57:35] Upload /home/hotpod/web/bytetoy/_book/pico/Ubuntu下配置raspberry_pico开发环境.html => cos://bytetoy/pico/Ubuntu下配置raspberry_pico开发环境.html 
+[36mINFO[0m[2024-03-10 14:57:35] Upload /home/hotpod/web/bytetoy/_book/pico/VirtualBox虚拟机USB调试PICO串口.html => cos://bytetoy/pico/VirtualBox虚拟机USB调试PICO串口.html 
+[36mINFO[0m[2024-03-10 14:57:35] Upload /home/hotpod/web/bytetoy/_book/pico/pico.html => cos://bytetoy/pico/pico.html 
+[36mINFO[0m[2024-03-10 14:57:36] Upload /home/hotpod/web/bytetoy/_book/python/binary_tree_array.html => cos://bytetoy/python/binary_tree_array.html 
+[36mINFO[0m[2024-03-10 14:57:36] Upload /home/hotpod/web/bytetoy/_book/python/binary_tree_search.html => cos://bytetoy/python/binary_tree_search.html 
+[36mINFO[0m[2024-03-10 14:57:36] Upload /home/hotpod/web/bytetoy/_book/python/binary_tree_travel.html => cos://bytetoy/python/binary_tree_travel.html 
+[36mINFO[0m[2024-03-10 14:57:36] Upload /home/hotpod/web/bytetoy/_book/python/colab_setting.html => cos://bytetoy/python/colab_setting.html 
+[36mINFO[0m[2024-03-10 14:57:36] Upload /home/hotpod/web/bytetoy/_book/python/cyclelink.html => cos://bytetoy/python/cyclelink.html 
+[36mINFO[0m[2024-03-10 14:57:36] Upload /home/hotpod/web/bytetoy/_book/python/index.html => cos://bytetoy/python/index.html 
+[36mINFO[0m[2024-03-10 14:57:36] Upload /home/hotpod/web/bytetoy/_book/python/linklist.html => cos://bytetoy/python/linklist.html 
+[36mINFO[0m[2024-03-10 14:57:36] Upload /home/hotpod/web/bytetoy/_book/python/numpy_basic.html => cos://bytetoy/python/numpy_basic.html 
+[36mINFO[0m[2024-03-10 14:57:37] Upload /home/hotpod/web/bytetoy/_book/python/pycharm_github_token.html => cos://bytetoy/python/pycharm_github_token.html 
+[36mINFO[0m[2024-03-10 14:57:37] Upload /home/hotpod/web/bytetoy/_book/python/python_binary_search_close.html => cos://bytetoy/python/python_binary_search_close.html 
+[36mINFO[0m[2024-03-10 14:57:37] Upload /home/hotpod/web/bytetoy/_book/python/python_bubble_sort.html => cos://bytetoy/python/python_bubble_sort.html 
+[36mINFO[0m[2024-03-10 14:57:37] Upload /home/hotpod/web/bytetoy/_book/python/python_build_tree.html => cos://bytetoy/python/python_build_tree.html 
+[36mINFO[0m[2024-03-10 14:57:37] Upload /home/hotpod/web/bytetoy/_book/python/python_graph_list.html => cos://bytetoy/python/python_graph_list.html 
+[36mINFO[0m[2024-03-10 14:57:37] Upload /home/hotpod/web/bytetoy/_book/python/python_graph_matrix.html => cos://bytetoy/python/python_graph_matrix.html 
+[36mINFO[0m[2024-03-10 14:57:37] Upload /home/hotpod/web/bytetoy/_book/python/python_graph_travel.html => cos://bytetoy/python/python_graph_travel.html 
+[36mINFO[0m[2024-03-10 14:57:37] Upload /home/hotpod/web/bytetoy/_book/python/python_heap.html => cos://bytetoy/python/python_heap.html 
+[36mINFO[0m[2024-03-10 14:57:38] Upload /home/hotpod/web/bytetoy/_book/python/python_heap_sort.html => cos://bytetoy/python/python_heap_sort.html 
+[36mINFO[0m[2024-03-10 14:57:38] Upload /home/hotpod/web/bytetoy/_book/python/python_insertion_sort.html => cos://bytetoy/python/python_insertion_sort.html 
+[36mINFO[0m[2024-03-10 14:57:38] Upload /home/hotpod/web/bytetoy/_book/python/python_merge_sort.html => cos://bytetoy/python/python_merge_sort.html 
+[36mINFO[0m[2024-03-10 14:57:38] Upload /home/hotpod/web/bytetoy/_book/python/python_queue.html => cos://bytetoy/python/python_queue.html 
+[36mINFO[0m[2024-03-10 14:57:38] Upload /home/hotpod/web/bytetoy/_book/python/python_quick_sort.html => cos://bytetoy/python/python_quick_sort.html 
+[36mINFO[0m[2024-03-10 14:57:38] Upload /home/hotpod/web/bytetoy/_book/python/python_selection_sort.html => cos://bytetoy/python/python_selection_sort.html 
+[36mINFO[0m[2024-03-10 14:57:38] Upload /home/hotpod/web/bytetoy/_book/python/python_stack.html => cos://bytetoy/python/python_stack.html 
+[36mINFO[0m[2024-03-10 14:57:38] Upload /home/hotpod/web/bytetoy/_book/python/recursion.html => cos://bytetoy/python/recursion.html 
+[36mINFO[0m[2024-03-10 14:57:39] Upload /home/hotpod/web/bytetoy/_book/python/sudoku.html => cos://bytetoy/python/sudoku.html 
+[36mINFO[0m[2024-03-10 14:57:39] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/CH341SER.ZIP 
+[36mINFO[0m[2024-03-10 14:57:39] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/COMTransmit.ZIP 
+[36mINFO[0m[2024-03-10 14:57:39] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/FlyMcu.rar 
+[36mINFO[0m[2024-03-10 14:57:39] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/LCD.zip 
+[36mINFO[0m[2024-03-10 14:57:39] Upload /home/hotpod/web/bytetoy/_book/stm32/index.html => cos://bytetoy/stm32/index.html 
+[36mINFO[0m[2024-03-10 14:57:39] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_adc.html => cos://bytetoy/stm32/stm32f407_adc.html 
+[36mINFO[0m[2024-03-10 14:57:39] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_config.html => cos://bytetoy/stm32/stm32f407_config.html 
+[36mINFO[0m[2024-03-10 14:57:39] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_dma.html => cos://bytetoy/stm32/stm32f407_dma.html 
+[36mINFO[0m[2024-03-10 14:57:39] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_fsmc_sram.html => cos://bytetoy/stm32/stm32f407_fsmc_sram.html 
+[36mINFO[0m[2024-03-10 14:57:40] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_iwdg.html => cos://bytetoy/stm32/stm32f407_iwdg.html 
+[36mINFO[0m[2024-03-10 14:57:40] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_key.html => cos://bytetoy/stm32/stm32f407_key.html 
+[36mINFO[0m[2024-03-10 14:57:40] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_nvic.html => cos://bytetoy/stm32/stm32f407_nvic.html 
+[36mINFO[0m[2024-03-10 14:57:40] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_printf_to_usart.html => cos://bytetoy/stm32/stm32f407_printf_to_usart.html 
+[36mINFO[0m[2024-03-10 14:57:40] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_pwm.html => cos://bytetoy/stm32/stm32f407_pwm.html 
+[36mINFO[0m[2024-03-10 14:57:40] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_spi.html => cos://bytetoy/stm32/stm32f407_spi.html 
+[36mINFO[0m[2024-03-10 14:57:40] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_spi_lcd.html => cos://bytetoy/stm32/stm32f407_spi_lcd.html 
+[36mINFO[0m[2024-03-10 14:57:40] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_tim.html => cos://bytetoy/stm32/stm32f407_tim.html 
+[36mINFO[0m[2024-03-10 14:57:41] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_usart.html => cos://bytetoy/stm32/stm32f407_usart.html 
+[36mINFO[0m[2024-03-10 14:57:41] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/w25Qxx.zip 
+[36mINFO[0m[2024-03-10 14:57:41] Upload /home/hotpod/web/bytetoy/_book/tips/apt_fail.html => cos://bytetoy/tips/apt_fail.html 
+[36mINFO[0m[2024-03-10 14:57:41] Upload /home/hotpod/web/bytetoy/_book/tips/cos_static_config.html => cos://bytetoy/tips/cos_static_config.html 
+[36mINFO[0m[2024-03-10 14:57:41] Upload /home/hotpod/web/bytetoy/_book/tips/debian_install_docker.html => cos://bytetoy/tips/debian_install_docker.html 
+[36mINFO[0m[2024-03-10 14:57:41] Upload /home/hotpod/web/bytetoy/_book/tips/docker_cancel_sudo.html => cos://bytetoy/tips/docker_cancel_sudo.html 
+[36mINFO[0m[2024-03-10 14:57:41] Upload /home/hotpod/web/bytetoy/_book/tips/docker_cli.html => cos://bytetoy/tips/docker_cli.html 
+[36mINFO[0m[2024-03-10 14:57:41] Upload /home/hotpod/web/bytetoy/_book/tips/docker_install_jellyfin.html => cos://bytetoy/tips/docker_install_jellyfin.html 
+[36mINFO[0m[2024-03-10 14:57:41] Upload /home/hotpod/web/bytetoy/_book/tips/frp_config.html => cos://bytetoy/tips/frp_config.html 
+[36mINFO[0m[2024-03-10 14:57:42] Upload /home/hotpod/web/bytetoy/_book/tips/geminipro_chatbot.html => cos://bytetoy/tips/geminipro_chatbot.html 
+[36mINFO[0m[2024-03-10 14:57:42] Upload /home/hotpod/web/bytetoy/_book/tips/git_force_push.html => cos://bytetoy/tips/git_force_push.html 
+[36mINFO[0m[2024-03-10 14:57:42] Upload /home/hotpod/web/bytetoy/_book/tips/gitbook_install_error.html => cos://bytetoy/tips/gitbook_install_error.html 
+[36mINFO[0m[2024-03-10 14:57:42] Upload /home/hotpod/web/bytetoy/_book/tips/kms_act.html => cos://bytetoy/tips/kms_act.html 
+[36mINFO[0m[2024-03-10 14:57:42] Upload /home/hotpod/web/bytetoy/_book/tips/linux_server_safe_config.html => cos://bytetoy/tips/linux_server_safe_config.html 
+[36mINFO[0m[2024-03-10 14:57:42] Upload /home/hotpod/web/bytetoy/_book/tips/mariadb_conf.html => cos://bytetoy/tips/mariadb_conf.html 
+[36mINFO[0m[2024-03-10 14:57:42] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_add_0.html => cos://bytetoy/tips/mysql_add_0.html 
+[36mINFO[0m[2024-03-10 14:57:42] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_compara_score.html => cos://bytetoy/tips/mysql_compara_score.html 
+[36mINFO[0m[2024-03-10 14:57:43] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_import_datafile.html => cos://bytetoy/tips/mysql_import_datafile.html 
+[36mINFO[0m[2024-03-10 14:57:43] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_statis_score.html => cos://bytetoy/tips/mysql_statis_score.html 
+[36mINFO[0m[2024-03-10 14:57:43] Upload /home/hotpod/web/bytetoy/_book/tips/pip_error.html => cos://bytetoy/tips/pip_error.html 
+[36mINFO[0m[2024-03-10 14:57:43] Upload /home/hotpod/web/bytetoy/_book/tips/proxychains_install_config.html => cos://bytetoy/tips/proxychains_install_config.html 
+[36mINFO[0m[2024-03-10 14:57:43] Upload /home/hotpod/web/bytetoy/_book/tips/pycharm_http_proxy.html => cos://bytetoy/tips/pycharm_http_proxy.html 
+[36mINFO[0m[2024-03-10 14:57:43] Upload /home/hotpod/web/bytetoy/_book/tips/rclone_to_webdav.html => cos://bytetoy/tips/rclone_to_webdav.html 
+[36mINFO[0m[2024-03-10 14:57:43] Upload /home/hotpod/web/bytetoy/_book/tips/rime.html => cos://bytetoy/tips/rime.html 
+[36mINFO[0m[2024-03-10 14:57:43] Upload /home/hotpod/web/bytetoy/_book/tips/scp_file.html => cos://bytetoy/tips/scp_file.html 
+[36mINFO[0m[2024-03-10 14:57:44] Upload /home/hotpod/web/bytetoy/_book/tips/systemctl_config.html => cos://bytetoy/tips/systemctl_config.html 
+[36mINFO[0m[2024-03-10 14:57:44] Upload /home/hotpod/web/bytetoy/_book/tips/tips.html => cos://bytetoy/tips/tips.html 
+[36mINFO[0m[2024-03-10 14:57:44] Upload /home/hotpod/web/bytetoy/_book/tips/unzip_error.html => cos://bytetoy/tips/unzip_error.html 
+[36mINFO[0m[2024-03-10 14:57:44] Upload /home/hotpod/web/bytetoy/_book/tips/vim_modify_jar.html => cos://bytetoy/tips/vim_modify_jar.html 
+[36mINFO[0m[2024-03-10 14:57:44] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-back-to-top-button/plugin.css 
+[36mINFO[0m[2024-03-10 14:57:44] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-back-to-top-button/plugin.js 
+[36mINFO[0m[2024-03-10 14:57:44] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-code/plugin.css 
+[36mINFO[0m[2024-03-10 14:57:44] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-code/plugin.js 
+[36mINFO[0m[2024-03-10 14:57:44] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css 
+[36mINFO[0m[2024-03-10 14:57:44] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js 
+[36mINFO[0m[2024-03-10 14:57:44] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-fontsettings/fontsettings.js 
+[36mINFO[0m[2024-03-10 14:57:44] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-fontsettings/website.css 
+[36mINFO[0m[2024-03-10 14:57:44] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-highlight/ebook.css 
+[36mINFO[0m[2024-03-10 14:57:44] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-highlight/website.css 
+[36mINFO[0m[2024-03-10 14:57:44] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-lunr/lunr.min.js 
+[36mINFO[0m[2024-03-10 14:57:44] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-lunr/search-lunr.js 
+[36mINFO[0m[2024-03-10 14:57:44] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-search-pro/jquery.mark.min.js 
+[36mINFO[0m[2024-03-10 14:57:44] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-search-pro/search.css 
+[36mINFO[0m[2024-03-10 14:57:44] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-search-pro/search.js 
+[36mINFO[0m[2024-03-10 14:57:44] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-tbfed-pagefooter/footer.css 
+[36mINFO[0m[2024-03-10 14:57:44] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-theme-comscore/test.css 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-theme-comscore/test.js 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/images/apple-touch-icon-precomposed-152.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/images/favicon.ico 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_search_base.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_search_close.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_array.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_base.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_bfs.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_dfs.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_list.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_degree_0.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_degree_1.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_degree_2.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_dfs.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_insert.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/colab_drive.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/colab_font.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/colab_open.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_insert.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_insert_head.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_insert_tail.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_remove.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_travel.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/git_force_push.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_add_edge.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_add_vert.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_base.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_remove_vert.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_show.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_add_edge.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_add_vert.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_base.png 
+[36mINFO[0m[2024-03-10 14:57:45] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_remove_vert.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_show.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_travel_base.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_travel_bfs.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_travel_dfs.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/hanoi_bytetoy.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/linklist_insert.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/linklist_insert_head_tail.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/linklist_remove.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/linklist_travel.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/palindrome_bytetoy.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/permutation_bytetoy.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/pycharm_github_token_1.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/pycharm_github_token_2.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/pycharm_http_proxy.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python-logo.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_bubble_sort.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_build_tree_base.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_build_tree_step.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_heap.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_heap_pop.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_heap_push.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_insertion_sort.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_merge_sort.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_quick_sort.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_selection_sort.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_sort_base.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/queue_bytetoy.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/s2.csv 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/stack_bytetoy.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/sudoku.py 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/git_force_push.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/pycharm_http_proxy.png 
+[36mINFO[0m[2024-03-10 14:57:46] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/vim_modify_jar_1.png 
+[36mINFO[0m[2024-03-10 14:57:47] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/vim_modify_jar_2.png 
+[36mINFO[0m[2024-03-10 14:57:47] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/vim_modify_jar_3.png 
+[36mINFO[0m[2024-03-10 14:57:47] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/FontAwesome.otf 
+[36mINFO[0m[2024-03-10 14:57:47] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.eot 
+[36mINFO[0m[2024-03-10 14:57:47] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.svg 
+[36mINFO[0m[2024-03-10 14:57:47] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.ttf 
+[36mINFO[0m[2024-03-10 14:57:47] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.woff 
+[36mINFO[0m[2024-03-10 14:57:47] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.woff2 
+[36mINFO[0m[2024-03-10 14:59:18] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/build.sh 
+[36mINFO[0m[2024-03-10 14:59:18] Upload /home/hotpod/web/bytetoy/_book/coscli.log => cos://bytetoy/coscli.log 
+[36mINFO[0m[2024-03-10 14:59:18] Upload /home/hotpod/web/bytetoy/_book/index.html => cos://bytetoy/index.html 
+[36mINFO[0m[2024-03-10 14:59:18] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/package-lock.json 
+[36mINFO[0m[2024-03-10 14:59:18] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/package.json 
+[36mINFO[0m[2024-03-10 14:59:18] Upload /home/hotpod/web/bytetoy/_book/search_index.json => cos://bytetoy/search_index.json 
+[36mINFO[0m[2024-03-10 14:59:25] Upload /home/hotpod/web/bytetoy/_book/search_plus_index.json => cos://bytetoy/search_plus_index.json 
+[36mINFO[0m[2024-03-10 14:59:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook.js 
+[36mINFO[0m[2024-03-10 14:59:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/style.css 
+[36mINFO[0m[2024-03-10 14:59:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/theme.js 
+[36mINFO[0m[2024-03-10 14:59:26] Upload /home/hotpod/web/bytetoy/_book/minecraft/Minecraft服务器Spigot安装和配置.html => cos://bytetoy/minecraft/Minecraft服务器Spigot安装和配置.html 
+[36mINFO[0m[2024-03-10 14:59:26] Upload /home/hotpod/web/bytetoy/_book/minecraft/minecraft.html => cos://bytetoy/minecraft/minecraft.html 
+[36mINFO[0m[2024-03-10 14:59:26] Upload /home/hotpod/web/bytetoy/_book/pico/Raspberry_Pico点亮LED灯.html => cos://bytetoy/pico/Raspberry_Pico点亮LED灯.html 
+[36mINFO[0m[2024-03-10 14:59:26] Upload /home/hotpod/web/bytetoy/_book/pico/Ubuntu下配置raspberry_pico开发环境.html => cos://bytetoy/pico/Ubuntu下配置raspberry_pico开发环境.html 
+[36mINFO[0m[2024-03-10 14:59:26] Upload /home/hotpod/web/bytetoy/_book/pico/VirtualBox虚拟机USB调试PICO串口.html => cos://bytetoy/pico/VirtualBox虚拟机USB调试PICO串口.html 
+[36mINFO[0m[2024-03-10 14:59:26] Upload /home/hotpod/web/bytetoy/_book/pico/pico.html => cos://bytetoy/pico/pico.html 
+[36mINFO[0m[2024-03-10 14:59:27] Upload /home/hotpod/web/bytetoy/_book/python/binary_tree_array.html => cos://bytetoy/python/binary_tree_array.html 
+[36mINFO[0m[2024-03-10 14:59:27] Upload /home/hotpod/web/bytetoy/_book/python/binary_tree_search.html => cos://bytetoy/python/binary_tree_search.html 
+[36mINFO[0m[2024-03-10 14:59:27] Upload /home/hotpod/web/bytetoy/_book/python/binary_tree_travel.html => cos://bytetoy/python/binary_tree_travel.html 
+[36mINFO[0m[2024-03-10 14:59:27] Upload /home/hotpod/web/bytetoy/_book/python/colab_setting.html => cos://bytetoy/python/colab_setting.html 
+[36mINFO[0m[2024-03-10 14:59:27] Upload /home/hotpod/web/bytetoy/_book/python/cyclelink.html => cos://bytetoy/python/cyclelink.html 
+[36mINFO[0m[2024-03-10 14:59:27] Upload /home/hotpod/web/bytetoy/_book/python/index.html => cos://bytetoy/python/index.html 
+[36mINFO[0m[2024-03-10 14:59:27] Upload /home/hotpod/web/bytetoy/_book/python/linklist.html => cos://bytetoy/python/linklist.html 
+[36mINFO[0m[2024-03-10 14:59:28] Upload /home/hotpod/web/bytetoy/_book/python/numpy_basic.html => cos://bytetoy/python/numpy_basic.html 
+[36mINFO[0m[2024-03-10 14:59:28] Upload /home/hotpod/web/bytetoy/_book/python/pycharm_github_token.html => cos://bytetoy/python/pycharm_github_token.html 
+[36mINFO[0m[2024-03-10 14:59:28] Upload /home/hotpod/web/bytetoy/_book/python/python_binary_search_close.html => cos://bytetoy/python/python_binary_search_close.html 
+[36mINFO[0m[2024-03-10 14:59:28] Upload /home/hotpod/web/bytetoy/_book/python/python_bubble_sort.html => cos://bytetoy/python/python_bubble_sort.html 
+[36mINFO[0m[2024-03-10 14:59:28] Upload /home/hotpod/web/bytetoy/_book/python/python_build_tree.html => cos://bytetoy/python/python_build_tree.html 
+[36mINFO[0m[2024-03-10 14:59:28] Upload /home/hotpod/web/bytetoy/_book/python/python_graph_list.html => cos://bytetoy/python/python_graph_list.html 
+[36mINFO[0m[2024-03-10 14:59:29] Upload /home/hotpod/web/bytetoy/_book/python/python_graph_matrix.html => cos://bytetoy/python/python_graph_matrix.html 
+[36mINFO[0m[2024-03-10 14:59:29] Upload /home/hotpod/web/bytetoy/_book/python/python_graph_travel.html => cos://bytetoy/python/python_graph_travel.html 
+[36mINFO[0m[2024-03-10 14:59:29] Upload /home/hotpod/web/bytetoy/_book/python/python_heap.html => cos://bytetoy/python/python_heap.html 
+[36mINFO[0m[2024-03-10 14:59:29] Upload /home/hotpod/web/bytetoy/_book/python/python_heap_sort.html => cos://bytetoy/python/python_heap_sort.html 
+[36mINFO[0m[2024-03-10 14:59:29] Upload /home/hotpod/web/bytetoy/_book/python/python_insertion_sort.html => cos://bytetoy/python/python_insertion_sort.html 
+[36mINFO[0m[2024-03-10 14:59:29] Upload /home/hotpod/web/bytetoy/_book/python/python_merge_sort.html => cos://bytetoy/python/python_merge_sort.html 
+[36mINFO[0m[2024-03-10 14:59:29] Upload /home/hotpod/web/bytetoy/_book/python/python_queue.html => cos://bytetoy/python/python_queue.html 
+[36mINFO[0m[2024-03-10 14:59:29] Upload /home/hotpod/web/bytetoy/_book/python/python_quick_sort.html => cos://bytetoy/python/python_quick_sort.html 
+[36mINFO[0m[2024-03-10 14:59:30] Upload /home/hotpod/web/bytetoy/_book/python/python_selection_sort.html => cos://bytetoy/python/python_selection_sort.html 
+[36mINFO[0m[2024-03-10 14:59:30] Upload /home/hotpod/web/bytetoy/_book/python/python_stack.html => cos://bytetoy/python/python_stack.html 
+[36mINFO[0m[2024-03-10 14:59:30] Upload /home/hotpod/web/bytetoy/_book/python/recursion.html => cos://bytetoy/python/recursion.html 
+[36mINFO[0m[2024-03-10 14:59:30] Upload /home/hotpod/web/bytetoy/_book/python/sudoku.html => cos://bytetoy/python/sudoku.html 
+[36mINFO[0m[2024-03-10 14:59:30] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/CH341SER.ZIP 
+[36mINFO[0m[2024-03-10 14:59:30] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/COMTransmit.ZIP 
+[36mINFO[0m[2024-03-10 14:59:30] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/FlyMcu.rar 
+[36mINFO[0m[2024-03-10 14:59:30] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/LCD.zip 
+[36mINFO[0m[2024-03-10 14:59:30] Upload /home/hotpod/web/bytetoy/_book/stm32/index.html => cos://bytetoy/stm32/index.html 
+[36mINFO[0m[2024-03-10 14:59:30] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_adc.html => cos://bytetoy/stm32/stm32f407_adc.html 
+[36mINFO[0m[2024-03-10 14:59:31] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_config.html => cos://bytetoy/stm32/stm32f407_config.html 
+[36mINFO[0m[2024-03-10 14:59:31] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_dma.html => cos://bytetoy/stm32/stm32f407_dma.html 
+[36mINFO[0m[2024-03-10 14:59:31] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_fsmc_sram.html => cos://bytetoy/stm32/stm32f407_fsmc_sram.html 
+[36mINFO[0m[2024-03-10 14:59:31] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_iwdg.html => cos://bytetoy/stm32/stm32f407_iwdg.html 
+[36mINFO[0m[2024-03-10 14:59:31] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_key.html => cos://bytetoy/stm32/stm32f407_key.html 
+[36mINFO[0m[2024-03-10 14:59:31] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_nvic.html => cos://bytetoy/stm32/stm32f407_nvic.html 
+[36mINFO[0m[2024-03-10 14:59:31] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_printf_to_usart.html => cos://bytetoy/stm32/stm32f407_printf_to_usart.html 
+[36mINFO[0m[2024-03-10 14:59:31] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_pwm.html => cos://bytetoy/stm32/stm32f407_pwm.html 
+[36mINFO[0m[2024-03-10 14:59:32] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_spi.html => cos://bytetoy/stm32/stm32f407_spi.html 
+[36mINFO[0m[2024-03-10 14:59:32] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_spi_lcd.html => cos://bytetoy/stm32/stm32f407_spi_lcd.html 
+[36mINFO[0m[2024-03-10 14:59:32] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_tim.html => cos://bytetoy/stm32/stm32f407_tim.html 
+[36mINFO[0m[2024-03-10 14:59:32] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_usart.html => cos://bytetoy/stm32/stm32f407_usart.html 
+[36mINFO[0m[2024-03-10 14:59:32] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/w25Qxx.zip 
+[36mINFO[0m[2024-03-10 14:59:32] Upload /home/hotpod/web/bytetoy/_book/tips/apt_fail.html => cos://bytetoy/tips/apt_fail.html 
+[36mINFO[0m[2024-03-10 14:59:32] Upload /home/hotpod/web/bytetoy/_book/tips/cos_static_config.html => cos://bytetoy/tips/cos_static_config.html 
+[36mINFO[0m[2024-03-10 14:59:33] Upload /home/hotpod/web/bytetoy/_book/tips/debian_install_docker.html => cos://bytetoy/tips/debian_install_docker.html 
+[36mINFO[0m[2024-03-10 14:59:33] Upload /home/hotpod/web/bytetoy/_book/tips/docker_cancel_sudo.html => cos://bytetoy/tips/docker_cancel_sudo.html 
+[36mINFO[0m[2024-03-10 14:59:33] Upload /home/hotpod/web/bytetoy/_book/tips/docker_cli.html => cos://bytetoy/tips/docker_cli.html 
+[36mINFO[0m[2024-03-10 14:59:33] Upload /home/hotpod/web/bytetoy/_book/tips/docker_install_jellyfin.html => cos://bytetoy/tips/docker_install_jellyfin.html 
+[36mINFO[0m[2024-03-10 14:59:33] Upload /home/hotpod/web/bytetoy/_book/tips/frp_config.html => cos://bytetoy/tips/frp_config.html 
+[36mINFO[0m[2024-03-10 14:59:33] Upload /home/hotpod/web/bytetoy/_book/tips/geminipro_chatbot.html => cos://bytetoy/tips/geminipro_chatbot.html 
+[36mINFO[0m[2024-03-10 14:59:33] Upload /home/hotpod/web/bytetoy/_book/tips/git_force_push.html => cos://bytetoy/tips/git_force_push.html 
+[36mINFO[0m[2024-03-10 14:59:34] Upload /home/hotpod/web/bytetoy/_book/tips/gitbook_install_error.html => cos://bytetoy/tips/gitbook_install_error.html 
+[36mINFO[0m[2024-03-10 14:59:34] Upload /home/hotpod/web/bytetoy/_book/tips/kms_act.html => cos://bytetoy/tips/kms_act.html 
+[36mINFO[0m[2024-03-10 14:59:34] Upload /home/hotpod/web/bytetoy/_book/tips/linux_server_safe_config.html => cos://bytetoy/tips/linux_server_safe_config.html 
+[36mINFO[0m[2024-03-10 14:59:34] Upload /home/hotpod/web/bytetoy/_book/tips/mariadb_conf.html => cos://bytetoy/tips/mariadb_conf.html 
+[36mINFO[0m[2024-03-10 14:59:34] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_add_0.html => cos://bytetoy/tips/mysql_add_0.html 
+[36mINFO[0m[2024-03-10 14:59:34] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_compara_score.html => cos://bytetoy/tips/mysql_compara_score.html 
+[36mINFO[0m[2024-03-10 14:59:34] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_import_datafile.html => cos://bytetoy/tips/mysql_import_datafile.html 
+[36mINFO[0m[2024-03-10 14:59:35] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_statis_score.html => cos://bytetoy/tips/mysql_statis_score.html 
+[36mINFO[0m[2024-03-10 14:59:35] Upload /home/hotpod/web/bytetoy/_book/tips/pip_error.html => cos://bytetoy/tips/pip_error.html 
+[36mINFO[0m[2024-03-10 14:59:35] Upload /home/hotpod/web/bytetoy/_book/tips/proxychains_install_config.html => cos://bytetoy/tips/proxychains_install_config.html 
+[36mINFO[0m[2024-03-10 14:59:35] Upload /home/hotpod/web/bytetoy/_book/tips/pycharm_http_proxy.html => cos://bytetoy/tips/pycharm_http_proxy.html 
+[36mINFO[0m[2024-03-10 14:59:35] Upload /home/hotpod/web/bytetoy/_book/tips/rclone_to_webdav.html => cos://bytetoy/tips/rclone_to_webdav.html 
+[36mINFO[0m[2024-03-10 14:59:35] Upload /home/hotpod/web/bytetoy/_book/tips/rime.html => cos://bytetoy/tips/rime.html 
+[36mINFO[0m[2024-03-10 14:59:35] Upload /home/hotpod/web/bytetoy/_book/tips/scp_file.html => cos://bytetoy/tips/scp_file.html 
+[36mINFO[0m[2024-03-10 14:59:35] Upload /home/hotpod/web/bytetoy/_book/tips/systemctl_config.html => cos://bytetoy/tips/systemctl_config.html 
+[36mINFO[0m[2024-03-10 14:59:36] Upload /home/hotpod/web/bytetoy/_book/tips/tips.html => cos://bytetoy/tips/tips.html 
+[36mINFO[0m[2024-03-10 14:59:36] Upload /home/hotpod/web/bytetoy/_book/tips/unzip_error.html => cos://bytetoy/tips/unzip_error.html 
+[36mINFO[0m[2024-03-10 14:59:36] Upload /home/hotpod/web/bytetoy/_book/tips/vim_modify_jar.html => cos://bytetoy/tips/vim_modify_jar.html 
+[36mINFO[0m[2024-03-10 14:59:36] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-back-to-top-button/plugin.css 
+[36mINFO[0m[2024-03-10 14:59:36] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-back-to-top-button/plugin.js 
+[36mINFO[0m[2024-03-10 14:59:36] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-code/plugin.css 
+[36mINFO[0m[2024-03-10 14:59:36] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-code/plugin.js 
+[36mINFO[0m[2024-03-10 14:59:36] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css 
+[36mINFO[0m[2024-03-10 14:59:36] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js 
+[36mINFO[0m[2024-03-10 14:59:36] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-fontsettings/fontsettings.js 
+[36mINFO[0m[2024-03-10 14:59:36] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-fontsettings/website.css 
+[36mINFO[0m[2024-03-10 14:59:36] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-highlight/ebook.css 
+[36mINFO[0m[2024-03-10 14:59:36] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-highlight/website.css 
+[36mINFO[0m[2024-03-10 14:59:36] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-lunr/lunr.min.js 
+[36mINFO[0m[2024-03-10 14:59:36] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-lunr/search-lunr.js 
+[36mINFO[0m[2024-03-10 14:59:36] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-search-pro/jquery.mark.min.js 
+[36mINFO[0m[2024-03-10 14:59:36] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-search-pro/search.css 
+[36mINFO[0m[2024-03-10 14:59:36] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-search-pro/search.js 
+[36mINFO[0m[2024-03-10 14:59:36] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-tbfed-pagefooter/footer.css 
+[36mINFO[0m[2024-03-10 14:59:36] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-theme-comscore/test.css 
+[36mINFO[0m[2024-03-10 14:59:36] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-theme-comscore/test.js 
+[36mINFO[0m[2024-03-10 14:59:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/images/apple-touch-icon-precomposed-152.png 
+[36mINFO[0m[2024-03-10 14:59:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/images/favicon.ico 
+[36mINFO[0m[2024-03-10 14:59:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_search_base.png 
+[36mINFO[0m[2024-03-10 14:59:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_search_close.png 
+[36mINFO[0m[2024-03-10 14:59:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_array.png 
+[36mINFO[0m[2024-03-10 14:59:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_base.png 
+[36mINFO[0m[2024-03-10 14:59:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_bfs.png 
+[36mINFO[0m[2024-03-10 14:59:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_dfs.png 
+[36mINFO[0m[2024-03-10 14:59:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_list.png 
+[36mINFO[0m[2024-03-10 14:59:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search.png 
+[36mINFO[0m[2024-03-10 14:59:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_degree_0.png 
+[36mINFO[0m[2024-03-10 14:59:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_degree_1.png 
+[36mINFO[0m[2024-03-10 14:59:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_degree_2.png 
+[36mINFO[0m[2024-03-10 14:59:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_dfs.png 
+[36mINFO[0m[2024-03-10 14:59:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_insert.png 
+[36mINFO[0m[2024-03-10 14:59:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/colab_drive.png 
+[36mINFO[0m[2024-03-10 14:59:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/colab_font.png 
+[36mINFO[0m[2024-03-10 14:59:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/colab_open.png 
+[36mINFO[0m[2024-03-10 14:59:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_insert.png 
+[36mINFO[0m[2024-03-10 14:59:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_insert_head.png 
+[36mINFO[0m[2024-03-10 14:59:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_insert_tail.png 
+[36mINFO[0m[2024-03-10 14:59:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_remove.png 
+[36mINFO[0m[2024-03-10 14:59:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_travel.png 
+[36mINFO[0m[2024-03-10 14:59:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/git_force_push.png 
+[36mINFO[0m[2024-03-10 14:59:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_add_edge.png 
+[36mINFO[0m[2024-03-10 14:59:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_add_vert.png 
+[36mINFO[0m[2024-03-10 14:59:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_base.png 
+[36mINFO[0m[2024-03-10 14:59:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_remove_vert.png 
+[36mINFO[0m[2024-03-10 14:59:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_show.png 
+[36mINFO[0m[2024-03-10 14:59:37] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_add_edge.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_add_vert.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_base.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_remove_vert.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_show.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_travel_base.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_travel_bfs.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_travel_dfs.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/hanoi_bytetoy.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/linklist_insert.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/linklist_insert_head_tail.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/linklist_remove.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/linklist_travel.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/palindrome_bytetoy.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/permutation_bytetoy.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/pycharm_github_token_1.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/pycharm_github_token_2.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/pycharm_http_proxy.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python-logo.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_bubble_sort.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_build_tree_base.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_build_tree_step.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_heap.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_heap_pop.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_heap_push.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_insertion_sort.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_merge_sort.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_quick_sort.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_selection_sort.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_sort_base.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/queue_bytetoy.png 
+[36mINFO[0m[2024-03-10 14:59:38] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/s2.csv 
+[36mINFO[0m[2024-03-10 14:59:39] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/stack_bytetoy.png 
+[36mINFO[0m[2024-03-10 14:59:39] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/sudoku.py 
+[36mINFO[0m[2024-03-10 14:59:39] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/git_force_push.png 
+[36mINFO[0m[2024-03-10 14:59:39] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/pycharm_http_proxy.png 
+[36mINFO[0m[2024-03-10 14:59:39] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/vim_modify_jar_1.png 
+[36mINFO[0m[2024-03-10 14:59:39] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/vim_modify_jar_2.png 
+[36mINFO[0m[2024-03-10 14:59:39] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/vim_modify_jar_3.png 
+[36mINFO[0m[2024-03-10 14:59:39] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/FontAwesome.otf 
+[36mINFO[0m[2024-03-10 14:59:39] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.eot 
+[36mINFO[0m[2024-03-10 14:59:39] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.svg 
+[36mINFO[0m[2024-03-10 14:59:39] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.ttf 
+[36mINFO[0m[2024-03-10 14:59:39] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.woff 
+[36mINFO[0m[2024-03-10 14:59:39] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.woff2 
+[36mINFO[0m[2024-03-15 22:23:07] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/build.sh 
+[36mINFO[0m[2024-03-15 22:23:07] Upload /home/hotpod/web/bytetoy/_book/coscli.log => cos://bytetoy/coscli.log 
+[36mINFO[0m[2024-03-15 22:23:07] Upload /home/hotpod/web/bytetoy/_book/index.html => cos://bytetoy/index.html 
+[36mINFO[0m[2024-03-15 22:23:07] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/package-lock.json 
+[36mINFO[0m[2024-03-15 22:23:07] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/package.json 
+[36mINFO[0m[2024-03-15 22:23:07] Upload /home/hotpod/web/bytetoy/_book/search_index.json => cos://bytetoy/search_index.json 
+[36mINFO[0m[2024-03-15 22:23:14] Upload /home/hotpod/web/bytetoy/_book/search_plus_index.json => cos://bytetoy/search_plus_index.json 
+[36mINFO[0m[2024-03-15 22:23:15] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook.js 
+[36mINFO[0m[2024-03-15 22:23:15] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/style.css 
+[36mINFO[0m[2024-03-15 22:23:15] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/theme.js 
+[36mINFO[0m[2024-03-15 22:23:15] Upload /home/hotpod/web/bytetoy/_book/minecraft/Minecraft服务器Spigot安装和配置.html => cos://bytetoy/minecraft/Minecraft服务器Spigot安装和配置.html 
+[36mINFO[0m[2024-03-15 22:23:15] Upload /home/hotpod/web/bytetoy/_book/minecraft/minecraft.html => cos://bytetoy/minecraft/minecraft.html 
+[36mINFO[0m[2024-03-15 22:23:15] Upload /home/hotpod/web/bytetoy/_book/pico/Raspberry_Pico点亮LED灯.html => cos://bytetoy/pico/Raspberry_Pico点亮LED灯.html 
+[36mINFO[0m[2024-03-15 22:23:15] Upload /home/hotpod/web/bytetoy/_book/pico/Ubuntu下配置raspberry_pico开发环境.html => cos://bytetoy/pico/Ubuntu下配置raspberry_pico开发环境.html 
+[36mINFO[0m[2024-03-15 22:23:16] Upload /home/hotpod/web/bytetoy/_book/pico/VirtualBox虚拟机USB调试PICO串口.html => cos://bytetoy/pico/VirtualBox虚拟机USB调试PICO串口.html 
+[36mINFO[0m[2024-03-15 22:23:16] Upload /home/hotpod/web/bytetoy/_book/pico/pico.html => cos://bytetoy/pico/pico.html 
+[36mINFO[0m[2024-03-15 22:23:16] Upload /home/hotpod/web/bytetoy/_book/python/binary_tree_array.html => cos://bytetoy/python/binary_tree_array.html 
+[36mINFO[0m[2024-03-15 22:23:16] Upload /home/hotpod/web/bytetoy/_book/python/binary_tree_search.html => cos://bytetoy/python/binary_tree_search.html 
+[36mINFO[0m[2024-03-15 22:23:16] Upload /home/hotpod/web/bytetoy/_book/python/binary_tree_travel.html => cos://bytetoy/python/binary_tree_travel.html 
+[36mINFO[0m[2024-03-15 22:23:16] Upload /home/hotpod/web/bytetoy/_book/python/colab_setting.html => cos://bytetoy/python/colab_setting.html 
+[36mINFO[0m[2024-03-15 22:23:16] Upload /home/hotpod/web/bytetoy/_book/python/cyclelink.html => cos://bytetoy/python/cyclelink.html 
+[36mINFO[0m[2024-03-15 22:23:16] Upload /home/hotpod/web/bytetoy/_book/python/index.html => cos://bytetoy/python/index.html 
+[36mINFO[0m[2024-03-15 22:23:17] Upload /home/hotpod/web/bytetoy/_book/python/linklist.html => cos://bytetoy/python/linklist.html 
+[36mINFO[0m[2024-03-15 22:23:17] Upload /home/hotpod/web/bytetoy/_book/python/numpy_basic.html => cos://bytetoy/python/numpy_basic.html 
+[36mINFO[0m[2024-03-15 22:23:17] Upload /home/hotpod/web/bytetoy/_book/python/pycharm_github_token.html => cos://bytetoy/python/pycharm_github_token.html 
+[36mINFO[0m[2024-03-15 22:23:17] Upload /home/hotpod/web/bytetoy/_book/python/python_binary_search_close.html => cos://bytetoy/python/python_binary_search_close.html 
+[36mINFO[0m[2024-03-15 22:23:17] Upload /home/hotpod/web/bytetoy/_book/python/python_bubble_sort.html => cos://bytetoy/python/python_bubble_sort.html 
+[36mINFO[0m[2024-03-15 22:23:17] Upload /home/hotpod/web/bytetoy/_book/python/python_build_tree.html => cos://bytetoy/python/python_build_tree.html 
+[36mINFO[0m[2024-03-15 22:23:17] Upload /home/hotpod/web/bytetoy/_book/python/python_graph_list.html => cos://bytetoy/python/python_graph_list.html 
+[36mINFO[0m[2024-03-15 22:23:17] Upload /home/hotpod/web/bytetoy/_book/python/python_graph_matrix.html => cos://bytetoy/python/python_graph_matrix.html 
+[36mINFO[0m[2024-03-15 22:23:18] Upload /home/hotpod/web/bytetoy/_book/python/python_graph_travel.html => cos://bytetoy/python/python_graph_travel.html 
+[36mINFO[0m[2024-03-15 22:23:18] Upload /home/hotpod/web/bytetoy/_book/python/python_heap.html => cos://bytetoy/python/python_heap.html 
+[36mINFO[0m[2024-03-15 22:23:18] Upload /home/hotpod/web/bytetoy/_book/python/python_heap_sort.html => cos://bytetoy/python/python_heap_sort.html 
+[36mINFO[0m[2024-03-15 22:23:18] Upload /home/hotpod/web/bytetoy/_book/python/python_insertion_sort.html => cos://bytetoy/python/python_insertion_sort.html 
+[36mINFO[0m[2024-03-15 22:23:18] Upload /home/hotpod/web/bytetoy/_book/python/python_merge_sort.html => cos://bytetoy/python/python_merge_sort.html 
+[36mINFO[0m[2024-03-15 22:23:18] Upload /home/hotpod/web/bytetoy/_book/python/python_queue.html => cos://bytetoy/python/python_queue.html 
+[36mINFO[0m[2024-03-15 22:23:18] Upload /home/hotpod/web/bytetoy/_book/python/python_quick_sort.html => cos://bytetoy/python/python_quick_sort.html 
+[36mINFO[0m[2024-03-15 22:23:19] Upload /home/hotpod/web/bytetoy/_book/python/python_selection_sort.html => cos://bytetoy/python/python_selection_sort.html 
+[36mINFO[0m[2024-03-15 22:23:19] Upload /home/hotpod/web/bytetoy/_book/python/python_stack.html => cos://bytetoy/python/python_stack.html 
+[36mINFO[0m[2024-03-15 22:23:19] Upload /home/hotpod/web/bytetoy/_book/python/recursion.html => cos://bytetoy/python/recursion.html 
+[36mINFO[0m[2024-03-15 22:23:19] Upload /home/hotpod/web/bytetoy/_book/python/sudoku.html => cos://bytetoy/python/sudoku.html 
+[36mINFO[0m[2024-03-15 22:23:19] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/CH341SER.ZIP 
+[36mINFO[0m[2024-03-15 22:23:19] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/COMTransmit.ZIP 
+[36mINFO[0m[2024-03-15 22:23:19] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/FlyMcu.rar 
+[36mINFO[0m[2024-03-15 22:23:19] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/LCD.zip 
+[36mINFO[0m[2024-03-15 22:23:19] Upload /home/hotpod/web/bytetoy/_book/stm32/index.html => cos://bytetoy/stm32/index.html 
+[36mINFO[0m[2024-03-15 22:23:19] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_adc.html => cos://bytetoy/stm32/stm32f407_adc.html 
+[36mINFO[0m[2024-03-15 22:23:20] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_config.html => cos://bytetoy/stm32/stm32f407_config.html 
+[36mINFO[0m[2024-03-15 22:23:20] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_dma.html => cos://bytetoy/stm32/stm32f407_dma.html 
+[36mINFO[0m[2024-03-15 22:23:20] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_fsmc_sram.html => cos://bytetoy/stm32/stm32f407_fsmc_sram.html 
+[36mINFO[0m[2024-03-15 22:23:20] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_iwdg.html => cos://bytetoy/stm32/stm32f407_iwdg.html 
+[36mINFO[0m[2024-03-15 22:23:20] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_key.html => cos://bytetoy/stm32/stm32f407_key.html 
+[36mINFO[0m[2024-03-15 22:23:20] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_nvic.html => cos://bytetoy/stm32/stm32f407_nvic.html 
+[36mINFO[0m[2024-03-15 22:23:20] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_printf_to_usart.html => cos://bytetoy/stm32/stm32f407_printf_to_usart.html 
+[36mINFO[0m[2024-03-15 22:23:20] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_pwm.html => cos://bytetoy/stm32/stm32f407_pwm.html 
+[36mINFO[0m[2024-03-15 22:23:21] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_spi.html => cos://bytetoy/stm32/stm32f407_spi.html 
+[36mINFO[0m[2024-03-15 22:23:21] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_spi_lcd.html => cos://bytetoy/stm32/stm32f407_spi_lcd.html 
+[36mINFO[0m[2024-03-15 22:23:21] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_tim.html => cos://bytetoy/stm32/stm32f407_tim.html 
+[36mINFO[0m[2024-03-15 22:23:21] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_usart.html => cos://bytetoy/stm32/stm32f407_usart.html 
+[36mINFO[0m[2024-03-15 22:23:21] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/w25Qxx.zip 
+[36mINFO[0m[2024-03-15 22:23:21] Upload /home/hotpod/web/bytetoy/_book/tips/apt_fail.html => cos://bytetoy/tips/apt_fail.html 
+[36mINFO[0m[2024-03-15 22:23:21] Upload /home/hotpod/web/bytetoy/_book/tips/cos_static_config.html => cos://bytetoy/tips/cos_static_config.html 
+[36mINFO[0m[2024-03-15 22:23:21] Upload /home/hotpod/web/bytetoy/_book/tips/debian_install_docker.html => cos://bytetoy/tips/debian_install_docker.html 
+[36mINFO[0m[2024-03-15 22:23:21] Upload /home/hotpod/web/bytetoy/_book/tips/docker_cancel_sudo.html => cos://bytetoy/tips/docker_cancel_sudo.html 
+[36mINFO[0m[2024-03-15 22:23:22] Upload /home/hotpod/web/bytetoy/_book/tips/docker_cli.html => cos://bytetoy/tips/docker_cli.html 
+[36mINFO[0m[2024-03-15 22:23:22] Upload /home/hotpod/web/bytetoy/_book/tips/docker_install_jellyfin.html => cos://bytetoy/tips/docker_install_jellyfin.html 
+[36mINFO[0m[2024-03-15 22:23:22] Upload /home/hotpod/web/bytetoy/_book/tips/frp_config.html => cos://bytetoy/tips/frp_config.html 
+[36mINFO[0m[2024-03-15 22:23:22] Upload /home/hotpod/web/bytetoy/_book/tips/geminipro_chatbot.html => cos://bytetoy/tips/geminipro_chatbot.html 
+[36mINFO[0m[2024-03-15 22:23:22] Upload /home/hotpod/web/bytetoy/_book/tips/git_force_push.html => cos://bytetoy/tips/git_force_push.html 
+[36mINFO[0m[2024-03-15 22:23:22] Upload /home/hotpod/web/bytetoy/_book/tips/gitbook_install_error.html => cos://bytetoy/tips/gitbook_install_error.html 
+[36mINFO[0m[2024-03-15 22:23:22] Upload /home/hotpod/web/bytetoy/_book/tips/kms_act.html => cos://bytetoy/tips/kms_act.html 
+[36mINFO[0m[2024-03-15 22:23:22] Upload /home/hotpod/web/bytetoy/_book/tips/linux_server_safe_config.html => cos://bytetoy/tips/linux_server_safe_config.html 
+[36mINFO[0m[2024-03-15 22:23:22] Upload /home/hotpod/web/bytetoy/_book/tips/mariadb_conf.html => cos://bytetoy/tips/mariadb_conf.html 
+[36mINFO[0m[2024-03-15 22:23:23] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_add_0.html => cos://bytetoy/tips/mysql_add_0.html 
+[36mINFO[0m[2024-03-15 22:23:23] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_compara_score.html => cos://bytetoy/tips/mysql_compara_score.html 
+[36mINFO[0m[2024-03-15 22:23:23] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_create_user.html => cos://bytetoy/tips/mysql_create_user.html 
+[36mINFO[0m[2024-03-15 22:23:23] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_import_datafile.html => cos://bytetoy/tips/mysql_import_datafile.html 
+[36mINFO[0m[2024-03-15 22:23:23] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_statis_score.html => cos://bytetoy/tips/mysql_statis_score.html 
+[36mINFO[0m[2024-03-15 22:23:23] Upload /home/hotpod/web/bytetoy/_book/tips/pip_error.html => cos://bytetoy/tips/pip_error.html 
+[36mINFO[0m[2024-03-15 22:23:23] Upload /home/hotpod/web/bytetoy/_book/tips/proxychains_install_config.html => cos://bytetoy/tips/proxychains_install_config.html 
+[36mINFO[0m[2024-03-15 22:23:23] Upload /home/hotpod/web/bytetoy/_book/tips/pycharm_http_proxy.html => cos://bytetoy/tips/pycharm_http_proxy.html 
+[36mINFO[0m[2024-03-15 22:23:24] Upload /home/hotpod/web/bytetoy/_book/tips/rclone_to_webdav.html => cos://bytetoy/tips/rclone_to_webdav.html 
+[36mINFO[0m[2024-03-15 22:23:24] Upload /home/hotpod/web/bytetoy/_book/tips/rime.html => cos://bytetoy/tips/rime.html 
+[36mINFO[0m[2024-03-15 22:23:24] Upload /home/hotpod/web/bytetoy/_book/tips/scp_file.html => cos://bytetoy/tips/scp_file.html 
+[36mINFO[0m[2024-03-15 22:23:24] Upload /home/hotpod/web/bytetoy/_book/tips/systemctl_config.html => cos://bytetoy/tips/systemctl_config.html 
+[36mINFO[0m[2024-03-15 22:23:24] Upload /home/hotpod/web/bytetoy/_book/tips/tips.html => cos://bytetoy/tips/tips.html 
+[36mINFO[0m[2024-03-15 22:23:24] Upload /home/hotpod/web/bytetoy/_book/tips/unzip_error.html => cos://bytetoy/tips/unzip_error.html 
+[36mINFO[0m[2024-03-15 22:23:24] Upload /home/hotpod/web/bytetoy/_book/tips/vim_modify_jar.html => cos://bytetoy/tips/vim_modify_jar.html 
+[36mINFO[0m[2024-03-15 22:23:24] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-back-to-top-button/plugin.css 
+[36mINFO[0m[2024-03-15 22:23:24] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-back-to-top-button/plugin.js 
+[36mINFO[0m[2024-03-15 22:23:24] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-code/plugin.css 
+[36mINFO[0m[2024-03-15 22:23:24] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-code/plugin.js 
+[36mINFO[0m[2024-03-15 22:23:24] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css 
+[36mINFO[0m[2024-03-15 22:23:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js 
+[36mINFO[0m[2024-03-15 22:23:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-fontsettings/fontsettings.js 
+[36mINFO[0m[2024-03-15 22:23:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-fontsettings/website.css 
+[36mINFO[0m[2024-03-15 22:23:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-highlight/ebook.css 
+[36mINFO[0m[2024-03-15 22:23:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-highlight/website.css 
+[36mINFO[0m[2024-03-15 22:23:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-lunr/lunr.min.js 
+[36mINFO[0m[2024-03-15 22:23:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-lunr/search-lunr.js 
+[36mINFO[0m[2024-03-15 22:23:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-search-pro/jquery.mark.min.js 
+[36mINFO[0m[2024-03-15 22:23:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-search-pro/search.css 
+[36mINFO[0m[2024-03-15 22:23:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-search-pro/search.js 
+[36mINFO[0m[2024-03-15 22:23:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-tbfed-pagefooter/footer.css 
+[36mINFO[0m[2024-03-15 22:23:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-theme-comscore/test.css 
+[36mINFO[0m[2024-03-15 22:23:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-theme-comscore/test.js 
+[36mINFO[0m[2024-03-15 22:23:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/images/apple-touch-icon-precomposed-152.png 
+[36mINFO[0m[2024-03-15 22:23:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/images/favicon.ico 
+[36mINFO[0m[2024-03-15 22:23:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_search_base.png 
+[36mINFO[0m[2024-03-15 22:23:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_search_close.png 
+[36mINFO[0m[2024-03-15 22:23:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_array.png 
+[36mINFO[0m[2024-03-15 22:23:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_base.png 
+[36mINFO[0m[2024-03-15 22:23:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_bfs.png 
+[36mINFO[0m[2024-03-15 22:23:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_dfs.png 
+[36mINFO[0m[2024-03-15 22:23:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_list.png 
+[36mINFO[0m[2024-03-15 22:23:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search.png 
+[36mINFO[0m[2024-03-15 22:23:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_degree_0.png 
+[36mINFO[0m[2024-03-15 22:23:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_degree_1.png 
+[36mINFO[0m[2024-03-15 22:23:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_degree_2.png 
+[36mINFO[0m[2024-03-15 22:23:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_dfs.png 
+[36mINFO[0m[2024-03-15 22:23:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_insert.png 
+[36mINFO[0m[2024-03-15 22:23:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/colab_drive.png 
+[36mINFO[0m[2024-03-15 22:23:25] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/colab_font.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/colab_open.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_insert.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_insert_head.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_insert_tail.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_remove.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_travel.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/git_force_push.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_add_edge.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_add_vert.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_base.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_remove_vert.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_show.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_add_edge.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_add_vert.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_base.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_remove_vert.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_show.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_travel_base.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_travel_bfs.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_travel_dfs.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/hanoi_bytetoy.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/linklist_insert.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/linklist_insert_head_tail.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/linklist_remove.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/linklist_travel.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/palindrome_bytetoy.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/permutation_bytetoy.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/pycharm_github_token_1.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/pycharm_github_token_2.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/pycharm_http_proxy.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python-logo.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_bubble_sort.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_build_tree_base.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_build_tree_step.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_heap.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_heap_pop.png 
+[36mINFO[0m[2024-03-15 22:23:26] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_heap_push.png 
+[36mINFO[0m[2024-03-15 22:23:27] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_insertion_sort.png 
+[36mINFO[0m[2024-03-15 22:23:27] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_merge_sort.png 
+[36mINFO[0m[2024-03-15 22:23:27] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_quick_sort.png 
+[36mINFO[0m[2024-03-15 22:23:27] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_selection_sort.png 
+[36mINFO[0m[2024-03-15 22:23:27] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_sort_base.png 
+[36mINFO[0m[2024-03-15 22:23:27] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/queue_bytetoy.png 
+[36mINFO[0m[2024-03-15 22:23:27] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/s2.csv 
+[36mINFO[0m[2024-03-15 22:23:27] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/stack_bytetoy.png 
+[36mINFO[0m[2024-03-15 22:23:27] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/sudoku.py 
+[36mINFO[0m[2024-03-15 22:23:27] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/git_force_push.png 
+[36mINFO[0m[2024-03-15 22:23:27] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/pycharm_http_proxy.png 
+[36mINFO[0m[2024-03-15 22:23:27] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/vim_modify_jar_1.png 
+[36mINFO[0m[2024-03-15 22:23:27] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/vim_modify_jar_2.png 
+[36mINFO[0m[2024-03-15 22:23:27] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/vim_modify_jar_3.png 
+[36mINFO[0m[2024-03-15 22:23:27] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/FontAwesome.otf 
+[36mINFO[0m[2024-03-15 22:23:27] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.eot 
+[36mINFO[0m[2024-03-15 22:23:27] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.svg 
+[36mINFO[0m[2024-03-15 22:23:27] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.ttf 
+[36mINFO[0m[2024-03-15 22:23:27] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.woff 
+[36mINFO[0m[2024-03-15 22:23:27] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.woff2 
+[36mINFO[0m[2024-03-15 22:32:52] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/build.sh 
+[36mINFO[0m[2024-03-15 22:32:52] Upload /home/hotpod/web/bytetoy/_book/coscli.log => cos://bytetoy/coscli.log 
+[36mINFO[0m[2024-03-15 22:32:52] Upload /home/hotpod/web/bytetoy/_book/index.html => cos://bytetoy/index.html 
+[36mINFO[0m[2024-03-15 22:32:52] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/package-lock.json 
+[36mINFO[0m[2024-03-15 22:32:52] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/package.json 
+[36mINFO[0m[2024-03-15 22:32:52] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/search_index.json 
+[36mINFO[0m[2024-03-15 22:32:52] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/search_plus_index.json 
+[36mINFO[0m[2024-03-15 22:32:52] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook.js 
+[36mINFO[0m[2024-03-15 22:32:52] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/style.css 
+[36mINFO[0m[2024-03-15 22:32:52] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/theme.js 
+[36mINFO[0m[2024-03-15 22:32:52] Upload /home/hotpod/web/bytetoy/_book/minecraft/Minecraft服务器Spigot安装和配置.html => cos://bytetoy/minecraft/Minecraft服务器Spigot安装和配置.html 
+[36mINFO[0m[2024-03-15 22:32:53] Upload /home/hotpod/web/bytetoy/_book/minecraft/minecraft.html => cos://bytetoy/minecraft/minecraft.html 
+[36mINFO[0m[2024-03-15 22:32:53] Upload /home/hotpod/web/bytetoy/_book/pico/Raspberry_Pico点亮LED灯.html => cos://bytetoy/pico/Raspberry_Pico点亮LED灯.html 
+[36mINFO[0m[2024-03-15 22:32:53] Upload /home/hotpod/web/bytetoy/_book/pico/Ubuntu下配置raspberry_pico开发环境.html => cos://bytetoy/pico/Ubuntu下配置raspberry_pico开发环境.html 
+[36mINFO[0m[2024-03-15 22:32:53] Upload /home/hotpod/web/bytetoy/_book/pico/VirtualBox虚拟机USB调试PICO串口.html => cos://bytetoy/pico/VirtualBox虚拟机USB调试PICO串口.html 
+[36mINFO[0m[2024-03-15 22:32:53] Upload /home/hotpod/web/bytetoy/_book/pico/pico.html => cos://bytetoy/pico/pico.html 
+[36mINFO[0m[2024-03-15 22:32:53] Upload /home/hotpod/web/bytetoy/_book/python/binary_tree_array.html => cos://bytetoy/python/binary_tree_array.html 
+[36mINFO[0m[2024-03-15 22:32:53] Upload /home/hotpod/web/bytetoy/_book/python/binary_tree_search.html => cos://bytetoy/python/binary_tree_search.html 
+[36mINFO[0m[2024-03-15 22:32:53] Upload /home/hotpod/web/bytetoy/_book/python/binary_tree_travel.html => cos://bytetoy/python/binary_tree_travel.html 
+[36mINFO[0m[2024-03-15 22:32:54] Upload /home/hotpod/web/bytetoy/_book/python/colab_setting.html => cos://bytetoy/python/colab_setting.html 
+[36mINFO[0m[2024-03-15 22:32:54] Upload /home/hotpod/web/bytetoy/_book/python/cyclelink.html => cos://bytetoy/python/cyclelink.html 
+[36mINFO[0m[2024-03-15 22:32:54] Upload /home/hotpod/web/bytetoy/_book/python/index.html => cos://bytetoy/python/index.html 
+[36mINFO[0m[2024-03-15 22:32:54] Upload /home/hotpod/web/bytetoy/_book/python/linklist.html => cos://bytetoy/python/linklist.html 
+[36mINFO[0m[2024-03-15 22:32:54] Upload /home/hotpod/web/bytetoy/_book/python/numpy_basic.html => cos://bytetoy/python/numpy_basic.html 
+[36mINFO[0m[2024-03-15 22:32:54] Upload /home/hotpod/web/bytetoy/_book/python/pycharm_github_token.html => cos://bytetoy/python/pycharm_github_token.html 
+[36mINFO[0m[2024-03-15 22:32:54] Upload /home/hotpod/web/bytetoy/_book/python/python_binary_search_close.html => cos://bytetoy/python/python_binary_search_close.html 
+[36mINFO[0m[2024-03-15 22:32:54] Upload /home/hotpod/web/bytetoy/_book/python/python_bubble_sort.html => cos://bytetoy/python/python_bubble_sort.html 
+[36mINFO[0m[2024-03-15 22:32:55] Upload /home/hotpod/web/bytetoy/_book/python/python_build_tree.html => cos://bytetoy/python/python_build_tree.html 
+[36mINFO[0m[2024-03-15 22:32:55] Upload /home/hotpod/web/bytetoy/_book/python/python_graph_list.html => cos://bytetoy/python/python_graph_list.html 
+[36mINFO[0m[2024-03-15 22:32:55] Upload /home/hotpod/web/bytetoy/_book/python/python_graph_matrix.html => cos://bytetoy/python/python_graph_matrix.html 
+[36mINFO[0m[2024-03-15 22:32:55] Upload /home/hotpod/web/bytetoy/_book/python/python_graph_travel.html => cos://bytetoy/python/python_graph_travel.html 
+[36mINFO[0m[2024-03-15 22:32:55] Upload /home/hotpod/web/bytetoy/_book/python/python_heap.html => cos://bytetoy/python/python_heap.html 
+[36mINFO[0m[2024-03-15 22:32:55] Upload /home/hotpod/web/bytetoy/_book/python/python_heap_sort.html => cos://bytetoy/python/python_heap_sort.html 
+[36mINFO[0m[2024-03-15 22:32:55] Upload /home/hotpod/web/bytetoy/_book/python/python_insertion_sort.html => cos://bytetoy/python/python_insertion_sort.html 
+[36mINFO[0m[2024-03-15 22:32:55] Upload /home/hotpod/web/bytetoy/_book/python/python_merge_sort.html => cos://bytetoy/python/python_merge_sort.html 
+[36mINFO[0m[2024-03-15 22:32:56] Upload /home/hotpod/web/bytetoy/_book/python/python_queue.html => cos://bytetoy/python/python_queue.html 
+[36mINFO[0m[2024-03-15 22:32:56] Upload /home/hotpod/web/bytetoy/_book/python/python_quick_sort.html => cos://bytetoy/python/python_quick_sort.html 
+[36mINFO[0m[2024-03-15 22:32:56] Upload /home/hotpod/web/bytetoy/_book/python/python_selection_sort.html => cos://bytetoy/python/python_selection_sort.html 
+[36mINFO[0m[2024-03-15 22:32:56] Upload /home/hotpod/web/bytetoy/_book/python/python_stack.html => cos://bytetoy/python/python_stack.html 
+[36mINFO[0m[2024-03-15 22:32:56] Upload /home/hotpod/web/bytetoy/_book/python/recursion.html => cos://bytetoy/python/recursion.html 
+[36mINFO[0m[2024-03-15 22:32:56] Upload /home/hotpod/web/bytetoy/_book/python/sudoku.html => cos://bytetoy/python/sudoku.html 
+[36mINFO[0m[2024-03-15 22:32:56] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/CH341SER.ZIP 
+[36mINFO[0m[2024-03-15 22:32:56] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/COMTransmit.ZIP 
+[36mINFO[0m[2024-03-15 22:32:56] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/FlyMcu.rar 
+[36mINFO[0m[2024-03-15 22:32:56] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/LCD.zip 
+[36mINFO[0m[2024-03-15 22:32:56] Upload /home/hotpod/web/bytetoy/_book/stm32/index.html => cos://bytetoy/stm32/index.html 
+[36mINFO[0m[2024-03-15 22:32:57] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_adc.html => cos://bytetoy/stm32/stm32f407_adc.html 
+[36mINFO[0m[2024-03-15 22:32:57] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_config.html => cos://bytetoy/stm32/stm32f407_config.html 
+[36mINFO[0m[2024-03-15 22:32:57] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_dma.html => cos://bytetoy/stm32/stm32f407_dma.html 
+[36mINFO[0m[2024-03-15 22:32:57] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_fsmc_sram.html => cos://bytetoy/stm32/stm32f407_fsmc_sram.html 
+[36mINFO[0m[2024-03-15 22:32:57] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_iwdg.html => cos://bytetoy/stm32/stm32f407_iwdg.html 
+[36mINFO[0m[2024-03-15 22:32:57] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_key.html => cos://bytetoy/stm32/stm32f407_key.html 
+[36mINFO[0m[2024-03-15 22:32:57] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_nvic.html => cos://bytetoy/stm32/stm32f407_nvic.html 
+[36mINFO[0m[2024-03-15 22:32:57] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_printf_to_usart.html => cos://bytetoy/stm32/stm32f407_printf_to_usart.html 
+[36mINFO[0m[2024-03-15 22:32:58] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_pwm.html => cos://bytetoy/stm32/stm32f407_pwm.html 
+[36mINFO[0m[2024-03-15 22:32:58] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_spi.html => cos://bytetoy/stm32/stm32f407_spi.html 
+[36mINFO[0m[2024-03-15 22:32:58] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_spi_lcd.html => cos://bytetoy/stm32/stm32f407_spi_lcd.html 
+[36mINFO[0m[2024-03-15 22:32:58] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_tim.html => cos://bytetoy/stm32/stm32f407_tim.html 
+[36mINFO[0m[2024-03-15 22:32:58] Upload /home/hotpod/web/bytetoy/_book/stm32/stm32f407_usart.html => cos://bytetoy/stm32/stm32f407_usart.html 
+[36mINFO[0m[2024-03-15 22:32:58] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/stm32/w25Qxx.zip 
+[36mINFO[0m[2024-03-15 22:32:58] Upload /home/hotpod/web/bytetoy/_book/tips/apt_fail.html => cos://bytetoy/tips/apt_fail.html 
+[36mINFO[0m[2024-03-15 22:32:58] Upload /home/hotpod/web/bytetoy/_book/tips/cos_static_config.html => cos://bytetoy/tips/cos_static_config.html 
+[36mINFO[0m[2024-03-15 22:32:58] Upload /home/hotpod/web/bytetoy/_book/tips/debian_install_docker.html => cos://bytetoy/tips/debian_install_docker.html 
+[36mINFO[0m[2024-03-15 22:32:59] Upload /home/hotpod/web/bytetoy/_book/tips/docker_cancel_sudo.html => cos://bytetoy/tips/docker_cancel_sudo.html 
+[36mINFO[0m[2024-03-15 22:32:59] Upload /home/hotpod/web/bytetoy/_book/tips/docker_cli.html => cos://bytetoy/tips/docker_cli.html 
+[36mINFO[0m[2024-03-15 22:32:59] Upload /home/hotpod/web/bytetoy/_book/tips/docker_install_jellyfin.html => cos://bytetoy/tips/docker_install_jellyfin.html 
+[36mINFO[0m[2024-03-15 22:32:59] Upload /home/hotpod/web/bytetoy/_book/tips/frp_config.html => cos://bytetoy/tips/frp_config.html 
+[36mINFO[0m[2024-03-15 22:32:59] Upload /home/hotpod/web/bytetoy/_book/tips/geminipro_chatbot.html => cos://bytetoy/tips/geminipro_chatbot.html 
+[36mINFO[0m[2024-03-15 22:32:59] Upload /home/hotpod/web/bytetoy/_book/tips/git_force_push.html => cos://bytetoy/tips/git_force_push.html 
+[36mINFO[0m[2024-03-15 22:32:59] Upload /home/hotpod/web/bytetoy/_book/tips/gitbook_install_error.html => cos://bytetoy/tips/gitbook_install_error.html 
+[36mINFO[0m[2024-03-15 22:32:59] Upload /home/hotpod/web/bytetoy/_book/tips/kms_act.html => cos://bytetoy/tips/kms_act.html 
+[36mINFO[0m[2024-03-15 22:33:00] Upload /home/hotpod/web/bytetoy/_book/tips/linux_server_safe_config.html => cos://bytetoy/tips/linux_server_safe_config.html 
+[36mINFO[0m[2024-03-15 22:33:00] Upload /home/hotpod/web/bytetoy/_book/tips/mariadb_conf.html => cos://bytetoy/tips/mariadb_conf.html 
+[36mINFO[0m[2024-03-15 22:33:00] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_add_0.html => cos://bytetoy/tips/mysql_add_0.html 
+[36mINFO[0m[2024-03-15 22:33:00] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_compara_score.html => cos://bytetoy/tips/mysql_compara_score.html 
+[36mINFO[0m[2024-03-15 22:33:00] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_create_user.html => cos://bytetoy/tips/mysql_create_user.html 
+[36mINFO[0m[2024-03-15 22:33:00] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_import_data.md => cos://bytetoy/tips/mysql_import_data.md 
+[36mINFO[0m[2024-03-15 22:33:00] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_import_datafile.html => cos://bytetoy/tips/mysql_import_datafile.html 
+[36mINFO[0m[2024-03-15 22:33:00] Upload /home/hotpod/web/bytetoy/_book/tips/mysql_statis_score.html => cos://bytetoy/tips/mysql_statis_score.html 
+[36mINFO[0m[2024-03-15 22:33:01] Upload /home/hotpod/web/bytetoy/_book/tips/pip_error.html => cos://bytetoy/tips/pip_error.html 
+[36mINFO[0m[2024-03-15 22:33:01] Upload /home/hotpod/web/bytetoy/_book/tips/proxychains_install_config.html => cos://bytetoy/tips/proxychains_install_config.html 
+[36mINFO[0m[2024-03-15 22:33:01] Upload /home/hotpod/web/bytetoy/_book/tips/pycharm_http_proxy.html => cos://bytetoy/tips/pycharm_http_proxy.html 
+[36mINFO[0m[2024-03-15 22:33:01] Upload /home/hotpod/web/bytetoy/_book/tips/rclone_to_webdav.html => cos://bytetoy/tips/rclone_to_webdav.html 
+[36mINFO[0m[2024-03-15 22:33:01] Upload /home/hotpod/web/bytetoy/_book/tips/rime.html => cos://bytetoy/tips/rime.html 
+[36mINFO[0m[2024-03-15 22:33:01] Upload /home/hotpod/web/bytetoy/_book/tips/scp_file.html => cos://bytetoy/tips/scp_file.html 
+[36mINFO[0m[2024-03-15 22:33:01] Upload /home/hotpod/web/bytetoy/_book/tips/systemctl_config.html => cos://bytetoy/tips/systemctl_config.html 
+[36mINFO[0m[2024-03-15 22:33:02] Upload /home/hotpod/web/bytetoy/_book/tips/tips.html => cos://bytetoy/tips/tips.html 
+[36mINFO[0m[2024-03-15 22:33:02] Upload /home/hotpod/web/bytetoy/_book/tips/unzip_error.html => cos://bytetoy/tips/unzip_error.html 
+[36mINFO[0m[2024-03-15 22:33:02] Upload /home/hotpod/web/bytetoy/_book/tips/vim_modify_jar.html => cos://bytetoy/tips/vim_modify_jar.html 
+[36mINFO[0m[2024-03-15 22:33:02] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-back-to-top-button/plugin.css 
+[36mINFO[0m[2024-03-15 22:33:02] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-back-to-top-button/plugin.js 
+[36mINFO[0m[2024-03-15 22:33:02] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-code/plugin.css 
+[36mINFO[0m[2024-03-15 22:33:02] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-code/plugin.js 
+[36mINFO[0m[2024-03-15 22:33:02] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css 
+[36mINFO[0m[2024-03-15 22:33:02] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js 
+[36mINFO[0m[2024-03-15 22:33:02] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-fontsettings/fontsettings.js 
+[36mINFO[0m[2024-03-15 22:33:02] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-fontsettings/website.css 
+[36mINFO[0m[2024-03-15 22:33:02] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-highlight/ebook.css 
+[36mINFO[0m[2024-03-15 22:33:02] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-highlight/website.css 
+[36mINFO[0m[2024-03-15 22:33:02] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-lunr/lunr.min.js 
+[36mINFO[0m[2024-03-15 22:33:02] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-lunr/search-lunr.js 
+[36mINFO[0m[2024-03-15 22:33:02] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-search-pro/jquery.mark.min.js 
+[36mINFO[0m[2024-03-15 22:33:02] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-search-pro/search.css 
+[36mINFO[0m[2024-03-15 22:33:02] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-search-pro/search.js 
+[36mINFO[0m[2024-03-15 22:33:02] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-tbfed-pagefooter/footer.css 
+[36mINFO[0m[2024-03-15 22:33:02] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-theme-comscore/test.css 
+[36mINFO[0m[2024-03-15 22:33:02] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/gitbook-plugin-theme-comscore/test.js 
+[36mINFO[0m[2024-03-15 22:33:03] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/images/apple-touch-icon-precomposed-152.png 
+[36mINFO[0m[2024-03-15 22:33:03] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/images/favicon.ico 
+[36mINFO[0m[2024-03-15 22:33:03] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_search_base.png 
+[36mINFO[0m[2024-03-15 22:33:03] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_search_close.png 
+[36mINFO[0m[2024-03-15 22:33:03] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_array.png 
+[36mINFO[0m[2024-03-15 22:33:03] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_base.png 
+[36mINFO[0m[2024-03-15 22:33:03] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_bfs.png 
+[36mINFO[0m[2024-03-15 22:33:03] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_dfs.png 
+[36mINFO[0m[2024-03-15 22:33:03] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_list.png 
+[36mINFO[0m[2024-03-15 22:33:03] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search.png 
+[36mINFO[0m[2024-03-15 22:33:03] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_degree_0.png 
+[36mINFO[0m[2024-03-15 22:33:03] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_degree_1.png 
+[36mINFO[0m[2024-03-15 22:33:03] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_degree_2.png 
+[36mINFO[0m[2024-03-15 22:33:03] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_dfs.png 
+[36mINFO[0m[2024-03-15 22:33:03] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/binary_tree_search_insert.png 
+[36mINFO[0m[2024-03-15 22:33:03] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/colab_drive.png 
+[36mINFO[0m[2024-03-15 22:33:03] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/colab_font.png 
+[36mINFO[0m[2024-03-15 22:33:03] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/colab_open.png 
+[36mINFO[0m[2024-03-15 22:33:03] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_insert.png 
+[36mINFO[0m[2024-03-15 22:33:03] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_insert_head.png 
+[36mINFO[0m[2024-03-15 22:33:03] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_insert_tail.png 
+[36mINFO[0m[2024-03-15 22:33:03] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_remove.png 
+[36mINFO[0m[2024-03-15 22:33:03] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/cycle_travel.png 
+[36mINFO[0m[2024-03-15 22:33:03] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/git_force_push.png 
+[36mINFO[0m[2024-03-15 22:33:03] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_add_edge.png 
+[36mINFO[0m[2024-03-15 22:33:03] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_add_vert.png 
+[36mINFO[0m[2024-03-15 22:33:03] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_base.png 
+[36mINFO[0m[2024-03-15 22:33:03] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_remove_vert.png 
+[36mINFO[0m[2024-03-15 22:33:03] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_list_show.png 
+[36mINFO[0m[2024-03-15 22:33:03] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_add_edge.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_add_vert.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_base.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_remove_vert.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_matrix_show.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_travel_base.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_travel_bfs.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/graph_travel_dfs.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/hanoi_bytetoy.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/linklist_insert.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/linklist_insert_head_tail.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/linklist_remove.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/linklist_travel.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/palindrome_bytetoy.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/permutation_bytetoy.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/pycharm_github_token_1.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/pycharm_github_token_2.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/pycharm_http_proxy.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python-logo.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_bubble_sort.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_build_tree_base.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_build_tree_step.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_heap.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_heap_pop.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_heap_push.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_insertion_sort.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_merge_sort.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_quick_sort.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_selection_sort.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/python_sort_base.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/queue_bytetoy.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/s2.csv 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/stack_bytetoy.png 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/python/imgs/sudoku.py 
+[36mINFO[0m[2024-03-15 22:33:04] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/git_force_push.png 
+[36mINFO[0m[2024-03-15 22:33:04] Upload /home/hotpod/web/bytetoy/_book/tips/imgs/mysql_import_csv.png => cos://bytetoy/tips/imgs/mysql_import_csv.png 
+[36mINFO[0m[2024-03-15 22:33:05] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/pycharm_http_proxy.png 
+[36mINFO[0m[2024-03-15 22:33:05] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/vim_modify_jar_1.png 
+[36mINFO[0m[2024-03-15 22:33:05] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/vim_modify_jar_2.png 
+[36mINFO[0m[2024-03-15 22:33:05] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/tips/imgs/vim_modify_jar_3.png 
+[36mINFO[0m[2024-03-15 22:33:05] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/FontAwesome.otf 
+[36mINFO[0m[2024-03-15 22:33:05] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.eot 
+[36mINFO[0m[2024-03-15 22:33:05] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.svg 
+[36mINFO[0m[2024-03-15 22:33:05] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.ttf 
+[36mINFO[0m[2024-03-15 22:33:05] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.woff 
+[36mINFO[0m[2024-03-15 22:33:05] Sync upload file localPath skip, /home/hotpod/web/bytetoy/_book/gitbook/fonts/fontawesome/fontawesome-webfont.woff2 

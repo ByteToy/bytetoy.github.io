@@ -1,0 +1,1442 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Python无向图邻接矩阵实现 · Bytetoy</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Mr.Zhang">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="python_graph_list.html" />
+    
+    
+    <link rel="prev" href="python_heap.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="http://www.eduez.cn" target="_blank" class="custom-link">eduez</a>
+        </li>
+    
+        
+        <li>
+            <a href="http://www.hrzone.cn" target="_blank" class="custom-link">hrzone</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Python
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="python_queue.html">
+            
+                <a href="python_queue.html">
+            
+                    
+                    Python队列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="python_stack.html">
+            
+                <a href="python_stack.html">
+            
+                    
+                    Python栈
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="recursion.html">
+            
+                <a href="recursion.html">
+            
+                    
+                    Python递归算法及其简单应用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="sudoku.html">
+            
+                <a href="sudoku.html">
+            
+                    
+                    Python回溯算法解数独
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="colab_setting.html">
+            
+                <a href="colab_setting.html">
+            
+                    
+                    Colab开发环境配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="linklist.html">
+            
+                <a href="linklist.html">
+            
+                    
+                    Python单向链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="cyclelink.html">
+            
+                <a href="cyclelink.html">
+            
+                    
+                    Python单向循环链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="pycharm_github_token.html">
+            
+                <a href="pycharm_github_token.html">
+            
+                    
+                    Github配置token提交代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="binary_tree_travel.html">
+            
+                <a href="binary_tree_travel.html">
+            
+                    
+                    Python二叉树遍历
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="binary_tree_array.html">
+            
+                <a href="binary_tree_array.html">
+            
+                    
+                    Python二叉树列表表示
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="binary_tree_search.html">
+            
+                <a href="binary_tree_search.html">
+            
+                    
+                    Python二叉搜索树操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="python_heap.html">
+            
+                <a href="python_heap.html">
+            
+                    
+                    Python堆操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.13" data-path="python_graph_matrix.html">
+            
+                <a href="python_graph_matrix.html">
+            
+                    
+                    Python无向图邻接矩阵实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.14" data-path="python_graph_list.html">
+            
+                <a href="python_graph_list.html">
+            
+                    
+                    Python无向图邻接表实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.15" data-path="python_graph_travel.html">
+            
+                <a href="python_graph_travel.html">
+            
+                    
+                    Python无向图遍历
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.16" data-path="python_binary_search_close.html">
+            
+                <a href="python_binary_search_close.html">
+            
+                    
+                    Python二分查找算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.17" data-path="python_selection_sort.html">
+            
+                <a href="python_selection_sort.html">
+            
+                    
+                    Python排序算法-选择排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.18" data-path="python_bubble_sort.html">
+            
+                <a href="python_bubble_sort.html">
+            
+                    
+                    Python排序算法-冒泡排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.19" data-path="python_insertion_sort.html">
+            
+                <a href="python_insertion_sort.html">
+            
+                    
+                    Python排序算法-插入排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.20" data-path="python_quick_sort.html">
+            
+                <a href="python_quick_sort.html">
+            
+                    
+                    Python排序算法-快速排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.21" data-path="python_merge_sort.html">
+            
+                <a href="python_merge_sort.html">
+            
+                    
+                    Python排序算法-归并排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.22" data-path="python_heap_sort.html">
+            
+                <a href="python_heap_sort.html">
+            
+                    
+                    Python排序算法-堆排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.23" data-path="python_build_tree.html">
+            
+                <a href="python_build_tree.html">
+            
+                    
+                    Python分治算法应用-构建二叉树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.24" data-path="numpy_basic.html">
+            
+                <a href="numpy_basic.html">
+            
+                    
+                    Numpy基础用法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../tips/tips.html">
+            
+                <a href="../tips/tips.html">
+            
+                    
+                    Tips
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../tips/kms_act.html">
+            
+                <a href="../tips/kms_act.html">
+            
+                    
+                    KMS激活服务器vlmcsd搭建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../tips/rime.html">
+            
+                <a href="../tips/rime.html">
+            
+                    
+                    rime输入法安装配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../tips/apt_fail.html">
+            
+                <a href="../tips/apt_fail.html">
+            
+                    
+                    Armbian apt update失败处理方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../tips/mariadb_conf.html">
+            
+                <a href="../tips/mariadb_conf.html">
+            
+                    
+                    Armbian安装Mysql(MariaDB)数据库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../tips/linux_server_safe_config.html">
+            
+                <a href="../tips/linux_server_safe_config.html">
+            
+                    
+                    云服务器初始安全配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../tips/mysql_add_0.html">
+            
+                <a href="../tips/mysql_add_0.html">
+            
+                    
+                    MySQL为字段前面加一位0
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../tips/gitbook_install_error.html">
+            
+                <a href="../tips/gitbook_install_error.html">
+            
+                    
+                    gitbook运行错误解决cb.apply函数问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../tips/cos_static_config.html">
+            
+                <a href="../tips/cos_static_config.html">
+            
+                    
+                    腾讯COS托管静态网站
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="../tips/mysql_import_datafile.html">
+            
+                <a href="../tips/mysql_import_datafile.html">
+            
+                    
+                    MySQL导入frm、MYD、MYI数据文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="../tips/debian_install_docker.html">
+            
+                <a href="../tips/debian_install_docker.html">
+            
+                    
+                    Debian 12(bookworm)安装Docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11" data-path="../tips/docker_cancel_sudo.html">
+            
+                <a href="../tips/docker_cancel_sudo.html">
+            
+                    
+                    Docker配置操作无需sudo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12" data-path="../tips/docker_cli.html">
+            
+                <a href="../tips/docker_cli.html">
+            
+                    
+                    Docker常用命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13" data-path="../tips/pip_error.html">
+            
+                <a href="../tips/pip_error.html">
+            
+                    
+                    pip安装出错解决一例(error: externally-managed-environment)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.14" data-path="../tips/frp_config.html">
+            
+                <a href="../tips/frp_config.html">
+            
+                    
+                    frp实现内网穿透
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.15" data-path="../tips/scp_file.html">
+            
+                <a href="../tips/scp_file.html">
+            
+                    
+                    scp在服务器之间传输文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.16" data-path="../tips/unzip_error.html">
+            
+                <a href="../tips/unzip_error.html">
+            
+                    
+                    unzip解压大文件出错解决办法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.17" data-path="../tips/rclone_to_webdav.html">
+            
+                <a href="../tips/rclone_to_webdav.html">
+            
+                    
+                    rclone配置同步WebDAV
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.18" data-path="../tips/docker_install_jellyfin.html">
+            
+                <a href="../tips/docker_install_jellyfin.html">
+            
+                    
+                    Docker安装&配置jellyfin
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.19" data-path="../tips/proxychains_install_config.html">
+            
+                <a href="../tips/proxychains_install_config.html">
+            
+                    
+                    proxychains-ng配置终端下代理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.20" data-path="../tips/geminipro_chatbot.html">
+            
+                <a href="../tips/geminipro_chatbot.html">
+            
+                    
+                    Vercel部署Gemini Pro前端程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.21" data-path="../tips/mysql_statis_score.html">
+            
+                <a href="../tips/mysql_statis_score.html">
+            
+                    
+                    MySQL统计学生期末联考成绩
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.22" data-path="../tips/mysql_compara_score.html">
+            
+                <a href="../tips/mysql_compara_score.html">
+            
+                    
+                    MySQL分析学生中考和期末联考成绩
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.23" data-path="../tips/git_force_push.html">
+            
+                <a href="../tips/git_force_push.html">
+            
+                    
+                    Github提交密码信息后补救措施
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.24" data-path="../tips/pycharm_http_proxy.html">
+            
+                <a href="../tips/pycharm_http_proxy.html">
+            
+                    
+                    Git使用代理提交Github
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.25" data-path="../tips/vim_modify_jar.html">
+            
+                <a href="../tips/vim_modify_jar.html">
+            
+                    
+                    jar修改技巧一则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.26" data-path="../tips/systemctl_config.html">
+            
+                <a href="../tips/systemctl_config.html">
+            
+                    
+                    systemctl配置开机启动服务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.27" data-path="../tips/mysql_create_user.html">
+            
+                <a href="../tips/mysql_create_user.html">
+            
+                    
+                    MySQL新增帐号
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.28" data-path="../tips/mysql_import_csv.html">
+            
+                <a href="../tips/mysql_import_csv.html">
+            
+                    
+                    MySQL启用导入外部数据功能
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../stm32/">
+            
+                <a href="../stm32/">
+            
+                    
+                    STM32
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../stm32/stm32f407_config.html">
+            
+                <a href="../stm32/stm32f407_config.html">
+            
+                    
+                    stm32F407开发环境配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../stm32/stm32f407_key.html">
+            
+                <a href="../stm32/stm32f407_key.html">
+            
+                    
+                    stm32F407按键输入
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../stm32/stm32f407_nvic.html">
+            
+                <a href="../stm32/stm32f407_nvic.html">
+            
+                    
+                    stm32F407外部中断
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../stm32/stm32f407_tim.html">
+            
+                <a href="../stm32/stm32f407_tim.html">
+            
+                    
+                    stm32F407定时器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../stm32/stm32f407_usart.html">
+            
+                <a href="../stm32/stm32f407_usart.html">
+            
+                    
+                    stm32F407串口接收/发送
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../stm32/stm32f407_adc.html">
+            
+                <a href="../stm32/stm32f407_adc.html">
+            
+                    
+                    stm32F407接收ADC数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../stm32/stm32f407_pwm.html">
+            
+                <a href="../stm32/stm32f407_pwm.html">
+            
+                    
+                    stm32F407下PWM实现呼吸灯
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="../stm32/stm32f407_spi.html">
+            
+                <a href="../stm32/stm32f407_spi.html">
+            
+                    
+                    stm32F407下SPI读写Flash
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="../stm32/stm32f407_printf_to_usart.html">
+            
+                <a href="../stm32/stm32f407_printf_to_usart.html">
+            
+                    
+                    stm32F407下printf重定向到串口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10" data-path="../stm32/stm32f407_dma.html">
+            
+                <a href="../stm32/stm32f407_dma.html">
+            
+                    
+                    stm32F407下DMA操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.11" data-path="../stm32/stm32f407_iwdg.html">
+            
+                <a href="../stm32/stm32f407_iwdg.html">
+            
+                    
+                    stm32F407下IWDG
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.12" data-path="../stm32/stm32f407_fsmc_sram.html">
+            
+                <a href="../stm32/stm32f407_fsmc_sram.html">
+            
+                    
+                    stm32F407读写SRAM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.13" data-path="../stm32/stm32f407_spi_lcd.html">
+            
+                <a href="../stm32/stm32f407_spi_lcd.html">
+            
+                    
+                    stm32F407驱动LCD屏幕
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../minecraft/minecraft.html">
+            
+                <a href="../minecraft/minecraft.html">
+            
+                    
+                    Minecraft
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../minecraft/Minecraft服务器Spigot安装和配置.html">
+            
+                <a href="../minecraft/Minecraft服务器Spigot安装和配置.html">
+            
+                    
+                    Minecraft服务器Spigot安装和配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../pico/pico.html">
+            
+                <a href="../pico/pico.html">
+            
+                    
+                    Raspberry pi pico
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../pico/Ubuntu下配置raspberry_pico开发环境.html">
+            
+                <a href="../pico/Ubuntu下配置raspberry_pico开发环境.html">
+            
+                    
+                    Ubuntu下配置raspberry_pico开发环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../pico/Raspberry_Pico点亮LED灯.html">
+            
+                <a href="../pico/Raspberry_Pico点亮LED灯.html">
+            
+                    
+                    Raspberry_Pico点亮LED灯
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../pico/VirtualBox虚拟机USB调试PICO串口.html">
+            
+                <a href="../pico/VirtualBox虚拟机USB调试PICO串口.html">
+            
+                    
+                    VirtualBox虚拟机USB调试PICO串口
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Python无向图邻接矩阵实现</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="python&#x65E0;&#x5411;&#x56FE;&#x90BB;&#x63A5;&#x77E9;&#x9635;&#x5B9E;&#x73B0;">Python&#x65E0;&#x5411;&#x56FE;&#x90BB;&#x63A5;&#x77E9;&#x9635;&#x5B9E;&#x73B0;</h2>
+<p><img src="imgs/graph_matrix_base.png" alt="bytetoy.cn"></p>
+<h3 id="&#x4E00;&#x3001;&#x65E0;&#x5411;&#x56FE;&#x90BB;&#x63A5;&#x77E9;&#x9635;&#x8868;&#x793A;">&#x4E00;&#x3001;&#x65E0;&#x5411;&#x56FE;&#x90BB;&#x63A5;&#x77E9;&#x9635;&#x8868;&#x793A;</h3>
+<p><img src="imgs/graph_matrix_show.png" alt="bytetoy.cn"></p>
+<blockquote>
+<p>Python&#x4F7F;&#x7528;&#x90BB;&#x63A5;&#x77E9;&#x9635;&#x5B9E;&#x73B0;&#x65E0;&#x5411;&#x56FE;&#xFF0C;&#x901A;&#x8FC7;&#x4E24;&#x4E2A;&#x5217;&#x8868;&#x5B58;&#x50A8;&#x6570;&#x636E;&#xFF1A;&#x4E00;&#x4E2A;&#x5217;&#x8868;&#x5B58;&#x50A8;&#x9876;&#x70B9;&#xFF0C;&#x4E00;&#x4E2A;&#x4E8C;&#x7EF4;&#x5217;&#x8868;&#x5B58;&#x50A8;&#x8FB9;&#x3002;</p>
+</blockquote>
+<p><strong>&#x6784;&#x9020;&#x51FD;&#x6570;</strong></p>
+<blockquote>
+<p>&#x90BB;&#x63A5;&#x77E9;&#x9635;&#x6784;&#x9020;&#x51FD;&#x6570;&#x5185;&#x542B;&#x4E24;&#x4E2A;&#x6210;&#x5458;&#x53D8;&#x91CF;&#xFF1A;</p>
+<ul>
+<li><strong>&#x9876;&#x70B9;</strong>:&#x4E00;&#x7EF4;&#x5217;&#x8868;&#x5B58;&#x50A8;&#x9876;&#x70B9;&#xFF0C;<code>self.verts = []</code></li>
+<li><strong>&#x8FB9;</strong>:&#x4E8C;&#x7EF4;&#x5217;&#x8868;&#x6784;&#x6210;&#x4E00;&#x4E2A;<strong>N*N</strong>&#x77E9;&#x9635;&#xFF08;N&#x4E3A;&#x9876;&#x70B9;&#x4E2A;&#x6570;&#xFF09;&#xFF0C;&#x76F8;&#x8FDE;&#x7684;&#x4E24;&#x4E2A;&#x9876;&#x70B9;&#x5728;&#x5BF9;&#x5E94;&#x7684;&#x884C;&#x548C;&#x5217;&#x4F4D;&#x7F6E;&#x586B;&#x5145;<strong>1</strong>&#xFF0C;&#x672A;&#x76F8;&#x8FDE;&#x586B;&#x5145;<strong>0</strong>&#xFF0C;<code>self.mats = []</code></li>
+</ul>
+</blockquote>
+<pre><code>    def __init__(self, verts, edges):
+        # &#x9876;&#x70B9;&#x662F;&#x4E00;&#x4E2A;&#x5217;&#x8868;
+        self.verts = []
+        # &#x8FB9;&#x662F;&#x4E00;&#x4E2A;&#x4E8C;&#x7EF4;&#x5217;&#x8868;&#xFF0C;&#x662F;&#x6839;&#x636E;&#x9876;&#x70B9;N&#xD7;N&#x7684;&#x4E8C;&#x7EF4;&#x5217;&#x8868;&#xFF08;&#x6570;&#x7EC4;&#xFF09;
+        self.mats = []
+        for v in verts:
+            self.add_vert(v)
+
+        for e in edges:
+            self.add_edge(e[0], e[1])
+</code></pre><h3 id="&#x4E8C;&#x3001;&#x65E0;&#x5411;&#x56FE;&#x589E;&#x52A0;&#x9876;&#x70B9;">&#x4E8C;&#x3001;&#x65E0;&#x5411;&#x56FE;&#x589E;&#x52A0;&#x9876;&#x70B9;</h3>
+<p><img src="imgs/graph_matrix_add_vert.png" alt="bytetoy.cn"></p>
+<blockquote>
+<p>&#x589E;&#x52A0;&#x9876;&#x70B9;&#x6709;&#x4E09;&#x4E2A;&#x64CD;&#x4F5C;&#x6B65;&#x9AA4;&#xFF1A;</p>
+<ol>
+<li><p>&#x5728;&#x9876;&#x70B9;&#x5217;&#x8868;&#x4E2D;&#x65B0;&#x589E;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#xFF1A;<code>self.verts.append(val)</code></p>
+</li>
+<li><p>&#x5728;&#x8FB9;&#x5217;&#x8868;&#x4E2D;&#x65B0;&#x589E;&#x4E00;&#x884C;&#xFF1A;<code>self.mats.append(row)</code></p>
+</li>
+<li><p>&#x5728;&#x8FB9;&#x5217;&#x8868;&#x4E2D;&#x65B0;&#x589E;&#x4E00;&#x5217;&#xFF0C;&#x5373;&#x4E3A;&#x6BCF;&#x4E00;&#x884C;&#x65B0;&#x589E;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#xFF0C;&#x901A;&#x8FC7;<strong>while</strong>&#x5FAA;&#x73AF;&#x904D;&#x5386;&#x5217;&#x8868;&#x4E2D;&#x7684;&#x6BCF;&#x4E00;&#x884C;&#xFF0C;&#x7136;&#x540E;&#x5728;&#x884C;&#x4E2D;&#x589E;&#x52A0;&#x4E00;&#x5217;&#xFF08;&#x5305;&#x542B;&#x4E0A;&#x4E00;&#x6B65;&#x4E2D;&#x65B0;&#x589E;&#x7684;&#x4E00;&#x884C;&#xFF09;&#xFF1A;```</p>
+<pre><code>for row in self.mats:
+    row.append(0)
+</code></pre></li>
+</ol>
+</blockquote>
+<pre><code># &#x6DFB;&#x52A0;&#x9876;&#x70B9;
+    def add_vert(self, val):
+        #
+        n = self.size()
+        # &#x9876;&#x70B9;&#x5217;&#x8868;&#x6DFB;&#x52A0;&#x65B0;&#x5143;&#x7D20;
+        self.verts.append(val)
+        row = [0] * n
+        # &#x8FB9;&#x5217;&#x8868;&#x6DFB;&#x52A0;&#x4E00;&#x884C;
+        self.mats.append(row)
+        # &#x8FB9;&#x5217;&#x8868;&#x6DFB;&#x52A0;&#x4E00;&#x5217;&#xFF08;&#x6BCF;&#x4E00;&#x884C;&#x589E;&#x52A0;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#xFF09;
+        for row in self.mats:
+            row.append(0)
+</code></pre><h3 id="&#x4E09;&#x3001;&#x65E0;&#x5411;&#x56FE;&#x5220;&#x9664;&#x9876;&#x70B9;">&#x4E09;&#x3001;&#x65E0;&#x5411;&#x56FE;&#x5220;&#x9664;&#x9876;&#x70B9;</h3>
+<p><img src="imgs/graph_matrix_remove_vert.png" alt="bytetoy.cn"></p>
+<blockquote>
+<p>&#x5220;&#x9664;&#x9876;&#x70B9;&#x4E0E;&#x589E;&#x52A0;&#x9876;&#x70B9;&#x6B65;&#x9AA4;&#x76F8;&#x540C;&#xFF0C;&#x552F;&#x4E00;&#x4E0D;&#x540C;&#x70B9;&#x662F;&#x589E;&#x52A0;&#x9876;&#x70B9;&#x662F;&#x5728;&#x9876;&#x70B9;&#x5217;&#x8868;&#x7684;&#x5C3E;&#x90E8;&#x6DFB;&#x52A0;&#xFF08;append&#xFF09;&#xFF0C;&#x800C;&#x5220;&#x9664;&#x9876;&#x70B9;&#x5219;&#x662F;&#x53EF;&#x80FD;&#x5220;&#x9664;&#x4EFB;&#x610F;&#x9876;&#x70B9;&#xFF0C;&#x56E0;&#x6B64;<strong>pop</strong>&#x9700;&#x8981;&#x6307;&#x5B9A;&#x4E0B;&#x6807;&#xFF0C;&#x540C;&#x6837;&#x4E09;&#x4E2A;&#x6B65;&#x9AA4;&#xFF1A;</p>
+<ol>
+<li><p>&#x9876;&#x70B9;&#x5217;&#x8868;&#x4E2D;&#x5220;&#x9664;&#xFF08;pop&#xFF09;&#x4E00;&#x4E2A;&#x9876;&#x70B9;&#x5143;&#x7D20;&#xFF1A;<code>self.verts.pop(i)</code></p>
+</li>
+<li><p>&#x8FB9;&#x5217;&#x8868;&#x4E2D;&#x5220;&#x9664;&#x6307;&#x5B9A;&#x9876;&#x70B9;&#x6240;&#x5728;&#x7684;&#x884C;&#xFF1A;<code>self.mats.pop(i)</code></p>
+</li>
+<li><p>&#x8FB9;&#x5217;&#x8868;&#x4E2D;&#x5220;&#x9664;&#x4E00;&#x5217;&#xFF0C;&#x5373;&#x4E3A;&#x6BCF;&#x4E00;&#x884C;&#x5220;&#x9664;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#xFF0C;&#x901A;&#x8FC7;<strong>while</strong>&#x5FAA;&#x73AF;&#x904D;&#x5386;&#x8FB9;&#x5217;&#x8868;&#x7684;&#x6BCF;&#x4E00;&#x884C;&#xFF0C;&#x7136;&#x540E;&#x5728;&#x884C;&#x4E2D;&#x5220;&#x9664;&#x6307;&#x5B9A;&#x7684;&#x4E0B;&#x6807;&#x5143;&#x7D20;&#xFF1A;```</p>
+<pre><code>for row in self.mats:
+    row.pop(i)
+</code></pre></li>
+</ol>
+</blockquote>
+<pre><code># &#x5220;&#x9664;&#x9876;&#x70B9;,&#x6839;&#x636E;&#x9876;&#x70B9;&#x7684;&#x7D22;&#x5F15;&#x5220;&#x9664;
+    def remove_vert(self, i):
+        if self.size() == 0:
+            raise IndexError(&quot;&#x77E9;&#x9635;&#x4E3A;&#x7A7A;&quot;)
+        # &#x9876;&#x70B9;&#x5217;&#x8868;&#x79FB;&#x9664;&#x6307;&#x5B9A;&#x7D22;&#x5F15;&#x9876;&#x70B9;
+        self.verts.pop(i)
+        # &#x8FB9;&#x5217;&#x8868;&#x79FB;&#x9664;&#x6307;&#x5B9A;&#x7D22;&#x5F15;&#x9876;&#x70B9;&#x884C;
+        self.mats.pop(i)
+        # &#x6309;&#x884C;&#x904D;&#x5386;&#x8FB9;&#x5217;&#x8868;&#xFF0C;&#x9010;&#x884C;&#x5220;&#x9664;&#x6307;&#x5B9A;&#x7D22;&#x5F15;&#x6240;&#x5728;&#x7684;&#x5217;
+        for row in self.mats:
+            row.pop(i)
+</code></pre><h3 id="&#x56DB;&#x3001;&#x65E0;&#x5411;&#x56FE;&#x8FB9;&#x64CD;&#x4F5C;">&#x56DB;&#x3001;&#x65E0;&#x5411;&#x56FE;&#x8FB9;&#x64CD;&#x4F5C;</h3>
+<p><img src="imgs/graph_matrix_add_edge.png" alt="bytetoy.cn"></p>
+<blockquote>
+<p>&#x65E0;&#x5411;&#x56FE;&#x4E2D;&#x7684;&#x8FB9;&#x64CD;&#x4F5C;&#xFF1A;&#x65B0;&#x589E;&#x548C;&#x5220;&#x9664;&#x76F8;&#x5BF9;&#x6BD4;&#x8F83;&#x7B80;&#x5355;&#x3002;&#x552F;&#x4E00;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x662F;&#xFF0C;&#x8FB9;&#x8FDE;&#x63A5;&#x7684;&#x662F;&#x4E24;&#x4E2A;&#x9876;&#x70B9;&#xFF0C;&#x800C;&#x90BB;&#x63A5;&#x77E9;&#x9635;&#x662F;&#x5BF9;&#x89D2;&#x7EBF;&#x5BF9;&#x79F0;&#x7684;&#xFF0C;&#x56E0;&#x6B64;&#x9700;&#x8981;&#x64CD;&#x4F5C;&#x4E24;&#x6B21;&#xFF0C;&#x5373;&#x5BF9;&#x9876;&#x70B9;&#x7684;&#x884C;&#x548C;&#x5217;&#x5747;&#x9700;&#x8981;&#x8FDB;&#x884C;&#x64CD;&#x4F5C;&#x3002;</p>
+<p>&#x6CE8;&#x610F;&#xFF1A;&#x589E;&#x52A0;&#x3001;&#x5220;&#x9664;&#x8FB9;&#x65F6;&#xFF0C;&#x4E0D;&#x80FD;&#x4E3A;&#x540C;&#x4E00;&#x4E2A;&#x9876;&#x70B9;&#x589E;&#x52A0;&#x8FB9;<code>if r &lt; 0 or c &lt; 0 or r &gt;= self.size() or c &gt;= self.size() or r == c:</code></p>
+</blockquote>
+<pre><code># c:&#x884C;&#x7D22;&#x5F15;&#xFF0C;r&#xFF1A;&#x5217;&#x7D22;&#x5F15;
+    def add_edge(self, r, c):
+        if r &lt; 0 or c &lt; 0 or r &gt;= self.size() or c &gt;= self.size() or r == c:
+            raise IndexError(&apos;&#x8D8A;&#x754C;&apos;)
+        self.mats[r][c] = 1
+        self.mats[c][r] = 1
+
+    def remove_edge(self, r, c):
+        if r &lt; 0 or c &lt; 0 or r &gt;= self.size() or c &gt;= self.size() or r == c:
+            raise IndexError(&apos;&#x8D8A;&#x754C;&apos;)
+        self.mats[r][c] = 0
+        self.mats[c][r] = 0
+</code></pre><h3 id="&#x4E94;&#x3001;&#x5168;&#x90E8;&#x4EE3;&#x7801;">&#x4E94;&#x3001;&#x5168;&#x90E8;&#x4EE3;&#x7801;</h3>
+<pre><code>from prettytable import PrettyTable
+
+
+class GraphMatrix:
+    def __init__(self, verts, edges):
+        # &#x9876;&#x70B9;&#x662F;&#x4E00;&#x4E2A;&#x5217;&#x8868;
+        self.verts = []
+        # &#x8FB9;&#x662F;&#x4E00;&#x4E2A;&#x4E8C;&#x7EF4;&#x5217;&#x8868;&#xFF0C;&#x662F;&#x6839;&#x636E;&#x9876;&#x70B9;N&#xD7;N&#x7684;&#x4E8C;&#x7EF4;&#x5217;&#x8868;&#xFF08;&#x6570;&#x7EC4;&#xFF09;
+        self.mats = []
+        for v in verts:
+            self.add_vert(v)
+
+        for e in edges:
+            self.add_edge(e[0], e[1])
+
+    def size(self):
+        return len(self.verts)
+
+    # &#x6DFB;&#x52A0;&#x9876;&#x70B9;
+    def add_vert(self, val):
+        #
+        n = self.size()
+        # &#x9876;&#x70B9;&#x5217;&#x8868;&#x6DFB;&#x52A0;&#x65B0;&#x5143;&#x7D20;
+        self.verts.append(val)
+        row = [0] * n
+        # &#x8FB9;&#x5217;&#x8868;&#x6DFB;&#x52A0;&#x4E00;&#x884C;
+        self.mats.append(row)
+        # &#x8FB9;&#x5217;&#x8868;&#x6DFB;&#x52A0;&#x4E00;&#x5217;&#xFF08;&#x6BCF;&#x4E00;&#x884C;&#x589E;&#x52A0;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#xFF09;
+        for row in self.mats:
+            row.append(0)
+
+    # &#x5220;&#x9664;&#x9876;&#x70B9;,&#x6839;&#x636E;&#x9876;&#x70B9;&#x7684;&#x7D22;&#x5F15;&#x5220;&#x9664;
+    def remove_vert(self, i):
+        if self.size() == 0:
+            raise IndexError(&quot;&#x77E9;&#x9635;&#x4E3A;&#x7A7A;&quot;)
+        # &#x9876;&#x70B9;&#x5217;&#x8868;&#x79FB;&#x9664;&#x6307;&#x5B9A;&#x7D22;&#x5F15;&#x9876;&#x70B9;
+        self.verts.pop(i)
+        # &#x8FB9;&#x5217;&#x8868;&#x79FB;&#x9664;&#x6307;&#x5B9A;&#x7D22;&#x5F15;&#x9876;&#x70B9;&#x884C;
+        self.mats.pop(i)
+        # &#x6309;&#x884C;&#x904D;&#x5386;&#x8FB9;&#x5217;&#x8868;&#xFF0C;&#x9010;&#x884C;&#x5220;&#x9664;&#x6307;&#x5B9A;&#x7D22;&#x5F15;&#x6240;&#x5728;&#x7684;&#x5217;
+        for row in self.mats:
+            row.pop(i)
+
+    # c:&#x884C;&#x7D22;&#x5F15;&#xFF0C;r&#xFF1A;&#x5217;&#x7D22;&#x5F15;
+    def add_edge(self, r, c):
+        if r &lt; 0 or c &lt; 0 or r &gt;= self.size() or c &gt;= self.size() or r == c:
+            raise IndexError(&apos;&#x8D8A;&#x754C;&apos;)
+        self.mats[r][c] = 1
+        self.mats[c][r] = 1
+
+    def remove_edge(self, r, c):
+        if r &lt; 0 or c &lt; 0 or r &gt;= self.size() or c &gt;= self.size() or r == c:
+            raise IndexError(&apos;&#x8D8A;&#x754C;&apos;)
+        self.mats[r][c] = 0
+        self.mats[c][r] = 0
+
+    def show(self):
+        tb = PrettyTable(self.verts)
+        for c in self.mats:
+            tb.add_row(c)
+        print(tb)
+
+
+if __name__ == &quot;__main__&quot;:
+    verts = [&apos;a&apos;, &apos;b&apos;, &apos;c&apos;, &apos;d&apos;, &apos;e&apos;]
+    edges = [[0, 1], [0, 3], [1, 2], [2, 3], [2, 4], [3, 4]]
+    matrix = GraphMatrix(verts, edges)
+    matrix.show()
+
+    matrix.add_vert(&apos;f&apos;)
+    matrix.add_edge(1, 5)
+    matrix.show()
+
+    matrix.remove_vert(4)
+    matrix.show()
+
+    matrix.remove_edge(0, 3)
+    matrix.show()
+</code></pre><footer class="page-footer"><span class="copyright">&#x9102;ICP&#x5907;15001733&#x53F7;-4 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2024-02-16 23:40:28
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="python_heap.html" class="navigation navigation-prev " aria-label="Previous page: Python堆操作">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="python_graph_list.html" class="navigation navigation-next " aria-label="Next page: Python无向图邻接表实现">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Python无向图邻接矩阵实现","level":"1.2.13","depth":2,"next":{"title":"Python无向图邻接表实现","level":"1.2.14","depth":2,"path":"python/python_graph_list.md","ref":"python/python_graph_list.md","articles":[]},"previous":{"title":"Python堆操作","level":"1.2.12","depth":2,"path":"python/python_heap.md","ref":"python/python_heap.md","articles":[]},"dir":"ltr"},"config":{"plugins":["search-pro","code","expandable-chapters","back-to-top-button","-search","-sharing","tbfed-pagefooter","toc","theme-comscore"],"root":".","styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"鄂ICP备15001733号-4","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"search-pro":{},"toc":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"fontSettings":{"theme":"sepia|night|white","family":"serif|sans","size":18},"highlight":{},"theme-comscore":{},"back-to-top-button":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"level_number":false,"theme":"default","author":"Mr.Zhang","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"collapsible_menu":false,"variables":{"title":"Bytetoy","theme":"theme-comscore","copyright":"Copyright 2022 bytetoy.cn"},"title":"Bytetoy","language":"zh-hans","links":{"sidebar":{"eduez":"http://www.eduez.cn","hrzone":"http://www.hrzone.cn"},"sharing":{"all":false}},"gitbook":"3.2.x","description":"发现程序的乐趣","extension":null},"file":{"path":"python/python_graph_matrix.md","mtime":"2024-02-16T15:40:28.215Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-03-15T14:35:20.702Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    </body>
+</html>
+

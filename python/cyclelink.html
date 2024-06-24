@@ -1,0 +1,1607 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Python单向循环链表 · Bytetoy</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Mr.Zhang">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="pycharm_github_token.html" />
+    
+    
+    <link rel="prev" href="linklist.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="http://www.eduez.cn" target="_blank" class="custom-link">eduez</a>
+        </li>
+    
+        
+        <li>
+            <a href="http://www.hrzone.cn" target="_blank" class="custom-link">hrzone</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Python
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="python_queue.html">
+            
+                <a href="python_queue.html">
+            
+                    
+                    Python队列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="python_stack.html">
+            
+                <a href="python_stack.html">
+            
+                    
+                    Python栈
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="recursion.html">
+            
+                <a href="recursion.html">
+            
+                    
+                    Python递归算法及其简单应用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="sudoku.html">
+            
+                <a href="sudoku.html">
+            
+                    
+                    Python回溯算法解数独
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="colab_setting.html">
+            
+                <a href="colab_setting.html">
+            
+                    
+                    Colab开发环境配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="linklist.html">
+            
+                <a href="linklist.html">
+            
+                    
+                    Python单向链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.7" data-path="cyclelink.html">
+            
+                <a href="cyclelink.html">
+            
+                    
+                    Python单向循环链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="pycharm_github_token.html">
+            
+                <a href="pycharm_github_token.html">
+            
+                    
+                    Github配置token提交代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="binary_tree_travel.html">
+            
+                <a href="binary_tree_travel.html">
+            
+                    
+                    Python二叉树遍历
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="binary_tree_array.html">
+            
+                <a href="binary_tree_array.html">
+            
+                    
+                    Python二叉树列表表示
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="binary_tree_search.html">
+            
+                <a href="binary_tree_search.html">
+            
+                    
+                    Python二叉搜索树操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="python_heap.html">
+            
+                <a href="python_heap.html">
+            
+                    
+                    Python堆操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.13" data-path="python_graph_matrix.html">
+            
+                <a href="python_graph_matrix.html">
+            
+                    
+                    Python无向图邻接矩阵实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.14" data-path="python_graph_list.html">
+            
+                <a href="python_graph_list.html">
+            
+                    
+                    Python无向图邻接表实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.15" data-path="python_graph_travel.html">
+            
+                <a href="python_graph_travel.html">
+            
+                    
+                    Python无向图遍历
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.16" data-path="python_binary_search_close.html">
+            
+                <a href="python_binary_search_close.html">
+            
+                    
+                    Python二分查找算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.17" data-path="python_selection_sort.html">
+            
+                <a href="python_selection_sort.html">
+            
+                    
+                    Python排序算法-选择排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.18" data-path="python_bubble_sort.html">
+            
+                <a href="python_bubble_sort.html">
+            
+                    
+                    Python排序算法-冒泡排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.19" data-path="python_insertion_sort.html">
+            
+                <a href="python_insertion_sort.html">
+            
+                    
+                    Python排序算法-插入排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.20" data-path="python_quick_sort.html">
+            
+                <a href="python_quick_sort.html">
+            
+                    
+                    Python排序算法-快速排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.21" data-path="python_merge_sort.html">
+            
+                <a href="python_merge_sort.html">
+            
+                    
+                    Python排序算法-归并排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.22" data-path="python_heap_sort.html">
+            
+                <a href="python_heap_sort.html">
+            
+                    
+                    Python排序算法-堆排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.23" data-path="python_build_tree.html">
+            
+                <a href="python_build_tree.html">
+            
+                    
+                    Python分治算法应用-构建二叉树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.24" data-path="numpy_basic.html">
+            
+                <a href="numpy_basic.html">
+            
+                    
+                    Numpy基础用法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../tips/tips.html">
+            
+                <a href="../tips/tips.html">
+            
+                    
+                    Tips
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../tips/kms_act.html">
+            
+                <a href="../tips/kms_act.html">
+            
+                    
+                    KMS激活服务器vlmcsd搭建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../tips/rime.html">
+            
+                <a href="../tips/rime.html">
+            
+                    
+                    rime输入法安装配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../tips/apt_fail.html">
+            
+                <a href="../tips/apt_fail.html">
+            
+                    
+                    Armbian apt update失败处理方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../tips/mariadb_conf.html">
+            
+                <a href="../tips/mariadb_conf.html">
+            
+                    
+                    Armbian安装Mysql(MariaDB)数据库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../tips/linux_server_safe_config.html">
+            
+                <a href="../tips/linux_server_safe_config.html">
+            
+                    
+                    云服务器初始安全配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../tips/mysql_add_0.html">
+            
+                <a href="../tips/mysql_add_0.html">
+            
+                    
+                    MySQL为字段前面加一位0
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../tips/gitbook_install_error.html">
+            
+                <a href="../tips/gitbook_install_error.html">
+            
+                    
+                    gitbook运行错误解决cb.apply函数问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../tips/cos_static_config.html">
+            
+                <a href="../tips/cos_static_config.html">
+            
+                    
+                    腾讯COS托管静态网站
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="../tips/mysql_import_datafile.html">
+            
+                <a href="../tips/mysql_import_datafile.html">
+            
+                    
+                    MySQL导入frm、MYD、MYI数据文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="../tips/debian_install_docker.html">
+            
+                <a href="../tips/debian_install_docker.html">
+            
+                    
+                    Debian 12(bookworm)安装Docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11" data-path="../tips/docker_cancel_sudo.html">
+            
+                <a href="../tips/docker_cancel_sudo.html">
+            
+                    
+                    Docker配置操作无需sudo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12" data-path="../tips/docker_cli.html">
+            
+                <a href="../tips/docker_cli.html">
+            
+                    
+                    Docker常用命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13" data-path="../tips/pip_error.html">
+            
+                <a href="../tips/pip_error.html">
+            
+                    
+                    pip安装出错解决一例(error: externally-managed-environment)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.14" data-path="../tips/frp_config.html">
+            
+                <a href="../tips/frp_config.html">
+            
+                    
+                    frp实现内网穿透
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.15" data-path="../tips/scp_file.html">
+            
+                <a href="../tips/scp_file.html">
+            
+                    
+                    scp在服务器之间传输文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.16" data-path="../tips/unzip_error.html">
+            
+                <a href="../tips/unzip_error.html">
+            
+                    
+                    unzip解压大文件出错解决办法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.17" data-path="../tips/rclone_to_webdav.html">
+            
+                <a href="../tips/rclone_to_webdav.html">
+            
+                    
+                    rclone配置同步WebDAV
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.18" data-path="../tips/docker_install_jellyfin.html">
+            
+                <a href="../tips/docker_install_jellyfin.html">
+            
+                    
+                    Docker安装&配置jellyfin
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.19" data-path="../tips/proxychains_install_config.html">
+            
+                <a href="../tips/proxychains_install_config.html">
+            
+                    
+                    proxychains-ng配置终端下代理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.20" data-path="../tips/geminipro_chatbot.html">
+            
+                <a href="../tips/geminipro_chatbot.html">
+            
+                    
+                    Vercel部署Gemini Pro前端程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.21" data-path="../tips/mysql_statis_score.html">
+            
+                <a href="../tips/mysql_statis_score.html">
+            
+                    
+                    MySQL统计学生期末联考成绩
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.22" data-path="../tips/mysql_compara_score.html">
+            
+                <a href="../tips/mysql_compara_score.html">
+            
+                    
+                    MySQL分析学生中考和期末联考成绩
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.23" data-path="../tips/git_force_push.html">
+            
+                <a href="../tips/git_force_push.html">
+            
+                    
+                    Github提交密码信息后补救措施
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.24" data-path="../tips/pycharm_http_proxy.html">
+            
+                <a href="../tips/pycharm_http_proxy.html">
+            
+                    
+                    Git使用代理提交Github
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.25" data-path="../tips/vim_modify_jar.html">
+            
+                <a href="../tips/vim_modify_jar.html">
+            
+                    
+                    jar修改技巧一则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.26" data-path="../tips/systemctl_config.html">
+            
+                <a href="../tips/systemctl_config.html">
+            
+                    
+                    systemctl配置开机启动服务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.27" data-path="../tips/mysql_create_user.html">
+            
+                <a href="../tips/mysql_create_user.html">
+            
+                    
+                    MySQL新增帐号
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.28" data-path="../tips/mysql_import_csv.html">
+            
+                <a href="../tips/mysql_import_csv.html">
+            
+                    
+                    MySQL启用导入外部数据功能
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../stm32/">
+            
+                <a href="../stm32/">
+            
+                    
+                    STM32
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../stm32/stm32f407_config.html">
+            
+                <a href="../stm32/stm32f407_config.html">
+            
+                    
+                    stm32F407开发环境配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../stm32/stm32f407_key.html">
+            
+                <a href="../stm32/stm32f407_key.html">
+            
+                    
+                    stm32F407按键输入
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../stm32/stm32f407_nvic.html">
+            
+                <a href="../stm32/stm32f407_nvic.html">
+            
+                    
+                    stm32F407外部中断
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../stm32/stm32f407_tim.html">
+            
+                <a href="../stm32/stm32f407_tim.html">
+            
+                    
+                    stm32F407定时器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../stm32/stm32f407_usart.html">
+            
+                <a href="../stm32/stm32f407_usart.html">
+            
+                    
+                    stm32F407串口接收/发送
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../stm32/stm32f407_adc.html">
+            
+                <a href="../stm32/stm32f407_adc.html">
+            
+                    
+                    stm32F407接收ADC数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../stm32/stm32f407_pwm.html">
+            
+                <a href="../stm32/stm32f407_pwm.html">
+            
+                    
+                    stm32F407下PWM实现呼吸灯
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="../stm32/stm32f407_spi.html">
+            
+                <a href="../stm32/stm32f407_spi.html">
+            
+                    
+                    stm32F407下SPI读写Flash
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="../stm32/stm32f407_printf_to_usart.html">
+            
+                <a href="../stm32/stm32f407_printf_to_usart.html">
+            
+                    
+                    stm32F407下printf重定向到串口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10" data-path="../stm32/stm32f407_dma.html">
+            
+                <a href="../stm32/stm32f407_dma.html">
+            
+                    
+                    stm32F407下DMA操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.11" data-path="../stm32/stm32f407_iwdg.html">
+            
+                <a href="../stm32/stm32f407_iwdg.html">
+            
+                    
+                    stm32F407下IWDG
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.12" data-path="../stm32/stm32f407_fsmc_sram.html">
+            
+                <a href="../stm32/stm32f407_fsmc_sram.html">
+            
+                    
+                    stm32F407读写SRAM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.13" data-path="../stm32/stm32f407_spi_lcd.html">
+            
+                <a href="../stm32/stm32f407_spi_lcd.html">
+            
+                    
+                    stm32F407驱动LCD屏幕
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../minecraft/minecraft.html">
+            
+                <a href="../minecraft/minecraft.html">
+            
+                    
+                    Minecraft
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../minecraft/Minecraft服务器Spigot安装和配置.html">
+            
+                <a href="../minecraft/Minecraft服务器Spigot安装和配置.html">
+            
+                    
+                    Minecraft服务器Spigot安装和配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../pico/pico.html">
+            
+                <a href="../pico/pico.html">
+            
+                    
+                    Raspberry pi pico
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../pico/Ubuntu下配置raspberry_pico开发环境.html">
+            
+                <a href="../pico/Ubuntu下配置raspberry_pico开发环境.html">
+            
+                    
+                    Ubuntu下配置raspberry_pico开发环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../pico/Raspberry_Pico点亮LED灯.html">
+            
+                <a href="../pico/Raspberry_Pico点亮LED灯.html">
+            
+                    
+                    Raspberry_Pico点亮LED灯
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../pico/VirtualBox虚拟机USB调试PICO串口.html">
+            
+                <a href="../pico/VirtualBox虚拟机USB调试PICO串口.html">
+            
+                    
+                    VirtualBox虚拟机USB调试PICO串口
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Python单向循环链表</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="python&#x5355;&#x5411;&#x5FAA;&#x73AF;&#x94FE;&#x8868;">Python&#x5355;&#x5411;&#x5FAA;&#x73AF;&#x94FE;&#x8868;</h2>
+<blockquote>
+<p>&#x5355;&#x5411;&#x5FAA;&#x73AF;&#x94FE;&#x8868;&#x4E0E;&#x5355;&#x5411;&#x94FE;&#x8868;&#x7C7B;&#x4F3C;,&#x5728;&#x64CD;&#x4F5C;&#x4E0A;,&#x6700;&#x4E3B;&#x8981;&#x7684;&#x533A;&#x522B;&#x5728;&#x4E8E;&#x5224;&#x65AD;&#x94FE;&#x8868;&#x7ED3;&#x675F;&#x7684;&#x65B9;&#x5F0F;.</p>
+<ul>
+<li>&#x5355;&#x94FE;&#x8868;&#x7ED3;&#x675F;,&#x6E38;&#x6807;<strong>cur</strong>&#x6216;<strong>next</strong>&#x7684;&#x503C;&#x4E3A;<strong>None</strong></li>
+<li>&#x5FAA;&#x73AF;&#x94FE;&#x8868;&#x7ED3;&#x675F;,&#x6E38;&#x6807;<strong>cur</strong>&#x6216;<strong>next</strong>&#x503C;&#x4E3A;<strong>__head</strong>,&#x5373;&#x6307;&#x5411;&#x5934;&#x90E8;&#x6307;&#x9488;</li>
+<li>&#x8FD9;&#x5C31;&#x5BFC;&#x81F4;&#x904D;&#x5386;&#x3001;&#x63D2;&#x5165;&#x3001;&#x5220;&#x9664;&#x5224;&#x65AD;&#x6761;&#x4EF6;&#x4E0D;&#x540C;</li>
+</ul>
+<p>&#x5B66;&#x4E60;&#x672C;&#x8282;&#x8BF7;&#x5148;&#x9605;&#x8BFB;&#x4E0A;&#x4E00;&#x8282;&#xFF1A;<a href="http://www.bytetoy.cn/python/linklist.html" target="_blank">Python&#x5355;&#x5411;&#x94FE;&#x8868;</a></p>
+</blockquote>
+<h3 id="&#x4E00;&#x3001;&#x8282;&#x70B9;&#x53CA;&#x94FE;&#x8868;&#x5B9A;&#x4E49;">&#x4E00;&#x3001;&#x8282;&#x70B9;&#x53CA;&#x94FE;&#x8868;&#x5B9A;&#x4E49;</h3>
+<blockquote>
+<p>&#x5FAA;&#x73AF;&#x94FE;&#x8868;&#x7684;&#x4E0E;&#x5355;&#x5411;&#x94FE;&#x8868;&#x76F8;&#x540C;</p>
+</blockquote>
+<ol>
+<li>&#x8282;&#x70B9;&#x5B9A;&#x4E49;<pre><code class="lang-Python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">LinkNode</span>:</span>
+ <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self, val)</span>:</span>
+     self.item = val
+     self.next = <span class="hljs-keyword">None</span>
+</code></pre>
+</li>
+<li>&#x94FE;&#x8868;&#x5B9A;&#x4E49;<pre><code class="lang-Python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CycleLinkList</span>:</span>
+ <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span>
+     self.__head: LinkNode = <span class="hljs-keyword">None</span>
+</code></pre>
+</li>
+</ol>
+<h3 id="&#x4E8C;&#x3001;&#x94FE;&#x8868;&#x904D;&#x5386;">&#x4E8C;&#x3001;&#x94FE;&#x8868;&#x904D;&#x5386;</h3>
+<p><img src="imgs/cycle_travel.png" alt="bytetoy.cn"></p>
+<blockquote>
+<p>&#x6CE8;&#x610F;&#x8FD9;&#x91CC;<strong>while</strong>&#x5FAA;&#x73AF;&#x7ED3;&#x675F;&#x65B9;&#x5F0F;,&#x662F;&#x4E0E;&#x5355;&#x94FE;&#x8868;&#x6700;&#x5927;&#x7684;&#x533A;&#x522B;&#x4E4B;&#x4E00;.
+<code>while cur.next != self.__head:</code>,&#x6B64;&#x65F6;&#x6E38;&#x6807;<strong>cur</strong>&#x6307;&#x5411;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x8282;&#x70B9;,&#x4F46;&#x5C1A;&#x672A;&#x8F93;&#x51FA;,&#x56E0;&#x6B64;&#x5FAA;&#x73AF;&#x7ED3;&#x675F;&#x540E;,&#x9700;&#x8981;&#x8F93;&#x51FA;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x5143;&#x7D20;,&#x5373;<code>print(cur.item)</code></p>
+</blockquote>
+<pre><code class="lang-Python">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">travel</span><span class="hljs-params">(self)</span>:</span>
+        <span class="hljs-keyword">if</span> self.is_empty():
+            print(<span class="hljs-string">&quot;linklist id empty&quot;</span>)
+            <span class="hljs-keyword">return</span>
+        cur = self.__head
+        <span class="hljs-keyword">while</span> cur.next != self.__head:
+            print(cur.item, end=<span class="hljs-string">&quot; &quot;</span>)
+            cur = cur.next
+        <span class="hljs-comment"># &#x6B64;&#x65F6;cur&#x4F4D;&#x4E8E;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x8282;&#x70B9;&#xFF0C;&#x4ED6;&#x7684;next&#x6307;&#x5411;__head&#xFF0C;&#x4F46;&#x662F;&#x5728;while&#x5FAA;&#x73AF;&#x4E2D;&#x5E76;&#x672A;&#x6253;&#x5370;</span>
+        print(cur.item)
+</code></pre>
+<h3 id="&#x4E09;&#x3001;&#x94FE;&#x8868;&#x67E5;&#x627E;">&#x4E09;&#x3001;&#x94FE;&#x8868;&#x67E5;&#x627E;</h3>
+<blockquote>
+<p>&#x8FD9;&#x91CC;&#x4E0E;&#x5FAA;&#x73AF;&#x94FE;&#x8868;&#x7684;&#x904D;&#x5386;<strong>travel</strong>&#x7C7B;&#x4F3C;,<strong>while</strong>&#x5FAA;&#x73AF;&#x7ED3;&#x675F;&#x540E;,&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x8282;&#x70B9;&#x5728;<strong>while</strong>&#x4E2D;&#x672A;&#x8FDB;&#x884C;&#x6BD4;&#x8F83;,&#x9700;&#x8981;&#x5728;&#x5FAA;&#x73AF;&#x5916;&#x8FDB;&#x884C;&#x6BD4;&#x8F83;&#x64CD;&#x4F5C;<code>if cur.item==val:</code></p>
+</blockquote>
+<pre><code class="lang-Python">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">search</span><span class="hljs-params">(self,val)</span>:</span>
+        <span class="hljs-keyword">if</span> self.is_empty():
+            <span class="hljs-keyword">return</span> <span class="hljs-keyword">False</span>
+        cur=self.__head
+        <span class="hljs-keyword">while</span> cur.next!=self.__head:
+            <span class="hljs-keyword">if</span> cur.item==val:
+                <span class="hljs-keyword">return</span> <span class="hljs-keyword">True</span>
+            cur=cur.next
+
+        <span class="hljs-keyword">if</span> cur.item==val:
+            <span class="hljs-keyword">return</span> <span class="hljs-keyword">True</span>
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">False</span>
+</code></pre>
+<h3 id="&#x56DB;&#x3001;&#x94FE;&#x8868;&#x63D2;&#x5165;&#x8282;&#x70B9;">&#x56DB;&#x3001;&#x94FE;&#x8868;&#x63D2;&#x5165;&#x8282;&#x70B9;</h3>
+<blockquote>
+<p>&#x5FAA;&#x73AF;&#x94FE;&#x8868;&#x7684;&#x63D2;&#x5165;&#x4E0E;&#x5355;&#x94FE;&#x8868;&#x7C7B;&#x4F3C;,&#x540C;&#x6837;&#x9700;&#x8981;&#x8003;&#x8651;&#x4E09;&#x79CD;&#x60C5;&#x51B5;:&#x5934;&#x90E8;&#x63D2;&#x5165;,&#x5C3E;&#x90E8;&#x63D2;&#x5165;,&#x4E2D;&#x95F4;&#x63D2;&#x5165;</p>
+<ul>
+<li>&#x5FAA;&#x73AF;&#x94FE;&#x8868;&#x9996;&#x5C3E;&#x76F8;&#x8FDE;,&#x5934;&#x90E8;&#x63D2;&#x5165;&#x548C;&#x5C3E;&#x90E8;&#x63D2;&#x5165;,&#x8C8C;&#x4F3C;&#x90FD;&#x662F;&#x5728;&#x6700;&#x540E;&#x9762;&#x63D2;&#x5165;&#x4E00;&#x4E2A;&#x8282;&#x70B9;,&#x4F46;&#x662F;&#x5934;&#x90E8;&#x63D2;&#x5165;&#x9700;&#x8981;&#x79FB;&#x52A8;<strong>head</strong>&#x6307;&#x9488;,&#x800C;&#x5C3E;&#x90E8;&#x63D2;&#x5165;&#x65E0;&#x987B;&#x79FB;&#x52A8;<strong>head</strong>&#x6307;&#x9488;</li>
+<li>&#x4E2D;&#x95F4;&#x63D2;&#x5165;&#x4E0E;&#x5355;&#x94FE;&#x8868;&#x76F8;&#x540C;</li>
+</ul>
+</blockquote>
+<ul>
+<li>&#x5934;&#x90E8;&#x63D2;&#x5165;
+<img src="imgs/cycle_insert_head.png" alt="bytetoy.cn"><blockquote>
+<ul>
+<li>&#x5148;&#x5C06;&#x6E38;&#x6807;<strong>cur</strong>&#x79FB;&#x52A8;&#x81F3;&#x5C3E;&#x90E8;;</li>
+<li>&#x5C06;&#x65B0;<strong>&#x8282;&#x70B9;</strong>&#x6307;&#x5411;&#x5934;&#x90E8;</li>
+<li>&#x5C06;&#x6E38;&#x6807;<strong>cur</strong>&#x6307;&#x5411;&#x65B0;<strong>&#x8282;&#x70B9;</strong></li>
+<li>&#x79FB;&#x52A8;<strong>head</strong>&#x6307;&#x9488;&#x6307;&#x5411;&#x65B0;<strong>&#x8282;&#x70B9;</strong></li>
+</ul>
+</blockquote>
+</li>
+</ul>
+<pre><code class="lang-Python">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">addHead</span><span class="hljs-params">(self, val)</span>:</span>
+        node = LinkNode(val)
+        <span class="hljs-comment"># &#x94FE;&#x8868;&#x4E3A;&#x7A7A;&#xFF0C;head&#x6307;&#x5411;node&#xFF0C;&#x540C;&#x65F6;node&#x6307;&#x5411;&#x81EA;&#x5DF1;</span>
+        <span class="hljs-keyword">if</span> self.is_empty():
+            self.__head = node
+            node.next = node
+
+        cur = self.__head
+        <span class="hljs-keyword">while</span> cur.next != self.__head:
+            cur = cur.next
+        node.next = self.__head
+        <span class="hljs-comment"># &#x4E0B;&#x9762;&#x4E24;&#x4E2A;&#x987A;&#x5E8F;&#x6CA1;&#x6709;&#x5148;&#x540E;</span>
+        cur.next = node
+        self.__head = node
+</code></pre>
+<ul>
+<li>&#x5C3E;&#x90E8;&#x63D2;&#x5165;
+<img src="imgs/cycle_insert_tail.png" alt="bytetoy.cn"><blockquote>
+<p>&#x5C3E;&#x90E8;&#x63D2;&#x5165;&#x8282;&#x70B9;&#x4E0E;&#x5355;&#x94FE;&#x8868;&#x57FA;&#x672C;&#x76F8;&#x540C;:</p>
+<ul>
+<li>&#x5C06;&#x6E38;&#x6807;<strong>cur</strong>&#x79FB;&#x52A8;&#x5230;&#x94FE;&#x8868;&#x5C3E;&#x90E8;</li>
+<li>&#x5C06;&#x5C3E;&#x90E8;&#x6307;&#x5411;&#x65B0;&#x8282;&#x70B9;:<strong>cur</strong>&#x7684;next&#x6307;&#x5411;<strong>node</strong></li>
+<li>&#x5C06;&#x65B0;<strong>&#x8282;&#x70B9;</strong>&#x6307;&#x5411;&#x94FE;&#x8868;&#x5934;&#x90E8;</li>
+</ul>
+</blockquote>
+</li>
+</ul>
+<pre><code class="lang-Python">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">addTail</span><span class="hljs-params">(self,val)</span>:</span>
+        node=LinkNode(val)
+        <span class="hljs-keyword">if</span> self.is_empty():
+            self.__head=node
+            node.next=node
+
+        cur=self.__head
+        <span class="hljs-keyword">while</span> cur.next!=self.__head:
+            cur=cur.next
+        <span class="hljs-comment"># node&#x8282;&#x70B9;&#x94FE;&#x63A5;&#x9996;&#x5C3E;&#xFF0C;head&#x4F4D;&#x7F6E;&#x4E0D;&#x53D8;&#xFF0C;&#x8FD9;&#x91CC;&#x4E0E;&#x5728;&#x5934;&#x90E8;&#x63D2;&#x5165;&#x4E0D;&#x540C;</span>
+        cur.next=node
+        node.next=self.__head
+</code></pre>
+<ul>
+<li>&#x4E2D;&#x95F4;&#x63D2;&#x5165;
+<img src="imgs/cycle_insert.png" alt="bytetoy.cn"><blockquote>
+<p>&#x4E2D;&#x95F4;&#x63D2;&#x5165;&#x4E0E;&#x5355;&#x94FE;&#x8868;&#x57FA;&#x672C;&#x76F8;&#x540C;</p>
+</blockquote>
+</li>
+</ul>
+<pre><code class="lang-Python">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">insert</span><span class="hljs-params">(self,pos,val)</span>:</span>
+        <span class="hljs-keyword">if</span> pos&lt;=<span class="hljs-number">0</span>:
+            self.addHead(val)
+        <span class="hljs-keyword">elif</span> pos&gt;=self.length():
+            self.addTail(val)
+        <span class="hljs-keyword">else</span>:
+            node = LinkNode(val)
+            cur=self.__head
+            count=<span class="hljs-number">0</span>
+            <span class="hljs-keyword">while</span> count&lt;(pos<span class="hljs-number">-1</span>):
+                count+=<span class="hljs-number">1</span>
+                cur=cur.next
+            node.next=cur.next
+            cur.next=node
+</code></pre>
+<h3 id="&#x4E94;&#x3001;&#x94FE;&#x8868;&#x5220;&#x9664;&#x8282;&#x70B9;">&#x4E94;&#x3001;&#x94FE;&#x8868;&#x5220;&#x9664;&#x8282;&#x70B9;</h3>
+<p><img src="imgs/cycle_remove.png" alt="bytetoy.cn"></p>
+<blockquote>
+<p>&#x5FAA;&#x73AF;&#x94FE;&#x8868;&#x7684;&#x5220;&#x9664;&#x5E94;&#x8BE5;&#x662F;&#x64CD;&#x4F5C;&#x6700;&#x590D;&#x6742;&#x7684;&#x529F;&#x80FD;,&#x9700;&#x8981;&#x5BF9;&#x4E09;&#x79CD;&#x60C5;&#x51B5;&#x8FDB;&#x884C;&#x9010;&#x4E00;&#x7406;&#x89E3;:</p>
+<ul>
+<li><strong>&#x5934;&#x90E8;&#x5220;&#x9664;</strong>:&#x5982;&#x679C;&#x5220;&#x9664;&#x5143;&#x7D20;&#x5728;&#x94FE;&#x8868;&#x5934;&#x90E8;,&#x9700;&#x8981;&#x53E6;&#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x6E38;&#x6807;<strong>rear</strong>&#x5FAA;&#x73AF;&#x81F3;&#x94FE;&#x8868;&#x5C3E;&#x90E8;,&#x7136;&#x540E;&#x5C06;&#x5934;&#x90E8;<strong>head</strong>&#x5411;&#x540E;&#x79FB;,&#x5C06;<strong>rear</strong>&#x6307;&#x5411;<strong>head</strong></li>
+<li><strong>&#x4E2D;&#x95F4;&#x5220;&#x9664;</strong>:&#x4E2D;&#x95F4;&#x5220;&#x9664;&#x4E0E;&#x5355;&#x94FE;&#x8868;&#x7C7B;&#x4F3C;,&#x4E0D;&#x505A;&#x4ECB;&#x7ECD;,&#x540C;&#x5355;&#x94FE;&#x8868;&#x7684;&#x5904;&#x7406;,&#x8BBE;&#x7F6E;2&#x4E2A;&#x6E38;&#x6807;:<strong>pre</strong>&#x548C;<strong>cur</strong></li>
+<li><strong>&#x5C3E;&#x90E8;&#x5220;&#x9664;</strong>:&#x5FAA;&#x73AF;&#x94FE;&#x8868;&#x7684;<strong>while</strong>&#x5FAA;&#x73AF;&#x7ED3;&#x675F;&#x540E;,&#x6E38;&#x6807;<strong>cur</strong>&#x5728;&#x5C3E;&#x90E8;,&#x4F46;&#x6CA1;&#x6709;&#x5728;<strong>while</strong>&#x5FAA;&#x73AF;&#x4E2D;&#x8FDB;&#x884C;&#x5904;&#x7406;,&#x56E0;&#x6B64;&#x5F53;&#x67E5;&#x627E;&#x5143;&#x7D20;&#x5728;&#x5C3E;&#x90E8;&#x65F6;,&#x8DF3;&#x51FA;&#x5FAA;&#x73AF;&#x540E;&#x9700;&#x8981;&#x5355;&#x72EC;&#x5904;&#x7406;.&#x540C;&#x65F6;&#x8981;&#x8003;&#x8651;&#x5F53;&#x94FE;&#x8868;&#x53EA;&#x6709;&#x4E00;&#x4E2A;&#x8282;&#x70B9;&#x65F6;,<strong>while</strong>&#x5FAA;&#x73AF;&#x65F6;&#x6CA1;&#x6709;&#x6267;&#x884C;&#x7684;,&#x56E0;&#x6B64;&#x4E5F;&#x9700;&#x8981;&#x5728;&#x8FD9;&#x91CC;&#x5904;&#x7406;.</li>
+</ul>
+</blockquote>
+<pre><code class="lang-Python">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">remove</span><span class="hljs-params">(self,val)</span>:</span>
+        cur=self.__head
+        pre=<span class="hljs-keyword">None</span>
+        <span class="hljs-keyword">if</span> self.is_empty():
+            <span class="hljs-keyword">return</span> <span class="hljs-keyword">False</span>
+        <span class="hljs-keyword">while</span> cur.next!=self.__head:
+            <span class="hljs-keyword">if</span> cur.item==val:
+                <span class="hljs-comment"># &#x5982;&#x679C;&#x9700;&#x8981;&#x5220;&#x9664;&#x7684;&#x5143;&#x7D20;&#x662F;&#x5728;&#x5934;&#x90E8;&#xFF0C;&#x5219;&#x9700;&#x8981;&#x518D;&#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x6E38;&#x6807;&#x53D8;&#x91CF;rear&#xFF0C;&#x5FAA;&#x73AF;&#x81F3;&#x5C3E;&#x90E8;&#xFF0C;&#x7136;&#x540E;&#x8BA9;head&#x6307;&#x5411;&#x4E0B;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#xFF0C;&#x8BA9;</span>
+                <span class="hljs-keyword">if</span> cur==self.__head:
+                    rear=self.__head
+                    <span class="hljs-keyword">while</span> rear.next!=self.__head:
+                        rear=rear.next
+                    <span class="hljs-comment"># &#x7531;&#x4E8E;&#x5934;&#x90E8;&#x8282;&#x70B9;&#x5DF2;&#x7ECF;&#x5220;&#x9664;&#xFF0C;&#x9700;&#x8981;&#x5C06;head&#x5411;&#x540E;&#x79FB;&#x52A8;&#x4E00;&#x4F4D;&#xFF0C;&#x5E76;&#x5C06;&#x5C3E;&#x90E8;&#xFF08;rear&#xFF09;&#x6307;&#x5411;&#x65B0;&#x7684;&#x5934;&#x90E8;</span>
+                    self.__head=cur.next
+                    rear.next=self.__head
+                <span class="hljs-keyword">else</span>:
+                    pre.next=cur.next
+                <span class="hljs-keyword">return</span> <span class="hljs-keyword">True</span>
+            <span class="hljs-keyword">else</span>:
+                pre=cur
+                cur=cur.next
+
+        <span class="hljs-comment"># &#x8DF3;&#x51FA;&#x5FAA;&#x73AF;&#x540E;&#xFF0C;cur&#x4F4D;&#x4E8E;&#x94FE;&#x8868;&#x5C3E;&#x90E8;&#xFF0C;&#x5F00;&#x59CB;&#x6BD4;&#x8F83;&#x5C3E;&#x90E8;&#x662F;&#x5426;&#x4E3A;&#x8981;&#x5220;&#x9664;&#x6570;&#x636E;</span>
+        <span class="hljs-keyword">if</span> cur.item==val:
+            <span class="hljs-comment"># &#x5224;&#x65AD;&#x94FE;&#x8868;&#x662F;&#x5426;&#x53EA;&#x6709;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#xFF0C;&#x5373;cur==__head</span>
+            <span class="hljs-keyword">if</span> cur==self.__head:
+                self.__head=<span class="hljs-keyword">None</span>
+            <span class="hljs-keyword">else</span>:
+                pre.next=cur.next
+            <span class="hljs-keyword">return</span> <span class="hljs-keyword">True</span>
+        <span class="hljs-comment"># &#x6CA1;&#x6709;&#x627E;&#x5230;&#x5143;&#x7D20;&#xFF0C;&#x8FD4;&#x56DE;False</span>
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">False</span>
+</code></pre>
+<h3 id="&#x516D;&#x3001;&#x5176;&#x4ED6;&#x529F;&#x80FD;&#x51FD;&#x6570;">&#x516D;&#x3001;&#x5176;&#x4ED6;&#x529F;&#x80FD;&#x51FD;&#x6570;</h3>
+<ol>
+<li>&#x5224;&#x65AD;&#x94FE;&#x8868;&#x4E3A;&#x7A7A;<blockquote>
+<p>&#x6B64;&#x5904;&#x540C;&#x5355;&#x94FE;&#x8868;&#x64CD;&#x4F5C;,&#x5224;&#x65AD;&#x5934;&#x90E8;&#x6307;&#x9488;&#x5373;&#x53EF;</p>
+</blockquote>
+</li>
+</ol>
+<pre><code class="lang-Python">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">is_empty</span><span class="hljs-params">(self)</span>:</span>
+        <span class="hljs-keyword">return</span> self.__head <span class="hljs-keyword">is</span> <span class="hljs-keyword">None</span>
+</code></pre>
+<ol>
+<li>&#x8BA1;&#x7B97;&#x94FE;&#x8868;&#x957F;&#x5EA6;<blockquote>
+<p>&#x8FD9;&#x91CC;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x662F;,<strong>count</strong>&#x4ECE;<strong>1</strong>&#x5F00;&#x59CB;&#x8BA1;&#x6570;,&#x7531;&#x4E8E;&#x524D;&#x9762;&#x5DF2;&#x7ECF;&#x5224;&#x65AD;&#x94FE;&#x8868;&#x662F;&#x5426;&#x4E3A;&#x7A7A;<strong>None</strong>
+&#x4E14;<strong>while</strong>&#x5FAA;&#x73AF;&#x5224;&#x65AD;&#x6761;&#x4EF6;&#x4E0E;&#x5355;&#x94FE;&#x8868;&#x4E0D;&#x540C;,&#x5F53;&#x53EA;&#x6709;&#x4E00;&#x4E2A;&#x8282;&#x70B9;&#x65F6;,<strong>while</strong>&#x5FAA;&#x73AF;&#x672A;&#x542F;&#x52A8;;&#x5F53;&#x6E38;&#x6807;<strong>cur</strong>&#x5230;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x8282;&#x70B9;&#x65F6;,<strong>count</strong>&#x5728;<strong>while</strong>&#x5FAA;&#x73AF;&#x4E5F;&#x4E3A;+1,&#x6240;&#x4EE5;<strong>count</strong>&#x8BA1;&#x6570;&#x4ECE;<strong>1</strong>&#x5F00;&#x59CB;.</p>
+</blockquote>
+</li>
+</ol>
+<pre><code class="lang-Python">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">length</span><span class="hljs-params">(self)</span>:</span>
+        <span class="hljs-keyword">if</span> self.is_empty():
+            <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>
+        cur = self.__head
+        <span class="hljs-comment"># &#x8FD9;&#x91CC;count&#x7684;&#x4ECE;1&#x5F00;&#x59CB;&#xFF0C;&#x6CE8;&#x610F;while&#x5FAA;&#x73AF;&#x7684;&#x7EC8;&#x6B62;&#x6761;&#x4EF6;&#xFF0C;&#x6B64;&#x65F6;cur&#x5230;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x5373;&#x8DF3;&#x51FA;&#x5FAA;&#x73AF;&#xFF0C;&#x800C;count&#x6CA1;&#x6709;&#x5373;&#x4F1A;+1</span>
+        count = <span class="hljs-number">1</span>
+        <span class="hljs-comment"># &#x6E38;&#x6807;&#x53C8;&#x56DE;&#x5230;&#x5934;&#x90E8;&#x8282;&#x70B9;&#xFF0C;&#x5373;&#x94FE;&#x8868;&#x904D;&#x5386;&#x5B8C;&#x6BD5;&#xFF0C;&#x8FD4;&#x56DE;&#x94FE;&#x8868;&#x957F;&#x5EA6;</span>
+        <span class="hljs-keyword">while</span> cur.next != self.__head:
+            count += <span class="hljs-number">1</span>
+            cur = cur.next
+        <span class="hljs-keyword">return</span> count
+</code></pre>
+<h3 id="&#x4E03;&#x3001;&#x5B8C;&#x6574;&#x4EE3;&#x7801;">&#x4E03;&#x3001;&#x5B8C;&#x6574;&#x4EE3;&#x7801;</h3>
+<pre><code class="lang-Python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">LinkNode</span>:</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self, val)</span>:</span>
+        self.item = val
+        self.next = <span class="hljs-keyword">None</span>
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CycleLinkList</span>:</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span>
+        self.__head: LinkNode = <span class="hljs-keyword">None</span>
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">is_empty</span><span class="hljs-params">(self)</span>:</span>
+        <span class="hljs-keyword">return</span> self.__head <span class="hljs-keyword">is</span> <span class="hljs-keyword">None</span>
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">length</span><span class="hljs-params">(self)</span>:</span>
+        <span class="hljs-keyword">if</span> self.is_empty():
+            <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>
+        cur = self.__head
+        <span class="hljs-comment"># &#x8FD9;&#x91CC;count&#x7684;&#x4ECE;1&#x5F00;&#x59CB;&#xFF0C;&#x6CE8;&#x610F;while&#x5FAA;&#x73AF;&#x7684;&#x7EC8;&#x6B62;&#x6761;&#x4EF6;&#xFF0C;&#x6B64;&#x65F6;cur&#x5230;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x5373;&#x8DF3;&#x51FA;&#x5FAA;&#x73AF;&#xFF0C;&#x800C;count&#x6CA1;&#x6709;&#x5373;&#x4F1A;+1</span>
+        count = <span class="hljs-number">1</span>
+        <span class="hljs-comment"># &#x6E38;&#x6807;&#x53C8;&#x56DE;&#x5230;&#x5934;&#x90E8;&#x8282;&#x70B9;&#xFF0C;&#x5373;&#x94FE;&#x8868;&#x904D;&#x5386;&#x5B8C;&#x6BD5;&#xFF0C;&#x8FD4;&#x56DE;&#x94FE;&#x8868;&#x957F;&#x5EA6;</span>
+        <span class="hljs-keyword">while</span> cur.next != self.__head:
+            count += <span class="hljs-number">1</span>
+            cur = cur.next
+        <span class="hljs-keyword">return</span> count
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">travel</span><span class="hljs-params">(self)</span>:</span>
+        <span class="hljs-keyword">if</span> self.is_empty():
+            print(<span class="hljs-string">&quot;linklist id empty&quot;</span>)
+            <span class="hljs-keyword">return</span>
+        cur = self.__head
+        <span class="hljs-keyword">while</span> cur.next != self.__head:
+            print(cur.item, end=<span class="hljs-string">&quot; &quot;</span>)
+            cur = cur.next
+        <span class="hljs-comment"># &#x6B64;&#x65F6;cur&#x4F4D;&#x4E8E;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x8282;&#x70B9;&#xFF0C;&#x4ED6;&#x7684;next&#x6307;&#x5411;__head&#xFF0C;&#x4F46;&#x662F;&#x5728;while&#x5FAA;&#x73AF;&#x4E2D;&#x5E76;&#x672A;&#x6253;&#x5370;</span>
+        print(cur.item)
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">search</span><span class="hljs-params">(self,val)</span>:</span>
+        <span class="hljs-keyword">if</span> self.is_empty():
+            <span class="hljs-keyword">return</span> <span class="hljs-keyword">False</span>
+        cur=self.__head
+        <span class="hljs-keyword">while</span> cur.next!=self.__head:
+            <span class="hljs-keyword">if</span> cur.item==val:
+                <span class="hljs-keyword">return</span> <span class="hljs-keyword">True</span>
+            cur=cur.next
+
+        <span class="hljs-keyword">if</span> cur.item==val:
+            <span class="hljs-keyword">return</span> <span class="hljs-keyword">True</span>
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">False</span>
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">addHead</span><span class="hljs-params">(self, val)</span>:</span>
+        node = LinkNode(val)
+        <span class="hljs-comment"># &#x94FE;&#x8868;&#x4E3A;&#x7A7A;&#xFF0C;head&#x6307;&#x5411;node&#xFF0C;&#x540C;&#x65F6;node&#x6307;&#x5411;&#x81EA;&#x5DF1;</span>
+        <span class="hljs-keyword">if</span> self.is_empty():
+            self.__head = node
+            node.next = node
+
+        cur = self.__head
+        <span class="hljs-keyword">while</span> cur.next != self.__head:
+            cur = cur.next
+        node.next = self.__head
+        <span class="hljs-comment"># &#x4E0B;&#x9762;&#x4E24;&#x4E2A;&#x987A;&#x5E8F;&#x6CA1;&#x6709;&#x5148;&#x540E;</span>
+        cur.next = node
+        self.__head = node
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">addTail</span><span class="hljs-params">(self,val)</span>:</span>
+        node=LinkNode(val)
+        <span class="hljs-keyword">if</span> self.is_empty():
+            self.__head=node
+            node.next=node
+
+        cur=self.__head
+        <span class="hljs-keyword">while</span> cur.next!=self.__head:
+            cur=cur.next
+        <span class="hljs-comment"># node&#x8282;&#x70B9;&#x94FE;&#x63A5;&#x9996;&#x5C3E;&#xFF0C;head&#x4F4D;&#x7F6E;&#x4E0D;&#x53D8;&#xFF0C;&#x8FD9;&#x91CC;&#x4E0E;&#x5728;&#x5934;&#x90E8;&#x63D2;&#x5165;&#x4E0D;&#x540C;</span>
+        cur.next=node
+        node.next=self.__head
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">insert</span><span class="hljs-params">(self,pos,val)</span>:</span>
+        <span class="hljs-keyword">if</span> pos&lt;=<span class="hljs-number">0</span>:
+            self.addHead(val)
+        <span class="hljs-keyword">elif</span> pos&gt;=self.length():
+            self.addTail(val)
+        <span class="hljs-keyword">else</span>:
+            node = LinkNode(val)
+            cur=self.__head
+            count=<span class="hljs-number">0</span>
+            <span class="hljs-keyword">while</span> count&lt;(pos<span class="hljs-number">-1</span>):
+                count+=<span class="hljs-number">1</span>
+                cur=cur.next
+            node.next=cur.next
+            cur.next=node
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">remove</span><span class="hljs-params">(self,val)</span>:</span>
+        cur=self.__head
+        pre=<span class="hljs-keyword">None</span>
+        <span class="hljs-keyword">if</span> self.is_empty():
+            <span class="hljs-keyword">return</span> <span class="hljs-keyword">False</span>
+        <span class="hljs-keyword">while</span> cur.next!=self.__head:
+            <span class="hljs-keyword">if</span> cur.item==val:
+                <span class="hljs-comment"># &#x5982;&#x679C;&#x9700;&#x8981;&#x5220;&#x9664;&#x7684;&#x5143;&#x7D20;&#x662F;&#x5728;&#x5934;&#x90E8;&#xFF0C;&#x5219;&#x9700;&#x8981;&#x518D;&#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x6E38;&#x6807;&#x53D8;&#x91CF;rear&#xFF0C;&#x5FAA;&#x73AF;&#x81F3;&#x5C3E;&#x90E8;&#xFF0C;&#x7136;&#x540E;&#x8BA9;head&#x6307;&#x5411;&#x4E0B;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#xFF0C;&#x8BA9;</span>
+                <span class="hljs-keyword">if</span> cur==self.__head:
+                    rear=self.__head
+                    <span class="hljs-keyword">while</span> rear.next!=self.__head:
+                        rear=rear.next
+                    <span class="hljs-comment"># &#x7531;&#x4E8E;&#x5934;&#x90E8;&#x8282;&#x70B9;&#x5DF2;&#x7ECF;&#x5220;&#x9664;&#xFF0C;&#x9700;&#x8981;&#x5C06;head&#x5411;&#x540E;&#x79FB;&#x52A8;&#x4E00;&#x4F4D;&#xFF0C;&#x5E76;&#x5C06;&#x5C3E;&#x90E8;&#xFF08;rear&#xFF09;&#x6307;&#x5411;&#x65B0;&#x7684;&#x5934;&#x90E8;</span>
+                    self.__head=cur.next
+                    rear.next=self.__head
+                <span class="hljs-keyword">else</span>:
+                    pre.next=cur.next
+                <span class="hljs-keyword">return</span> <span class="hljs-keyword">True</span>
+            <span class="hljs-keyword">else</span>:
+                pre=cur
+                cur=cur.next
+
+        <span class="hljs-comment"># &#x8DF3;&#x51FA;&#x5FAA;&#x73AF;&#x540E;&#xFF0C;cur&#x4F4D;&#x4E8E;&#x94FE;&#x8868;&#x5C3E;&#x90E8;&#xFF0C;&#x5F00;&#x59CB;&#x6BD4;&#x8F83;&#x5C3E;&#x90E8;&#x662F;&#x5426;&#x4E3A;&#x8981;&#x5220;&#x9664;&#x6570;&#x636E;</span>
+        <span class="hljs-keyword">if</span> cur.item==val:
+            <span class="hljs-comment"># &#x5224;&#x65AD;&#x94FE;&#x8868;&#x662F;&#x5426;&#x53EA;&#x6709;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#xFF0C;&#x5373;cur==__head</span>
+            <span class="hljs-keyword">if</span> cur==self.__head:
+                self.__head=<span class="hljs-keyword">None</span>
+            <span class="hljs-keyword">else</span>:
+                pre.next=cur.next
+            <span class="hljs-keyword">return</span> <span class="hljs-keyword">True</span>
+        <span class="hljs-comment"># &#x6CA1;&#x6709;&#x627E;&#x5230;&#x5143;&#x7D20;&#xFF0C;&#x8FD4;&#x56DE;False</span>
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">False</span>
+</code></pre>
+<footer class="page-footer"><span class="copyright">&#x9102;ICP&#x5907;15001733&#x53F7;-4 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2024-01-30 12:19:49
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="linklist.html" class="navigation navigation-prev " aria-label="Previous page: Python单向链表">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="pycharm_github_token.html" class="navigation navigation-next " aria-label="Next page: Github配置token提交代码">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Python单向循环链表","level":"1.2.7","depth":2,"next":{"title":"Github配置token提交代码","level":"1.2.8","depth":2,"path":"python/pycharm_github_token.md","ref":"python/pycharm_github_token.md","articles":[]},"previous":{"title":"Python单向链表","level":"1.2.6","depth":2,"path":"python/linklist.md","ref":"python/linklist.md","articles":[]},"dir":"ltr"},"config":{"plugins":["search-pro","code","expandable-chapters","back-to-top-button","-search","-sharing","tbfed-pagefooter","toc","theme-comscore"],"root":".","styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"鄂ICP备15001733号-4","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"search-pro":{},"toc":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"fontSettings":{"theme":"sepia|night|white","family":"serif|sans","size":18},"highlight":{},"theme-comscore":{},"back-to-top-button":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"level_number":false,"theme":"default","author":"Mr.Zhang","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"collapsible_menu":false,"variables":{"title":"Bytetoy","theme":"theme-comscore","copyright":"Copyright 2022 bytetoy.cn"},"title":"Bytetoy","language":"zh-hans","links":{"sidebar":{"eduez":"http://www.eduez.cn","hrzone":"http://www.hrzone.cn"},"sharing":{"all":false}},"gitbook":"3.2.x","description":"发现程序的乐趣","extension":null},"file":{"path":"python/cyclelink.md","mtime":"2024-01-30T04:19:49.249Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-03-15T14:35:20.702Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    </body>
+</html>
+

@@ -1,0 +1,1424 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>stm32F407接收ADC数据 · Bytetoy</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Mr.Zhang">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="stm32f407_pwm.html" />
+    
+    
+    <link rel="prev" href="stm32f407_usart.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="http://www.eduez.cn" target="_blank" class="custom-link">eduez</a>
+        </li>
+    
+        
+        <li>
+            <a href="http://www.hrzone.cn" target="_blank" class="custom-link">hrzone</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../python/">
+            
+                <a href="../python/">
+            
+                    
+                    Python
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../python/python_queue.html">
+            
+                <a href="../python/python_queue.html">
+            
+                    
+                    Python队列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../python/python_stack.html">
+            
+                <a href="../python/python_stack.html">
+            
+                    
+                    Python栈
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../python/recursion.html">
+            
+                <a href="../python/recursion.html">
+            
+                    
+                    Python递归算法及其简单应用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../python/sudoku.html">
+            
+                <a href="../python/sudoku.html">
+            
+                    
+                    Python回溯算法解数独
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../python/colab_setting.html">
+            
+                <a href="../python/colab_setting.html">
+            
+                    
+                    Colab开发环境配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../python/linklist.html">
+            
+                <a href="../python/linklist.html">
+            
+                    
+                    Python单向链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../python/cyclelink.html">
+            
+                <a href="../python/cyclelink.html">
+            
+                    
+                    Python单向循环链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="../python/pycharm_github_token.html">
+            
+                <a href="../python/pycharm_github_token.html">
+            
+                    
+                    Github配置token提交代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="../python/binary_tree_travel.html">
+            
+                <a href="../python/binary_tree_travel.html">
+            
+                    
+                    Python二叉树遍历
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="../python/binary_tree_array.html">
+            
+                <a href="../python/binary_tree_array.html">
+            
+                    
+                    Python二叉树列表表示
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="../python/binary_tree_search.html">
+            
+                <a href="../python/binary_tree_search.html">
+            
+                    
+                    Python二叉搜索树操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="../python/python_heap.html">
+            
+                <a href="../python/python_heap.html">
+            
+                    
+                    Python堆操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.13" data-path="../python/python_graph_matrix.html">
+            
+                <a href="../python/python_graph_matrix.html">
+            
+                    
+                    Python无向图邻接矩阵实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.14" data-path="../python/python_graph_list.html">
+            
+                <a href="../python/python_graph_list.html">
+            
+                    
+                    Python无向图邻接表实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.15" data-path="../python/python_graph_travel.html">
+            
+                <a href="../python/python_graph_travel.html">
+            
+                    
+                    Python无向图遍历
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.16" data-path="../python/python_binary_search_close.html">
+            
+                <a href="../python/python_binary_search_close.html">
+            
+                    
+                    Python二分查找算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.17" data-path="../python/python_selection_sort.html">
+            
+                <a href="../python/python_selection_sort.html">
+            
+                    
+                    Python排序算法-选择排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.18" data-path="../python/python_bubble_sort.html">
+            
+                <a href="../python/python_bubble_sort.html">
+            
+                    
+                    Python排序算法-冒泡排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.19" data-path="../python/python_insertion_sort.html">
+            
+                <a href="../python/python_insertion_sort.html">
+            
+                    
+                    Python排序算法-插入排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.20" data-path="../python/python_quick_sort.html">
+            
+                <a href="../python/python_quick_sort.html">
+            
+                    
+                    Python排序算法-快速排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.21" data-path="../python/python_merge_sort.html">
+            
+                <a href="../python/python_merge_sort.html">
+            
+                    
+                    Python排序算法-归并排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.22" data-path="../python/python_heap_sort.html">
+            
+                <a href="../python/python_heap_sort.html">
+            
+                    
+                    Python排序算法-堆排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.23" data-path="../python/python_build_tree.html">
+            
+                <a href="../python/python_build_tree.html">
+            
+                    
+                    Python分治算法应用-构建二叉树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.24" data-path="../python/numpy_basic.html">
+            
+                <a href="../python/numpy_basic.html">
+            
+                    
+                    Numpy基础用法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../tips/tips.html">
+            
+                <a href="../tips/tips.html">
+            
+                    
+                    Tips
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../tips/kms_act.html">
+            
+                <a href="../tips/kms_act.html">
+            
+                    
+                    KMS激活服务器vlmcsd搭建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../tips/rime.html">
+            
+                <a href="../tips/rime.html">
+            
+                    
+                    rime输入法安装配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../tips/apt_fail.html">
+            
+                <a href="../tips/apt_fail.html">
+            
+                    
+                    Armbian apt update失败处理方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../tips/mariadb_conf.html">
+            
+                <a href="../tips/mariadb_conf.html">
+            
+                    
+                    Armbian安装Mysql(MariaDB)数据库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../tips/linux_server_safe_config.html">
+            
+                <a href="../tips/linux_server_safe_config.html">
+            
+                    
+                    云服务器初始安全配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../tips/mysql_add_0.html">
+            
+                <a href="../tips/mysql_add_0.html">
+            
+                    
+                    MySQL为字段前面加一位0
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../tips/gitbook_install_error.html">
+            
+                <a href="../tips/gitbook_install_error.html">
+            
+                    
+                    gitbook运行错误解决cb.apply函数问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../tips/cos_static_config.html">
+            
+                <a href="../tips/cos_static_config.html">
+            
+                    
+                    腾讯COS托管静态网站
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="../tips/mysql_import_datafile.html">
+            
+                <a href="../tips/mysql_import_datafile.html">
+            
+                    
+                    MySQL导入frm、MYD、MYI数据文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="../tips/debian_install_docker.html">
+            
+                <a href="../tips/debian_install_docker.html">
+            
+                    
+                    Debian 12(bookworm)安装Docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11" data-path="../tips/docker_cancel_sudo.html">
+            
+                <a href="../tips/docker_cancel_sudo.html">
+            
+                    
+                    Docker配置操作无需sudo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12" data-path="../tips/docker_cli.html">
+            
+                <a href="../tips/docker_cli.html">
+            
+                    
+                    Docker常用命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13" data-path="../tips/pip_error.html">
+            
+                <a href="../tips/pip_error.html">
+            
+                    
+                    pip安装出错解决一例(error: externally-managed-environment)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.14" data-path="../tips/frp_config.html">
+            
+                <a href="../tips/frp_config.html">
+            
+                    
+                    frp实现内网穿透
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.15" data-path="../tips/scp_file.html">
+            
+                <a href="../tips/scp_file.html">
+            
+                    
+                    scp在服务器之间传输文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.16" data-path="../tips/unzip_error.html">
+            
+                <a href="../tips/unzip_error.html">
+            
+                    
+                    unzip解压大文件出错解决办法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.17" data-path="../tips/rclone_to_webdav.html">
+            
+                <a href="../tips/rclone_to_webdav.html">
+            
+                    
+                    rclone配置同步WebDAV
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.18" data-path="../tips/docker_install_jellyfin.html">
+            
+                <a href="../tips/docker_install_jellyfin.html">
+            
+                    
+                    Docker安装&配置jellyfin
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.19" data-path="../tips/proxychains_install_config.html">
+            
+                <a href="../tips/proxychains_install_config.html">
+            
+                    
+                    proxychains-ng配置终端下代理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.20" data-path="../tips/geminipro_chatbot.html">
+            
+                <a href="../tips/geminipro_chatbot.html">
+            
+                    
+                    Vercel部署Gemini Pro前端程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.21" data-path="../tips/mysql_statis_score.html">
+            
+                <a href="../tips/mysql_statis_score.html">
+            
+                    
+                    MySQL统计学生期末联考成绩
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.22" data-path="../tips/mysql_compara_score.html">
+            
+                <a href="../tips/mysql_compara_score.html">
+            
+                    
+                    MySQL分析学生中考和期末联考成绩
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.23" data-path="../tips/git_force_push.html">
+            
+                <a href="../tips/git_force_push.html">
+            
+                    
+                    Github提交密码信息后补救措施
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.24" data-path="../tips/pycharm_http_proxy.html">
+            
+                <a href="../tips/pycharm_http_proxy.html">
+            
+                    
+                    Git使用代理提交Github
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.25" data-path="../tips/vim_modify_jar.html">
+            
+                <a href="../tips/vim_modify_jar.html">
+            
+                    
+                    jar修改技巧一则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.26" data-path="../tips/systemctl_config.html">
+            
+                <a href="../tips/systemctl_config.html">
+            
+                    
+                    systemctl配置开机启动服务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.27" data-path="../tips/mysql_create_user.html">
+            
+                <a href="../tips/mysql_create_user.html">
+            
+                    
+                    MySQL新增帐号
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.28" data-path="../tips/mysql_import_csv.html">
+            
+                <a href="../tips/mysql_import_csv.html">
+            
+                    
+                    MySQL启用导入外部数据功能
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    STM32
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="stm32f407_config.html">
+            
+                <a href="stm32f407_config.html">
+            
+                    
+                    stm32F407开发环境配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="stm32f407_key.html">
+            
+                <a href="stm32f407_key.html">
+            
+                    
+                    stm32F407按键输入
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="stm32f407_nvic.html">
+            
+                <a href="stm32f407_nvic.html">
+            
+                    
+                    stm32F407外部中断
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="stm32f407_tim.html">
+            
+                <a href="stm32f407_tim.html">
+            
+                    
+                    stm32F407定时器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="stm32f407_usart.html">
+            
+                <a href="stm32f407_usart.html">
+            
+                    
+                    stm32F407串口接收/发送
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.6" data-path="stm32f407_adc.html">
+            
+                <a href="stm32f407_adc.html">
+            
+                    
+                    stm32F407接收ADC数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="stm32f407_pwm.html">
+            
+                <a href="stm32f407_pwm.html">
+            
+                    
+                    stm32F407下PWM实现呼吸灯
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="stm32f407_spi.html">
+            
+                <a href="stm32f407_spi.html">
+            
+                    
+                    stm32F407下SPI读写Flash
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="stm32f407_printf_to_usart.html">
+            
+                <a href="stm32f407_printf_to_usart.html">
+            
+                    
+                    stm32F407下printf重定向到串口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10" data-path="stm32f407_dma.html">
+            
+                <a href="stm32f407_dma.html">
+            
+                    
+                    stm32F407下DMA操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.11" data-path="stm32f407_iwdg.html">
+            
+                <a href="stm32f407_iwdg.html">
+            
+                    
+                    stm32F407下IWDG
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.12" data-path="stm32f407_fsmc_sram.html">
+            
+                <a href="stm32f407_fsmc_sram.html">
+            
+                    
+                    stm32F407读写SRAM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.13" data-path="stm32f407_spi_lcd.html">
+            
+                <a href="stm32f407_spi_lcd.html">
+            
+                    
+                    stm32F407驱动LCD屏幕
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../minecraft/minecraft.html">
+            
+                <a href="../minecraft/minecraft.html">
+            
+                    
+                    Minecraft
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../minecraft/Minecraft服务器Spigot安装和配置.html">
+            
+                <a href="../minecraft/Minecraft服务器Spigot安装和配置.html">
+            
+                    
+                    Minecraft服务器Spigot安装和配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../pico/pico.html">
+            
+                <a href="../pico/pico.html">
+            
+                    
+                    Raspberry pi pico
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../pico/Ubuntu下配置raspberry_pico开发环境.html">
+            
+                <a href="../pico/Ubuntu下配置raspberry_pico开发环境.html">
+            
+                    
+                    Ubuntu下配置raspberry_pico开发环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../pico/Raspberry_Pico点亮LED灯.html">
+            
+                <a href="../pico/Raspberry_Pico点亮LED灯.html">
+            
+                    
+                    Raspberry_Pico点亮LED灯
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../pico/VirtualBox虚拟机USB调试PICO串口.html">
+            
+                <a href="../pico/VirtualBox虚拟机USB调试PICO串口.html">
+            
+                    
+                    VirtualBox虚拟机USB调试PICO串口
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >stm32F407接收ADC数据</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="stm32f407&#x7684;adc">stm32F407&#x7684;ADC</h1>
+<blockquote>
+<p>stm32&#x8FDE;&#x63A5;&#x5404;&#x79CD;&#x5916;&#x8BBE;&#x7684;&#x4F20;&#x611F;&#x5668;&#xFF0C;&#x5982;&#xFF1A;&#x7EA2;&#x5916;&#x6D4B;&#x8DDD;&#x3001;&#x6E29;&#x5EA6;&#x3001;&#x6C14;&#x538B;&#x7B49;&#x4F20;&#x611F;&#x5668;&#xFF0C;&#x90FD;&#x662F;&#x901A;&#x8FC7;ADC&#x63A5;&#x53E3;&#x8FDE;&#x63A5;&#x7684;&#x3002;</p>
+</blockquote>
+<h2 id="&#x4E00;&#x3001;&#x4EFB;&#x52A1;">&#x4E00;&#x3001;&#x4EFB;&#x52A1;</h2>
+<ol>
+<li>&#x6D4B;&#x91CF;&#x6309;&#x952E;&#xFF08;WAKE_UP)&#x7684;&#x6309;&#x4E0B;&#x548C;&#x653E;&#x5F00;&#x7684;&#x7535;&#x538B;</li>
+<li>&#x6D4B;&#x91CF;&#x5916;&#x63A5;&#x7684;&#x7EA2;&#x5916;&#x6D4B;&#x8DDD;&#x4EEA;&#x611F;&#x5E94;&#x7684;&#x8DDD;&#x79BB;&#x548C;&#x7535;&#x538B;</li>
+<li>&#x4E24;&#x4E2A;LED&#x706F;&#x5206;&#x522B;&#x7528;&#x4E8E;&#x663E;&#x793A;&#x6D4B;&#x91CF;&#x8FC7;&#x7A0B;&#x4E2D;</li>
+</ol>
+<h2 id="&#x4E8C;&#x3001;&#x786C;&#x4EF6;">&#x4E8C;&#x3001;&#x786C;&#x4EF6;</h2>
+<ol>
+<li>LED&#xFF1A;&#x6307;&#x793A;&#x706F;<ul>
+<li>LED7&lt;--&gt;PF7</li>
+<li>LED8&lt;--&gt;PF8</li>
+</ul>
+</li>
+<li>&#x7EA2;&#x5916;&#x6D4B;&#x8DDD;&#x4EEA;<ul>
+<li>OUT&#x5F15;&#x811A;&lt;--&gt;PF6&#xFF08;&#x6B64;&#x5F15;&#x811A;&#x8BBE;&#x7F6E;&#x4E3A;ADC3&#x7684;IN4&#xFF09;</li>
+<li>GND&lt;--&gt;GND&#xFF08;&#x5F00;&#x53D1;&#x677F;&#x4E0A;&#x4EFB;&#x610F;&#x4E00;&#x4E2A;&#xFF09;</li>
+<li>VCC&lt;--&gt;3.3V&#xFF08;&#x5F00;&#x53D1;&#x677F;&#x4E0A;&#x4EFB;&#x610F;&#x4E00;&#x4E2A;&#xFF09;</li>
+</ul>
+</li>
+<li>&#x8F7B;&#x89E6;&#x5F00;&#x5173;<ul>
+<li>WAKE_UP&lt;--&gt;PA0(&#x6B64;&#x5F15;&#x811A;&#x8BBE;&#x7F6E;&#x4E3A;ADC1&#x7684;IN0)</li>
+</ul>
+</li>
+</ol>
+<h2 id="&#x4E09;&#x3001;&#x914D;&#x7F6E;">&#x4E09;&#x3001;&#x914D;&#x7F6E;</h2>
+<ol>
+<li>SYS&#x3001;RCC&#x3001;USART&#x7B49;&#x914D;&#x7F6E;&#x540C;&#x4E4B;&#x524D;&#x7684;&#x914D;&#x7F6E;&#xFF1B;</li>
+<li>ADC&#x914D;&#x7F6E;&#xFF1A;Analog&#x6807;&#x7B7E;&#x4E0B;<ul>
+<li>ADC1&#xFF1A;ADC1--&gt;IN0--&gt;Parameter Setting(&#x9ED8;&#x8BA4;)--&gt;NVIC Setting(&#x542F;&#x7528;&#x4E2D;&#x65AD;)--&gt;GPIO setting(&#x7CFB;&#x7EDF;&#x9ED8;&#x8BA4;&#x5F15;&#x51FA;&#x4E3A;PA0&#x5F15;&#x811A;)</li>
+<li>ADC3&#xFF1A;GPIO--&gt;PF6--&gt;&#x9F20;&#x6807;&#x70B9;&#x51FB;--&gt;ADC3_IN4--&gt;&#x5176;&#x4ED6;&#x8BBE;&#x7F6E;&#x540C;ADC1&#x5373;&#x53EF;</li>
+<li>&#x5728;GPIO&#x6807;&#x7B7E;&#x548C;Analog&#x6807;&#x7B7E;&#x4E0B;&#xFF0C;&#x90FD;&#x53EF;&#x4EE5;&#x542F;&#x7528;ADC&#x529F;&#x80FD;&#xFF0C;&#x4E00;&#x4E2A;&#x6839;&#x636E;ADC&#x7684;&#x901A;&#x9053;&#x8FDB;&#x884C;&#x914D;&#x7F6E;&#xFF08;ADC&#x7684;&#x901A;&#x9053;&#x5DF2;&#x7ECF;&#x7ED1;&#x5B9A;&#x4E86;&#x5F15;&#x811A;&#x5BF9;&#x5E94;&#x7684;&#x5F15;&#x811A;&#x53F7;&#xFF09;&#xFF0C;&#x4E00;&#x4E2A;&#x662F;&#x6839;&#x636E;GPIO&#x7684;&#x5F15;&#x811A;&#x53F7;&#x8FDB;&#x884C;&#x914D;&#x7F6E;&#xFF0C;&#x65B9;&#x5F0F;&#x90FD;&#x662F;&#x4E00;&#x6837;&#x7684;&#x3002;</li>
+<li>ADC&#x7684;&#x4E2D;&#x65AD;&#x529F;&#x80FD;&#x4E00;&#x5B9A;&#x8981;&#x5F00;&#x542F;</li>
+</ul>
+</li>
+</ol>
+<h2 id="&#x56DB;&#x3001;&#x7A0B;&#x5E8F;&#x6D41;&#x7A0B;">&#x56DB;&#x3001;&#x7A0B;&#x5E8F;&#x6D41;&#x7A0B;</h2>
+<blockquote>
+<p>&#x540C;&#x4E2D;&#x65AD;&#x3001;USART&#x3001;TIM&#x7B49;&#x529F;&#x80FD;&#x5F00;&#x53D1;&#xFF0C;ADC&#x7684;&#x5F00;&#x53D1;&#x4E5F;&#x6D89;&#x53CA;&#x5230;&#x4E2D;&#x65AD;&#xFF0C;&#x56E0;&#x6B64;&#x4E5F;&#x662F;&#x901A;&#x8FC7;&#x8C03;&#x7528;&#x56DE;&#x8C03;&#x51FD;&#x6570;&#x5B9E;&#x73B0;&#x529F;&#x80FD;&#x3002;</p>
+</blockquote>
+<p><code>main.c--&gt;stm32f4xx_hal_adc.c--&gt;main.c</code></p>
+<h3 id="mainc&#xFF08;&#x542F;&#x52A8;adc&#xFF09;">main.c&#xFF08;&#x542F;&#x52A8;ADC&#xFF09;</h3>
+<blockquote>
+<p>main.c&#x6587;&#x4EF6;&#x4E2D;&#xFF0C;&#x901A;&#x8FC7;&#x8C03;&#x7528;ADC&#x4E2D;&#x65AD;&#x542F;&#x52A8;&#x51FD;&#x6570;&#xFF0C;&#x5F00;&#x542F;ADC&#x529F;&#x80FD;&#x3002;</p>
+</blockquote>
+<ol>
+<li><p>&#x975E;&#x963B;&#x585E;&#x5F0F;&#x542F;&#x52A8;ADC&#xFF08;&#x4E2D;&#x65AD;&#xFF0C;&#x63A8;&#x8350;&#xFF09;</p>
+<pre><code class="lang-C">HAL_ADC_Start_IT(&amp;hadc3);
+</code></pre>
+</li>
+<li><p>&#x963B;&#x585E;&#x5F0F;&#x542F;&#x52A8;ADC&#xFF1A;</p>
+<pre><code class="lang-C">HAL_ADC_Start(&amp;hadc1);
+</code></pre>
+</li>
+</ol>
+<h3 id="mainc&#xFF08;&#x5B9E;&#x73B0;&#x56DE;&#x8C03;&#x51FD;&#x6570;&#x6216;&#x6570;&#x636E;&#x63A5;&#x6536;&#xFF09;">main.c&#xFF08;&#x5B9E;&#x73B0;&#x56DE;&#x8C03;&#x51FD;&#x6570;&#x6216;&#x6570;&#x636E;&#x63A5;&#x6536;&#xFF09;</h3>
+<ol>
+<li>&#x975E;&#x963B;&#x585E;&#x5F0F;&#xFF08;&#x91CD;&#x5199;&#x56DE;&#x8C03;&#x51FD;&#x6570;&#xFF09;<blockquote>
+<ul>
+<li><code>HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc)</code>&#x662F;&#x4E00;&#x4E2A;&#x865A;&#x51FD;&#x6570;&#xFF0C;&#x5728;<code>stm32f4xx_hal_adc.c</code>&#x6587;&#x4EF6;&#x4E2D;</li>
+<li>&#x540C;TIM\USART&#x7B49;&#xFF0C;&#x56DE;&#x8C03;&#x51FD;&#x6570;&#x53EA;&#x6709;&#x4E00;&#x4E2A;&#xFF0C;&#x56E0;&#x6B64;&#xFF0C;&#x7B2C;&#x4E00;&#x6B65;&#x662F;&#x9700;&#x8981;&#x5224;&#x65AD;&#x4F20;&#x5165;&#x7ED3;&#x6784;&#x4F53;&#x662F;&#x54EA;&#x4E2A;ADC&#x63A5;&#x53E3;</li>
+<li>&#x4E0B;&#x9762;&#x4EE3;&#x7801;&#x4E2D;ADC1&#x7528;&#x4E8E;&#x68C0;&#x6D4B;&#x6309;&#x952E;&#x7535;&#x538B;&#xFF0C;ADC3&#x7528;&#x4E8E;&#x68C0;&#x6D4B;&#x7EA2;&#x5916;&#x6D4B;&#x8DDD;&#x4EEA;&#x7535;&#x538B;</li>
+<li><code>HAL_ADC_GetValue</code>&#x51FD;&#x6570;&#x7528;&#x6237;&#x83B7;&#x53D6;ADC&#x7684;&#x503C;&#xFF0C;&#x5355;&#x4F4D;&#x662F;&#x6BEB;&#x4F0F;</li>
+<li>&#x6CE8;&#x610F;&#x7535;&#x538B;&#x7684;&#x6362;&#x7B97;&#x65B9;&#x5F0F;&#xFF1A;ADC&#x662F;12&#x4F4D;&#xFF0C;&#x56E0;&#x6B64;&#x6700;&#x5927;&#x503C;4096&#xFF08;2&#x7684;12&#x6B21;&#x65B9;&#xFF09;</li>
+</ul>
+</blockquote>
+</li>
+</ol>
+<pre><code class="lang-C"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">HAL_ADC_ConvCpltCallback</span><span class="hljs-params">(ADC_HandleTypeDef* hadc)</span> </span>{
+    <span class="hljs-keyword">if</span>(hadc-&gt;Instance==ADC1) {
+        ADC_Value=HAL_ADC_GetValue(&amp;hadc1);
+        ADC_Volt=ADC_Value*<span class="hljs-number">3.3</span>*<span class="hljs-number">1000</span>/<span class="hljs-number">4096</span>;
+        send_USART_Data();
+        led7_off();
+    }
+    <span class="hljs-keyword">if</span>(hadc-&gt;Instance==ADC3) {
+        ADC_Value=HAL_ADC_GetValue(&amp;hadc3);
+        ADC_Volt=ADC_Value*<span class="hljs-number">3.3</span>*<span class="hljs-number">1000</span>/<span class="hljs-number">4096</span>;
+        send_USART_Data();
+        led8_off();
+    }
+}
+</code></pre>
+<ol>
+<li>&#x963B;&#x585E;&#x5F0F;&#x8C03;&#x7528;<blockquote>
+<p>&#x963B;&#x585E;&#x5F0F;&#x8C03;&#x7528;&#x5206;&#x4E3A;&#x4E24;&#x4E2A;&#x6B65;&#x9AA4;&#xFF1A;&#x542F;&#x52A8;&#x5BF9;&#x5E94;&#x7684;ADC&#xFF0C;&#x7136;&#x540E;&#x8FDB;&#x884C;&#x5224;&#x65AD;ADC&#x662F;&#x5426;&#x6267;&#x884C;&#x6210;&#x529F;&#xFF0C;&#x6267;&#x884C;&#x6210;&#x529F;&#x540E;&#x5C31;&#x6D3B;&#x533A;ADC&#x7684;&#x503C;&#x3002;</p>
+<ul>
+<li><code>HAL_ADC_Start(&amp;hadc1);</code>&#x542F;&#x52A8;ADC1</li>
+<li><code>(HAL_ADC_PollForConversion(&amp;hadc1, 10)==HAL_OK)</code>&#x5224;&#x65AD;ADC1&#x662F;&#x5728;&#x89C4;&#x5B9A;&#x8D85;&#x65F6;&#x65F6;&#x95F4;&#x5185;&#x5426;&#x6267;&#x884C;&#x6210;&#x529F;</li>
+<li><code>HAL_ADC_GetValue(&amp;hadc1);</code>&#x83B7;&#x53D6;ADC1&#x7684;&#x503C;</li>
+</ul>
+</blockquote>
+</li>
+</ol>
+<pre><code class="lang-C"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">get_ADC_Value</span><span class="hljs-params">()</span> </span>{
+    HAL_ADC_Start(&amp;hadc1);
+    led7_on();
+    <span class="hljs-keyword">if</span>(HAL_ADC_PollForConversion(&amp;hadc1, <span class="hljs-number">10</span>)==HAL_OK) {
+        ADC_Value=HAL_ADC_GetValue(&amp;hadc1);
+        ADC_Volt=ADC_Value*<span class="hljs-number">3.3</span>*<span class="hljs-number">1000</span>/<span class="hljs-number">4096</span>;
+    }
+    send_USART_Data();
+    led7_off();
+    HAL_ADC_Stop(&amp;hadc1);
+}
+</code></pre>
+<h2 id="&#x4E94;&#x3001;&#x5176;&#x4ED6;">&#x4E94;&#x3001;&#x5176;&#x4ED6;</h2>
+<ol>
+<li>&#x63A8;&#x8350;&#x4F7F;&#x7528;&#x975E;&#x963B;&#x585E;&#x6A21;&#x5F0F;&#xFF0C;&#x66F4;&#x52A0;&#x4F18;&#x96C5;&#x800C;&#x4E14;&#x6548;&#x679C;&#x66F4;&#x597D;&#xFF1B;</li>
+<li>&#x5F00;&#x53D1;&#x677F;&#x81EA;&#x5E26;&#x7684;adc&#x8F6C;&#x6362;&#x5668;&#x5F0F;12&#x4F4D;&#x957F;&#x5EA6;&#xFF0C;&#x8FD9;&#x4E5F;&#x662F;&#x8F6C;&#x6362;&#x7CBE;&#x5EA6;</li>
+<li><p>&#x51E0;&#x4E2A;&#x5E38;&#x7528;ADC&#x7684;&#x51FD;&#x6570;&#xFF1A;</p>
+<ul>
+<li><p>&#x542F;&#x52A8;&#x51FD;&#x6570;&#xFF1A;</p>
+<pre><code class="lang-C"><span class="hljs-comment">//&#x67E5;&#x8BE2;&#xFF0C;&#x963B;&#x585E;&#x65B9;&#x5F0F;&#xFF0C;&#x542F;&#x52A8;ADC</span>
+<span class="hljs-function">HAL_StatusTypeDef    <span class="hljs-title">HAL_ADC_Start</span><span class="hljs-params">(ADC_HandleTypeDef* hadc)</span></span>;
+<span class="hljs-comment">//&#x67E5;&#x8BE2;&#xFF0C;&#x963B;&#x585E;&#x65B9;&#x5F0F;&#xFF0C;&#x505C;&#x6B62;ADC</span>
+<span class="hljs-function">HAL_StatusTypeDef    <span class="hljs-title">HAL_ADC_Stop</span><span class="hljs-params">(ADC_HandleTypeDef* hadc)</span></span>;
+<span class="hljs-comment">//&#x4E2D;&#x65AD;&#xFF0C;&#x975E;&#x963B;&#x585E;&#x65B9;&#x5F0F;&#xFF0C;&#x542F;&#x52A8;ADC</span>
+<span class="hljs-function">HAL_StatusTypeDef    <span class="hljs-title">HAL_ADC_Start_IT</span><span class="hljs-params">(ADC_HandleTypeDef* hadc)</span></span>;
+<span class="hljs-comment">//&#x4E2D;&#x65AD;&#xFF0C;&#x975E;&#x963B;&#x585E;&#x65B9;&#x5F0F;&#xFF0C;&#x505C;&#x6B62;ADC</span>
+<span class="hljs-function">HAL_StatusTypeDef    <span class="hljs-title">HAL_ADC_Stop_IT</span><span class="hljs-params">(ADC_HandleTypeDef* hadc)</span></span>;
+</code></pre>
+</li>
+<li><p>&#x8BFB;&#x53D6;ADC&#x6570;&#x636E;&#x51FD;&#x6570;
+~~~C
+uint32_t HAL_ADC_GetValue(ADC_HandleTypeDef* hadc);</p>
+</li>
+<li>&#x53C2;&#x6570;1&#xFF1A;hadc&#xFF0C;ADC&#x5B9E;&#x4F8B;&#x6307;&#x9488;&#x3002;</li>
+<li>&#x8FD4;&#x56DE;&#x503C;&#xFF1A;uint32_t&#xFF0C;ADC&#x8F6C;&#x6362;&#x7ED3;&#x679C;&#x3002;
+~~~</li>
+</ul>
+<ul>
+<li><p>&#x67E5;&#x8BE2;&#x65B9;&#x5F0F;&#xFF0C;&#x963B;&#x585E;&#x5F0F;A/D&#x8F6C;&#x6362;HAL&#x5E93;&#x51FD;&#x6570;</p>
+<pre><code class="lang-C"><span class="hljs-function">HAL_StatusTypeDef <span class="hljs-title">HAL_ADC_PollForConversion</span><span class="hljs-params">(ADC_HandleTypeDef* hadc, uint32_t Timeout)</span></span>;
+&#x53C2;&#x6570;<span class="hljs-number">1</span>&#xFF1A;hadc&#xFF0C;ADC&#x5B9E;&#x4F8B;&#x6307;&#x9488;&#x3002;
+&#x53C2;&#x6570;<span class="hljs-number">2</span>&#xFF1A;Timeout&#xFF0C;&#x8D85;&#x65F6;&#x65F6;&#x95F4;&#x3002;
+&#x8FD4;&#x56DE;&#x503C;&#xFF1A;HAL_StatusTypeDef&#xFF0C;&#x51FD;&#x6570;&#x6267;&#x884C;&#x72B6;&#x6001;&#x3002;
+</code></pre>
+</li>
+<li><p>&#x4E2D;&#x65AD;&#x65B9;&#x5F0F;&#xFF0C;&#x975E;&#x963B;&#x585E;&#x5F0F;&#x56DE;&#x8C03;</p>
+<pre><code class="lang-C"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">HAL_ADC_ConvCpltCallback</span><span class="hljs-params">(ADC_HandleTypeDef* hadc)</span>
+</span></code></pre>
+</li>
+</ul>
+</li>
+<li><p>ADC&#x7684;&#x51E0;&#x4E2A;&#x6982;&#x5FF5;</p>
+<pre><code> * &#x91CF;&#x7A0B;&#xFF1A;&#x6307;ADC&#x6240;&#x80FD;&#x8F93;&#x5165;&#x6A21;&#x62DF;&#x4FE1;&#x53F7;&#x7684;&#x7C7B;&#x578B;&#x548C;&#x7535;&#x538B;&#x8303;&#x56F4;&#xFF0C;&#x5373;&#x53C2;&#x8003;&#x7535;&#x538B;&#x3002;&#x4FE1;&#x53F7;&#x7C7B;&#x578B;&#x5305;&#x62EC;&#x5355;&#x6781;&#x6027;&#x548C;&#x53CC;&#x6781;&#x6027;&#x3002;
+ * &#x8F6C;&#x6362;&#x4F4D;&#x6570;&#xFF1A;&#x91CF;&#x5316;&#x8FC7;&#x7A0B;&#x4E2D;&#x7684;&#x91CF;&#x5316;&#x4F4D;&#x6570;n&#x3002; A/D&#x8F6C;&#x6362;&#x540E;&#x7684;&#x8F93;&#x51FA;&#x7ED3;&#x679C;&#x7528;n&#x4F4D;&#x4E8C;&#x8FDB;&#x5236;&#x6570;&#x6765;&#x8868;&#x793A;&#x3002;
+ &#x3010;&#x4F8B;&#x3011;&#xFF1A;10&#x4F4D;ADC&#x7684;&#x8F93;&#x51FA;&#x503C;&#x5C31;&#x662F;0&#xFF5E;1023&#x3002;
+ * &#x5206;&#x8FA8;&#x7387;&#xFF1A;ADC&#x80FD;&#x591F;&#x5206;&#x8FA8;&#x7684;&#x6A21;&#x62DF;&#x4FE1;&#x53F7;&#x6700;&#x5C0F;&#x53D8;&#x5316;&#x91CF;&#x3002;&#x8BA1;&#x7B97;&#x516C;&#x5F0F;&#x662F;&#xFF0C;&#x5206;&#x8FA8;&#x7387; = &#x91CF;&#x7A0B; / 2&#x7684;n&#x6B21;&#x65B9;
+ &#x3010;&#x4F8B;&#x3011;&#xFF1A;&#x91CF;&#x7A0B;&#x4E3A;&#x5355;&#x6781;&#x6027;0-5V&#xFF0C;8&#x4F4D;ADC&#x7684;&#x5206;&#x8FA8;&#x7387;&#x662F;&#xFF0C;5 / 256 = 0.0195V
+ * &#x8F6C;&#x6362;&#x65F6;&#x95F4;&#xFF1A;ADC&#x5B8C;&#x6210;&#x4E00;&#x6B21;&#x5B8C;&#x6574;&#x7684;A/D&#x8F6C;&#x6362;&#x6240;&#x9700;&#x8981;&#x7684;&#x65F6;&#x95F4;&#xFF0C;&#x5305;&#x62EC;&#x91C7;&#x6837;&#x3001;&#x4FDD;&#x6301;&#x3001;&#x91CF;&#x5316;&#x3001;&#x7F16;&#x7801;&#x7684;&#x5168;&#x8FC7;&#x7A0B;&#x3002;
+</code></pre></li>
+</ol>
+<footer class="page-footer"><span class="copyright">&#x9102;ICP&#x5907;15001733&#x53F7;-4 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2022-07-27 10:45:31
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="stm32f407_usart.html" class="navigation navigation-prev " aria-label="Previous page: stm32F407串口接收/发送">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="stm32f407_pwm.html" class="navigation navigation-next " aria-label="Next page: stm32F407下PWM实现呼吸灯">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"stm32F407接收ADC数据","level":"1.4.6","depth":2,"next":{"title":"stm32F407下PWM实现呼吸灯","level":"1.4.7","depth":2,"path":"stm32/stm32f407_pwm.md","ref":"stm32/stm32f407_pwm.md","articles":[]},"previous":{"title":"stm32F407串口接收/发送","level":"1.4.5","depth":2,"path":"stm32/stm32f407_usart.md","ref":"stm32/stm32f407_usart.md","articles":[]},"dir":"ltr"},"config":{"plugins":["search-pro","code","expandable-chapters","back-to-top-button","-search","-sharing","tbfed-pagefooter","toc","theme-comscore"],"root":".","styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"鄂ICP备15001733号-4","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"search-pro":{},"toc":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"fontSettings":{"theme":"sepia|night|white","family":"serif|sans","size":18},"highlight":{},"theme-comscore":{},"back-to-top-button":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"level_number":false,"theme":"default","author":"Mr.Zhang","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"collapsible_menu":false,"variables":{"title":"Bytetoy","theme":"theme-comscore","copyright":"Copyright 2022 bytetoy.cn"},"title":"Bytetoy","language":"zh-hans","links":{"sidebar":{"eduez":"http://www.eduez.cn","hrzone":"http://www.hrzone.cn"},"sharing":{"all":false}},"gitbook":"3.2.x","description":"发现程序的乐趣","extension":null},"file":{"path":"stm32/stm32f407_adc.md","mtime":"2022-07-27T02:45:31.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-03-15T14:35:20.702Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    </body>
+</html>
+
